@@ -1,359 +1,370 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
+
     >
     <LinearLayout
-        android:layout_width="410dp"
-        android:layout_height="175dp"
-        android:layout_weight="1"
-        android:background="#66ccff"
-        android:paddingTop="5dp"
-        android:paddingBottom="5dp"
-        >
-
-        <TextView
-            android:id="@+id/btn_tv"
-            android:layout_width="20dp"
-            android:layout_height="101dp"
-            android:background="#66ccff"
-            android:drawablePadding="5dp"
-            android:text="暮云新村"
-            android:textColor="#222222"
-            android:textSize="18sp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="10dp">
-
-        </TextView>
-        <TextView
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:background="#66ccff"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="20dp"
-            android:drawableRight="@drawable/i1"
-            ></TextView>
-
-
-    </LinearLayout>//天气
-
-    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="175dp"
-        android:layout_weight="1"
-        android:background="#ffffff"
-        android:paddingTop="5dp"
-        android:paddingBottom="5dp"
-        >
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
         <LinearLayout
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:background="#ccccff"
+            android:layout_width="match_parent"
+            android:layout_height="175dp"
             android:layout_weight="1"
+            android:background="#66ccff"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp">
+
+            <TextView
+                android:id="@+id/btn_tv"
+                android:layout_width="20dp"
+                android:layout_height="101dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#66ccff"
+                android:drawablePadding="5dp"
+                android:text="暮云新村"
+                android:textColor="#222222"
+                android:textSize="18sp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:background="#66ccff"
+                android:drawableRight="@drawable/i1"></TextView>
+
+
+        </LinearLayout>//天气
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="175dp"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
             >
-            <!--            <Button-->
-            <!--                android:id="@+id/btn_1"-->
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="#ccccff"
+                android:layout_weight="1"
+                >
+                <!--            <Button-->
+                <!--                android:id="@+id/btn_1"-->
+                <!--                android:layout_width="wrap_content"-->
+                <!--                android:layout_height="wrap_content"-->
+                <!--                android:text="我的工作"-->
+                <!--                android:layout_marginLeft="40dp"-->
+                <!--                android:layout_marginTop="10dp"-->
+                <!--                android:textColor="#222222"-->
+                <!--                ></Button>-->
+                <!--            <TextView-->
+                <!--                android:layout_width="100dp"-->
+                <!--                android:layout_height="100dp"-->
+                <!--                android:background="#ccccff"-->
+                <!--                android:layout_marginTop="35dp"-->
+                <!--                android:layout_marginLeft="-80dp"-->
+                <!--                android:drawableRight="@drawable/i3"-->
+                <!--                ></TextView>-->
+                <Button
+                    android:id="@+id/btn_1"
+                    android:layout_width="137dp"
+                    android:layout_height="match_parent"
+                    android:background="#CCCCFF"
+                    android:drawableBottom="@drawable/i3"
+                    android:text="我的工作"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="#E6E6FA"
+                android:layout_weight="1"
+                >
+
+                <!--            <TextView-->
+                <!--                android:id="@+id/btn_2"-->
+                <!--                android:layout_width="wrap_content"-->
+                <!--                android:layout_height="wrap_content"-->
+                <!--                android:text="物联网管理"-->
+                <!--                android:layout_marginLeft="30dp"-->
+                <!--                android:layout_marginTop="10dp"-->
+                <!--                android:textColor="#222222"-->
+                <!--                ></TextView>-->
+                <!--            <TextView-->
+                <!--                android:layout_width="100dp"-->
+                <!--                android:layout_height="100dp"-->
+                <!--                android:layout_marginTop="35dp"-->
+                <!--                android:layout_marginLeft="-80dp"-->
+                <!--                android:drawableRight="@drawable/i4"-->
+                <!--                ></TextView>-->
+                <Button
+                    android:id="@+id/btn_2"
+                    android:layout_width="137dp"
+                    android:layout_height="match_parent"
+                    android:background="#E6E6FA"
+                    android:drawableBottom="@drawable/i4"
+                    android:text="物联网管理"
+                    android:layout_weight="1"
+                    />
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="#cc99ff"
+                android:layout_weight="1"
+                >
+
+                <!--            <TextView-->
+                <!--                android:id="@+id/btn_3"-->
+                <!--                android:layout_width="wrap_content"-->
+                <!--                android:layout_height="wrap_content"-->
+                <!--                android:text="数据管理"-->
+                <!--                android:layout_marginLeft="40dp"-->
+                <!--                android:layout_marginTop="10dp"-->
+                <!--                android:textColor="#222222"-->
+                <!--                ></TextView>-->
+                <!--            <TextView-->
+                <!--                android:layout_width="100dp"-->
+                <!--                android:layout_height="100dp"-->
+                <!--                android:layout_marginTop="35dp"-->
+                <!--                android:layout_marginLeft="-80dp"-->
+                <!--                android:drawableRight="@drawable/i5"-->
+                <!--                ></TextView>-->
+                <Button
+                    android:id="@+id/btn_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#CC99FF"
+                    android:drawableBottom="@drawable/i5"
+                    android:text="数据管理"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+        </LinearLayout>//三
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="175dp"
+            android:background="#ffffff"
+            android:paddingBottom="5dp">
+
+            <!--        <LinearLayout-->
+            <!--            android:layout_width="0dp"-->
+            <!--            android:layout_height="match_parent"-->
+            <!--            android:background="#E0FFFF"-->
+            <!--            android:layout_weight="1"-->
+            <!--            >-->
+            <!--            <TextView-->
+            <!--                android:id="@+id/btn_4"-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:text="系统设置"-->
+            <!--                android:layout_marginLeft="40dp"-->
+            <!--                android:layout_marginTop="10dp"-->
+            <!--                android:textColor="#222222"-->
+            <!--                ></TextView>-->
+            <!--            <TextView-->
+            <!--                android:layout_width="100dp"-->
+            <!--                android:layout_height="100dp"-->
+            <!--                android:drawableRight="@drawable/i6"-->
+            <!--                android:layout_marginTop="35dp"-->
+            <!--                android:layout_marginLeft="-80dp"-->
+            <!--                ></TextView>-->
+            <!--        </LinearLayout>-->
+            <Button
+                android:id="@+id/btn_4"
+                android:layout_width="121dp"
+                android:layout_height="match_parent"
+                android:background="#E0FFFF"
+                android:drawableBottom="@drawable/i6"
+                android:text="系统设置"
+                android:layout_weight="1"/>
+
+            <!--        <LinearLayout-->
+            <!--            android:layout_width="0dp"-->
+            <!--            android:layout_height="match_parent"-->
+            <!--            android:background="#D1EEEE"-->
+            <!--            android:layout_weight="1"-->
+            <!--            >-->
+            <!--            <TextView-->
+            <!--                android:id="@+id/btn_5"-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:text="党建管理"-->
+            <!--                android:layout_marginLeft="40dp"-->
+            <!--                android:layout_marginTop="10dp"-->
+            <!--                android:textColor="#222222"-->
+            <!--                ></TextView>-->
+            <!--            <TextView-->
+            <!--                android:layout_width="100dp"-->
+            <!--                android:layout_height="100dp"-->
+            <!--                android:drawableRight="@drawable/i7"-->
+            <!--                android:layout_marginTop="35dp"-->
+            <!--                android:layout_marginLeft="-80dp"-->
+            <!--                ></TextView>-->
+            <!--        </LinearLayout>-->
+            <Button
+                android:id="@+id/btn_5"
+                android:layout_width="123dp"
+                android:layout_height="match_parent"
+                android:background="#D1EEEE"
+                android:drawableBottom="@drawable/i7"
+                android:text="党建管理"
+                android:layout_weight="1"/>
+
+            <!--        <LinearLayout-->
+            <!--            android:layout_width="0dp"-->
+            <!--            android:layout_height="match_parent"-->
+            <!--            android:background="#E0EEEE"-->
+            <!--            android:layout_weight="1"-->
+            <!--            >-->
+            <!--            <TextView-->
+            <!--                android:id="@+id/btn_6"-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:text="项目管理"-->
+            <!--                android:layout_marginLeft="40dp"-->
+            <!--                android:layout_marginTop="10dp"-->
+            <!--                android:textColor="#222222"-->
+            <!--                ></TextView>-->
+            <!--            <TextView-->
+            <!--                android:layout_width="100dp"-->
+            <!--                android:layout_height="100dp"-->
+            <!--                android:drawableRight="@drawable/i8"-->
+            <!--                android:layout_marginTop="35dp"-->
+            <!--                android:layout_marginLeft="-80dp"-->
+            <!--                ></TextView>-->
+            <!--        </LinearLayout>-->
+            <Button
+                android:id="@+id/btn_6"
+                android:layout_width="110dp"
+                android:layout_height="match_parent"
+                android:background="#E0EEEE"
+                android:drawableBottom="@drawable/i8"
+                android:text="项目管理"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+
+        //三
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="175dp"
+            android:background="#ffffff"
+            android:paddingBottom="5dp">
+
+            <!--        <LinearLayout-->
+            <!--            android:layout_width="0dp"-->
+            <!--            android:layout_height="match_parent"-->
+            <!--            android:background="#CD919E"-->
+            <!--            android:layout_weight="1"-->
+            <!--            >-->
+            <!--            <TextView-->
+            <!--                android:id="@+id/btn_7"-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:text="美丽乡村"-->
+            <!--                android:layout_marginLeft="40dp"-->
+            <!--                android:layout_marginTop="10dp"-->
+            <!--                android:textColor="#222222"-->
+            <!--                ></TextView>-->
+            <!--            <TextView-->
+            <!--                android:layout_width="100dp"-->
+            <!--                android:layout_height="100dp"-->
+            <!--                android:drawableRight="@drawable/i9"-->
+            <!--                android:layout_marginTop="35dp"-->
+            <!--                android:layout_marginLeft="-80dp"-->
+            <!--                ></TextView>-->
+            <!--        </LinearLayout>-->
+            <Button
+                android:id="@+id/btn_7"
+                android:layout_width="121dp"
+                android:layout_height="match_parent"
+                android:background="#CD919E"
+                android:drawableBottom="@drawable/i9"
+                android:text="美丽乡村" />
+
+
+            <!--        <LinearLayout-->
+            <!--            android:layout_width="0dp"-->
+            <!--            android:layout_height="match_parent"-->
+            <!--            android:background="#CDB79E"-->
+            <!--            android:layout_weight="1"-->
+            <!--            >-->
+            <!--            <TextView-->
+            <!--                android:id="@+id/btn_8"-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:text="链接管理"-->
+            <!--                android:layout_marginLeft="40dp"-->
+            <!--                android:layout_marginTop="10dp"-->
+            <!--                android:textColor="#222222"-->
+            <!--                ></TextView>-->
+
+            <!--            <TextView-->
+            <!--                android:layout_width="100dp"-->
+            <!--                android:layout_height="100dp"-->
+            <!--                android:layout_marginLeft="-80dp"-->
+            <!--                android:layout_marginTop="35dp"-->
+            <!--                android:drawableBottom="@drawable/i2"></TextView>-->
+            <!--        </LinearLayout>-->
+            <Button
+                android:id="@+id/btn_8"
+                android:layout_width="123dp"
+                android:layout_height="match_parent"
+                android:background="#CDB79E"
+                android:drawableBottom="@drawable/i2"
+                android:text="链接管理" />
+
+            <!--        <LinearLayout-->
+            <!--            android:layout_width="0dp"-->
+            <!--            android:layout_height="match_parent"-->
+            <!--            android:background="#EED5D2"-->
+            <!--            android:layout_weight="1"-->
+            <!--            >-->
+            <!--            <TextView-->
+            <!--                android:id="@+id/btn_9"-->
             <!--                android:layout_width="wrap_content"-->
             <!--                android:layout_height="wrap_content"-->
             <!--                android:text="我的工作"-->
             <!--                android:layout_marginLeft="40dp"-->
             <!--                android:layout_marginTop="10dp"-->
             <!--                android:textColor="#222222"-->
-            <!--                ></Button>-->
-            <!--            <TextView-->
-            <!--                android:layout_width="100dp"-->
-            <!--                android:layout_height="100dp"-->
-            <!--                android:background="#ccccff"-->
-            <!--                android:layout_marginTop="35dp"-->
-            <!--                android:layout_marginLeft="-80dp"-->
-            <!--                android:drawableRight="@drawable/i3"-->
-            <!--                ></TextView>-->
-            <Button
-                android:id="@+id/btn_1"
-                android:layout_width="137dp"
-                android:layout_height="match_parent"
-                android:background="#CCCCFF"
-                android:drawableBottom="@drawable/i3"
-                android:text="我的工作"
-                />
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:background="#E6E6FA"
-            android:layout_weight="1"
-            >
-
-            <!--            <TextView-->
-            <!--                android:id="@+id/btn_2"-->
-            <!--                android:layout_width="wrap_content"-->
-            <!--                android:layout_height="wrap_content"-->
-            <!--                android:text="物联网管理"-->
-            <!--                android:layout_marginLeft="30dp"-->
-            <!--                android:layout_marginTop="10dp"-->
-            <!--                android:textColor="#222222"-->
             <!--                ></TextView>-->
             <!--            <TextView-->
             <!--                android:layout_width="100dp"-->
             <!--                android:layout_height="100dp"-->
+            <!--                android:drawableRight="@drawable/i10"-->
             <!--                android:layout_marginTop="35dp"-->
             <!--                android:layout_marginLeft="-80dp"-->
-            <!--                android:drawableRight="@drawable/i4"-->
             <!--                ></TextView>-->
+            <!--        </LinearLayout>-->
+
             <Button
-                android:id="@+id/btn_2"
+                android:id="@+id/btn_9"
                 android:layout_width="137dp"
                 android:layout_height="match_parent"
-                android:background="#E6E6FA"
-                android:drawableBottom="@drawable/i4"
-                android:text="物联网管理"
-                />
+                android:background="#EED5D2"
+                android:drawableBottom="@drawable/i10"
+                android:text="我的工作" />
         </LinearLayout>
-
-
-
-        <LinearLayout
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:background="#cc99ff"
-            android:layout_weight="1"
-            >
-
-            <!--            <TextView-->
-            <!--                android:id="@+id/btn_3"-->
-            <!--                android:layout_width="wrap_content"-->
-            <!--                android:layout_height="wrap_content"-->
-            <!--                android:text="数据管理"-->
-            <!--                android:layout_marginLeft="40dp"-->
-            <!--                android:layout_marginTop="10dp"-->
-            <!--                android:textColor="#222222"-->
-            <!--                ></TextView>-->
-            <!--            <TextView-->
-            <!--                android:layout_width="100dp"-->
-            <!--                android:layout_height="100dp"-->
-            <!--                android:layout_marginTop="35dp"-->
-            <!--                android:layout_marginLeft="-80dp"-->
-            <!--                android:drawableRight="@drawable/i5"-->
-            <!--                ></TextView>-->
-            <Button
-                android:id="@+id/btn_3"
-                android:layout_width="137dp"
-                android:layout_height="match_parent"
-                android:background="#CC99FF"
-                android:drawableBottom="@drawable/i5"
-                android:text="数据管理"
-                />
-
-        </LinearLayout>
-
-    </LinearLayout>//三
-
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="175dp"
-        android:background="#ffffff"
-        android:paddingBottom="5dp">
-
-        <!--        <LinearLayout-->
-        <!--            android:layout_width="0dp"-->
-        <!--            android:layout_height="match_parent"-->
-        <!--            android:background="#E0FFFF"-->
-        <!--            android:layout_weight="1"-->
-        <!--            >-->
-        <!--            <TextView-->
-        <!--                android:id="@+id/btn_4"-->
-        <!--                android:layout_width="wrap_content"-->
-        <!--                android:layout_height="wrap_content"-->
-        <!--                android:text="系统设置"-->
-        <!--                android:layout_marginLeft="40dp"-->
-        <!--                android:layout_marginTop="10dp"-->
-        <!--                android:textColor="#222222"-->
-        <!--                ></TextView>-->
-        <!--            <TextView-->
-        <!--                android:layout_width="100dp"-->
-        <!--                android:layout_height="100dp"-->
-        <!--                android:drawableRight="@drawable/i6"-->
-        <!--                android:layout_marginTop="35dp"-->
-        <!--                android:layout_marginLeft="-80dp"-->
-        <!--                ></TextView>-->
-        <!--        </LinearLayout>-->
-        <Button
-            android:id="@+id/btn_4"
-            android:layout_width="137dp"
-            android:layout_height="match_parent"
-            android:background="#E0FFFF"
-            android:drawableBottom="@drawable/i6"
-            android:text="系统设置" />
-
-        <!--        <LinearLayout-->
-        <!--            android:layout_width="0dp"-->
-        <!--            android:layout_height="match_parent"-->
-        <!--            android:background="#D1EEEE"-->
-        <!--            android:layout_weight="1"-->
-        <!--            >-->
-        <!--            <TextView-->
-        <!--                android:id="@+id/btn_5"-->
-        <!--                android:layout_width="wrap_content"-->
-        <!--                android:layout_height="wrap_content"-->
-        <!--                android:text="党建管理"-->
-        <!--                android:layout_marginLeft="40dp"-->
-        <!--                android:layout_marginTop="10dp"-->
-        <!--                android:textColor="#222222"-->
-        <!--                ></TextView>-->
-        <!--            <TextView-->
-        <!--                android:layout_width="100dp"-->
-        <!--                android:layout_height="100dp"-->
-        <!--                android:drawableRight="@drawable/i7"-->
-        <!--                android:layout_marginTop="35dp"-->
-        <!--                android:layout_marginLeft="-80dp"-->
-        <!--                ></TextView>-->
-        <!--        </LinearLayout>-->
-        <Button
-            android:id="@+id/btn_5"
-            android:layout_width="137dp"
-            android:layout_height="match_parent"
-            android:background="#D1EEEE"
-            android:drawableBottom="@drawable/i7"
-            android:text="党建管理" />
-
-        <!--        <LinearLayout-->
-        <!--            android:layout_width="0dp"-->
-        <!--            android:layout_height="match_parent"-->
-        <!--            android:background="#E0EEEE"-->
-        <!--            android:layout_weight="1"-->
-        <!--            >-->
-        <!--            <TextView-->
-        <!--                android:id="@+id/btn_6"-->
-        <!--                android:layout_width="wrap_content"-->
-        <!--                android:layout_height="wrap_content"-->
-        <!--                android:text="项目管理"-->
-        <!--                android:layout_marginLeft="40dp"-->
-        <!--                android:layout_marginTop="10dp"-->
-        <!--                android:textColor="#222222"-->
-        <!--                ></TextView>-->
-        <!--            <TextView-->
-        <!--                android:layout_width="100dp"-->
-        <!--                android:layout_height="100dp"-->
-        <!--                android:drawableRight="@drawable/i8"-->
-        <!--                android:layout_marginTop="35dp"-->
-        <!--                android:layout_marginLeft="-80dp"-->
-        <!--                ></TextView>-->
-        <!--        </LinearLayout>-->
-        <Button
-            android:id="@+id/btn_6"
-            android:layout_width="137dp"
-            android:layout_height="match_parent"
-            android:background="#E0EEEE"
-            android:drawableBottom="@drawable/i8"
-            android:text="项目管理" />
 
     </LinearLayout>
 
-    //三
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="175dp"
-        android:background="#ffffff"
-        android:paddingBottom="5dp">
-
-        <!--        <LinearLayout-->
-        <!--            android:layout_width="0dp"-->
-        <!--            android:layout_height="match_parent"-->
-        <!--            android:background="#CD919E"-->
-        <!--            android:layout_weight="1"-->
-        <!--            >-->
-        <!--            <TextView-->
-        <!--                android:id="@+id/btn_7"-->
-        <!--                android:layout_width="wrap_content"-->
-        <!--                android:layout_height="wrap_content"-->
-        <!--                android:text="美丽乡村"-->
-        <!--                android:layout_marginLeft="40dp"-->
-        <!--                android:layout_marginTop="10dp"-->
-        <!--                android:textColor="#222222"-->
-        <!--                ></TextView>-->
-        <!--            <TextView-->
-        <!--                android:layout_width="100dp"-->
-        <!--                android:layout_height="100dp"-->
-        <!--                android:drawableRight="@drawable/i9"-->
-        <!--                android:layout_marginTop="35dp"-->
-        <!--                android:layout_marginLeft="-80dp"-->
-        <!--                ></TextView>-->
-        <!--        </LinearLayout>-->
-        <Button
-            android:id="@+id/btn_7"
-            android:layout_width="137dp"
-            android:layout_height="match_parent"
-            android:background="#CD919E"
-            android:drawableBottom="@drawable/i9"
-            android:text="美丽乡村" />
-
-
-        <!--        <LinearLayout-->
-        <!--            android:layout_width="0dp"-->
-        <!--            android:layout_height="match_parent"-->
-        <!--            android:background="#CDB79E"-->
-        <!--            android:layout_weight="1"-->
-        <!--            >-->
-        <!--            <TextView-->
-        <!--                android:id="@+id/btn_8"-->
-        <!--                android:layout_width="wrap_content"-->
-        <!--                android:layout_height="wrap_content"-->
-        <!--                android:text="链接管理"-->
-        <!--                android:layout_marginLeft="40dp"-->
-        <!--                android:layout_marginTop="10dp"-->
-        <!--                android:textColor="#222222"-->
-        <!--                ></TextView>-->
-
-        <!--            <TextView-->
-        <!--                android:layout_width="100dp"-->
-        <!--                android:layout_height="100dp"-->
-        <!--                android:layout_marginLeft="-80dp"-->
-        <!--                android:layout_marginTop="35dp"-->
-        <!--                android:drawableBottom="@drawable/i2"></TextView>-->
-        <!--        </LinearLayout>-->
-        <Button
-            android:id="@+id/btn_8"
-            android:layout_width="137dp"
-            android:layout_height="match_parent"
-            android:background="#CDB79E"
-            android:drawableBottom="@drawable/i2"
-            android:text="链接管理" />
-
-        <!--        <LinearLayout-->
-        <!--            android:layout_width="0dp"-->
-        <!--            android:layout_height="match_parent"-->
-        <!--            android:background="#EED5D2"-->
-        <!--            android:layout_weight="1"-->
-        <!--            >-->
-        <!--            <TextView-->
-        <!--                android:id="@+id/btn_9"-->
-        <!--                android:layout_width="wrap_content"-->
-        <!--                android:layout_height="wrap_content"-->
-        <!--                android:text="我的工作"-->
-        <!--                android:layout_marginLeft="40dp"-->
-        <!--                android:layout_marginTop="10dp"-->
-        <!--                android:textColor="#222222"-->
-        <!--                ></TextView>-->
-        <!--            <TextView-->
-        <!--                android:layout_width="100dp"-->
-        <!--                android:layout_height="100dp"-->
-        <!--                android:drawableRight="@drawable/i10"-->
-        <!--                android:layout_marginTop="35dp"-->
-        <!--                android:layout_marginLeft="-80dp"-->
-        <!--                ></TextView>-->
-        <!--        </LinearLayout>-->
-
-        <Button
-            android:id="@+id/btn_9"
-            android:layout_width="137dp"
-            android:layout_height="match_parent"
-            android:background="#EED5D2"
-            android:drawableBottom="@drawable/i10"
-            android:text="我的工作" />
-    </LinearLayout>
-</LinearLayout>
+</ScrollView>
