@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.login">
-
+    <uses-sdk android:minSdkVersion="17" android:targetSdkVersion="25"/>
     <application
+
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="村务宝典(复刻版)"
@@ -19,9 +20,9 @@
         <activity android:name=".Button2Activity" />
         <activity android:name=".Button1Activity" />
         <activity android:name=".LoginActivity">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
