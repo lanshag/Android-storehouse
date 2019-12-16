@@ -1,14 +1,16 @@
-package com.example.login;
+package com.example.login.message;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class Button4Activity extends AppCompatActivity {
+import com.example.login.R;
+
+public class MessageActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_button4);
+        setContentView(R.layout.activity_message);
     }
 }

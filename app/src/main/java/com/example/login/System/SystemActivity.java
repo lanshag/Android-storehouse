@@ -1,14 +1,16 @@
-package com.example.login;
+package com.example.login.System;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class Button2Activity extends AppCompatActivity {
+import com.example.login.R;
+
+public class SystemActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_button2);
+        setContentView(R.layout.activity_system);
     }
 }

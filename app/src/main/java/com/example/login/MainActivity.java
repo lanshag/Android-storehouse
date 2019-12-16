@@ -8,106 +8,121 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.example.login.Data.DataActivity;
+import com.example.login.Party.PartyActivity;
+import com.example.login.System.SystemActivity;
+import com.example.login.Weather.WeatherActivity;
+import com.example.login.Work.WorkActivity;
+import com.example.login.country.CountryActivity;
+import com.example.login.iot.IotActivity;
+import com.example.login.link.LinkActivity;
+import com.example.login.message.MessageActivity;
+import com.example.login.projectmanger.ProjectMangerActivity;
+
 public class MainActivity extends AppCompatActivity {
-    private Button mBtnTextView;
-    private Button mbtn_1;
-    private Button mbtn_2;
-    private Button mbtn_3;
-    private Button mbtn_4;
-    private Button mbtn_5;
-    private Button mbtn_6;
-    private Button mbtn_7;
-    private Button mbtn_8;
-    private Button mbtn_9;
+    private Button mbtn_weather_1;
+    private Button mbtn_weather_2;
+    private Button mbtn_work;
+    private Button mbtn_iot;
+    private Button mbtn_data;
+    private Button mbtn_system;
+    private Button mbtn_Party;
+    private Button mbtn_project;
+    private Button mbtn_country;
+    private Button mbtn_link;
+    private Button mbtn_message;
     @SuppressLint("WrongViewCast")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        mbtn_1 = (Button) findViewById(R.id.btn_1);
-        mbtn_1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                //跳转到btn_1演示界面
-                Intent intent= new Intent(MainActivity.this, Button1Activity.class);
-                startActivity(intent);
-            }
-        });
-        mbtn_2= findViewById(R.id.btn_2);
-        mbtn_2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                //跳转到btn_2演示界面
-                Intent intent=new Intent(MainActivity.this,Button2Activity.class);
-                startActivity(intent);
-            }
-        });
-        mbtn_3= findViewById(R.id.btn_3);
-        mbtn_3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                //跳转到btn_3演示界面
-                Intent intent=new Intent(MainActivity.this,Button3Activity.class);
-                startActivity(intent);
-            }
-        });
-        mbtn_4= findViewById(R.id.btn_4);
-        mbtn_4.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                //跳转到btn_4演示界面
-                Intent intent=new Intent(MainActivity.this,Button4Activity.class);
-                startActivity(intent);
-            }
-        });
-        mbtn_5= findViewById(R.id.btn_5);
-        mbtn_5.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                //跳转到btn_5演示界面
-                Intent intent=new Intent(MainActivity.this,Button5Activity.class);
-                startActivity(intent);
-            }
-        });
-        mbtn_6= findViewById(R.id.btn_6);
-        mbtn_6.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                //跳转到btn_6演示界面
-                Intent intent=new Intent(MainActivity.this,Button6Activity.class);
-                startActivity(intent);
-            }
-        });
-        mbtn_7= findViewById(R.id.btn_7);
-        mbtn_7.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                //跳转到btn_7演示界面
-                Intent intent=new Intent(MainActivity.this,Button7Activity.class);
-                startActivity(intent);
-            }
-        });
-        mbtn_8= findViewById(R.id.btn_8);
-        mbtn_8.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                //跳转到btn_8演示界面
-                Intent intent=new Intent(MainActivity.this,Button8Activity.class);
-                startActivity(intent);
-            }
-        });
 
-        mbtn_9= findViewById(R.id.btn_9);
-        mbtn_9.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                //跳转到btn_9演示界面
-                Intent intent=new Intent(MainActivity.this,Button9Activity.class);
-                startActivity(intent);
+        mbtn_weather_1=findViewById(R.id.btn_weather_1);
+        mbtn_weather_2=findViewById(R.id.btn_weather_2);
+        mbtn_work = findViewById(R.id.btn_work);
+        mbtn_iot = findViewById(R.id.btn_iot);
+        mbtn_data = findViewById(R.id.btn_data);
+        mbtn_system = findViewById(R.id.btn_system);
+        mbtn_Party = findViewById(R.id.btn_party);
+        mbtn_project = findViewById(R.id.btn_project);
+        mbtn_country = findViewById(R.id.btn_country);
+        mbtn_link = findViewById(R.id.btn_link);
+        mbtn_message = findViewById(R.id.btn_message);
+        setListeners();
+    }
+
+    // 监听器方法
+    private void setListeners(){
+        OnClick onClick = new OnClick();
+        mbtn_weather_1.setOnClickListener(onClick);
+        mbtn_weather_2.setOnClickListener(onClick);
+        mbtn_work.setOnClickListener(onClick);
+        mbtn_iot.setOnClickListener(onClick);
+        mbtn_data.setOnClickListener(onClick);
+        mbtn_system.setOnClickListener(onClick);
+        mbtn_Party.setOnClickListener(onClick);
+        mbtn_project.setOnClickListener(onClick);
+        mbtn_country.setOnClickListener(onClick);
+        mbtn_link.setOnClickListener(onClick);
+        mbtn_message.setOnClickListener(onClick);
+    }
+
+    // 实现监听器接口
+    private class OnClick implements View.OnClickListener {
+        @Override
+        public void onClick(View view) {
+            Intent intent = null;
+            switch (view.getId()) {
+                // 跳转到Weather演示页面
+                case R.id.btn_weather_1:
+                    intent = new Intent(MainActivity.this, WeatherActivity.class);
+                    break;
+                // 跳转到Weather演示页面
+                case R.id.btn_weather_2:
+                    intent = new Intent(MainActivity.this, WeatherActivity.class);
+                    break;
+                // 跳转到我的工作演示页面
+                case R.id.btn_work:
+                    intent = new Intent(MainActivity.this, WorkActivity.class);
+                    break;
+                // 跳转到物联网管理演示页面
+                case R.id.btn_iot:
+                    intent = new Intent(MainActivity.this, IotActivity.class);
+                    break;
+                // 跳转到数据管理演示页面
+                case R.id.btn_data:
+                    intent = new Intent(MainActivity.this, DataActivity.class);
+                    break;
+                // 跳转到系统设置演示页面
+                case R.id.btn_system:
+                    intent = new Intent(MainActivity.this, SystemActivity.class);
+                    break;
+                // 跳转到党建管理演示页面
+                case R.id.btn_party:
+                    intent = new Intent(MainActivity.this, PartyActivity.class);
+                    break;
+                // 跳转到项目管理演示页面
+                case R.id.btn_project:
+                    intent = new Intent(MainActivity.this, ProjectMangerActivity.class);
+                    break;
+                // 跳转到美丽乡村演示页面
+                case R.id.btn_country:
+                    intent = new Intent(MainActivity.this, CountryActivity.class);
+                    break;
+                // 跳转到链接管理演示页面
+                case R.id.btn_link:
+                    intent = new Intent(MainActivity.this, LinkActivity.class);
+                    break;
+                // 跳转到信息管理演示页面
+                case R.id.btn_message:
+                    intent = new Intent(MainActivity.this, MessageActivity.class);
+                    break;
             }
-        });
+            startActivity(intent);
+        }
     }
 }
+
 
 
 

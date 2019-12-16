@@ -9,15 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Button9Activity"></activity>
-        <activity android:name=".Button8Activity" />
-        <activity android:name=".Button7Activity" />
-        <activity android:name=".Button6Activity" />
-        <activity android:name=".Button5Activity" />
-        <activity android:name=".Button4Activity" />
-        <activity android:name=".Button3Activity" />
-        <activity android:name=".Button2Activity" />
-        <activity android:name=".Button1Activity" />
+        <activity android:name=".message.MessageActivity"></activity>
+        <activity android:name=".link.LinkActivity" />
+        <activity android:name=".country.CountryActivity" />
+        <activity android:name=".projectmanger.ProjectMangerActivity" />
+        <activity android:name=".Party.PartyActivity" />
+        <activity android:name=".System.SystemActivity" />
+        <activity android:name=".Data.DataActivity" />
+        <activity android:name=".iot.IotActivity" />
+        <activity android:name=".Weather.WeatherActivity" />
+        <activity android:name=".Work.WorkActivity" />
         <activity android:name=".LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -1,14 +1,16 @@
-package com.example.login;
+package com.example.login.link;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class Button7Activity extends AppCompatActivity {
+import com.example.login.R;
+
+public class LinkActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_button7);
+        setContentView(R.layout.activity_link);
     }
 }

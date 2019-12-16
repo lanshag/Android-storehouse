@@ -1,14 +1,17 @@
-package com.example.login;
+package com.example.login.Weather;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class Button3Activity extends AppCompatActivity {
+import com.example.login.R;
+
+public class WeatherActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_button3);
+        setContentView(R.layout.activity_weather);
+
     }
 }
