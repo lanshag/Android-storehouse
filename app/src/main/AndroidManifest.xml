@@ -27,6 +27,7 @@
         <activity android:name=".Weather.WeatherActivity" />
         <activity android:name=".Work.WorkActivity" />
         <activity android:name=".LoginActivity">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
