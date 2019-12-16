@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.login">
-    <uses-sdk android:minSdkVersion="17" android:targetSdkVersion="25"/>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
     <application
 
         android:allowBackup="true"
@@ -9,6 +14,7 @@
         android:label="村务宝典(复刻版)"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
         android:theme="@style/AppTheme">
         <activity android:name=".message.MessageActivity"></activity>
         <activity android:name=".link.LinkActivity" />
@@ -21,7 +27,6 @@
         <activity android:name=".Weather.WeatherActivity" />
         <activity android:name=".Work.WorkActivity" />
         <activity android:name=".LoginActivity">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
