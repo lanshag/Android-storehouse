@@ -29,24 +29,34 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="horizontal">
 
+        <TextView
+            android:id="@+id/tv_loginactivity_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="用户名："/>
         <EditText
             android:id="@+id/name"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:background="#ffffffff"
-            android:hint="账号"
+            android:hint="手机号/邮箱/用户名"
             android:maxLines="1"
             android:paddingLeft="20dp"
             android:textColor="#ff000000"
             android:textSize="14sp" />
-
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="#11000000" />
-
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tv_loginactivity_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="密    码："/>
         <EditText
             android:id="@+id/password"
             android:layout_width="match_parent"
@@ -54,7 +64,7 @@
             android:background="#ffffffff"
             android:inputType="textPassword"
             android:maxLines="1"
-            android:hint="密码"
+            android:hint="密码："
             android:paddingLeft="20dp"
             android:textColor="#ff000000"
             android:textSize="14sp" />
@@ -86,16 +96,16 @@
         android:gravity="bottom">
 
         <TextView
-            android:layout_width="wrap_content"
+            android:id="@+id/non"
+            android:layout_width="290dp"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
-            android:layout_weight="1"
             android:layout_margin="5dp"
-            android:id="@+id/non"
+            android:layout_weight="1"
             android:text="无法登陆？" />
 
         <TextView
-            android:id="@+id/news"
+            android:id="@+id/register"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
