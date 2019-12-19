@@ -1,2 +1,0 @@
-configurations.maybeCreate("default")
-artifacts.add("default", file('HeWeather_Public_Android_V3.1.jar'))
