@@ -1,2 +1,2 @@
-include ':app'
+include ':app', ':HeWeather_Public_Android_V3.1'
 rootProject.name='Login'
