@@ -16,7 +16,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".RegisterActivity"></activity>
+        <activity android:name=".projectmanger.FourBulid.FourBulidActivity"></activity>
+        <activity android:name=".projectmanger.FirstBulid.FirstBulidActivity" />
+        <activity android:name=".projectmanger.MainBulid.MainBulidActivity" />
+        <activity android:name=".RegisterActivity" />
         <activity android:name=".message.MessageActivity" />
         <activity android:name=".link.LinkActivity" />
         <activity android:name=".country.CountryActivity" />
