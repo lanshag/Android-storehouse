@@ -23,7 +23,7 @@
         <activity android:name=".message.MessageActivity" />
         <activity android:name=".link.LinkActivity" />
         <activity android:name=".country.CountryActivity" />
-        <activity android:name=".projectmanger.ProjectMangerActivity" />
+        <activity android:name=".projectmanger.ProjectMangerActivity" ></activity>
         <activity android:name=".Party.PartyActivity" />
         <activity android:name=".System.SystemActivity" />
         <activity android:name=".Data.DataActivity" />
