@@ -174,7 +174,7 @@
                     android:id="@+id/btn_country"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:background="#CD919E"
+                    android:background="#CF8D9C"
                     android:drawableBottom="@drawable/i9"
                     android:text="美丽乡村" />
             </LinearLayout>
@@ -190,7 +190,7 @@
                     android:id="@+id/btn_link"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:background="#CDB79E"
+                    android:background="#F6EBBC"
                     android:drawableBottom="@drawable/i2"
                     android:text="链接管理" />
             </LinearLayout>
