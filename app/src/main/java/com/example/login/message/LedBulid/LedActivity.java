@@ -1,4 +1,4 @@
-package com.example.login.message;
+package com.example.login.message.LedBulid;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,11 +8,11 @@ import android.view.View;
 import android.widget.Button;
 import com.example.login.R;
 
-public class WxActivity extends AppCompatActivity {
+public class LedActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_wx);
+        setContentView(R.layout.activity_led);
     }
 }

@@ -9,6 +9,7 @@ import android.widget.Button;
 
 
 import com.example.login.R;
+import com.example.login.message.ZbBulid.ZbActivity;
 
 public class MessageActivity extends AppCompatActivity {
 
@@ -21,7 +22,7 @@ public class MessageActivity extends AppCompatActivity {
         mBtnButton1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(MessageActivity.this,ZbActivity.class);
+                Intent intent=new Intent(MessageActivity.this, ZbActivity.class);
                 startActivity(intent);
             }
         });

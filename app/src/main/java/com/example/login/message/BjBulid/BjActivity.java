@@ -1,4 +1,4 @@
-package com.example.login.message;
+package com.example.login.message.BjBulid;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,11 +8,11 @@ import android.view.View;
 import android.widget.Button;
 import com.example.login.R;
 
-public class ZbActivity extends AppCompatActivity {
+public class BjActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_zb);
+        setContentView(R.layout.activity_bj);
     }
 }
