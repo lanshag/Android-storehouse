@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7F7F7">
+
+    <RelativeLayout
+        android:id="@+id/work_record_top"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/colorGrayDrak"
+        >
+        <ImageView
+            android:id="@+id/work_record_left"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/ic_left_back"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:clickable="true"
+            android:onClick="onClick"
+            />
+
+        <TextView
+            android:id="@+id/work_text"
+            android:paddingTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="105dp"
+            android:layout_toRightOf="@+id/work_record_left"
+            android:text="工作记录"
+            android:textColor="#000"
+            android:textSize="20sp"/>
+
+        <ImageView
+            android:id="@+id/work_record_edit"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/work_text"
+            android:background="@drawable/edit"
+            android:layout_centerVertical="true"
+            android:clickable="true"
+            android:onClick="onClick"
+            />
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_below="@+id/work_record_top"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/work_iv1"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:background="@drawable/third"
+            android:scaleType="fitXY"
+            />
+
+        <RelativeLayout
+            android:id="@+id/work_body1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="5dp">
+
+            <ImageView
+                android:id="@+id/work_iv2"
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:src="@drawable/first"
+                android:scaleType="fitXY"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_toRightOf="@+id/work_iv2">
+                <TextView
+                    android:id="@+id/work_tv1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="出差"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#000000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:id="@+id/work_tv2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/work_tv1"
+                    android:layout_marginTop="21dp"
+                    android:layout_marginBottom="-32dp"
+                    android:text="小组测试"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#868080"/>
+
+                <TextView
+                    android:id="@+id/work_tv3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/wortv1"
+                    android:layout_marginLeft="110dp"
+                    android:layout_marginTop="20dp"
+                    android:text="2019-12-20  10:32:35"
+                    android:textColor="#868080" />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/work_body2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="5dp">
+
+            <ImageView
+                android:id="@+id/work_iv3"
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:src="@drawable/first"
+                android:scaleType="fitXY"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_toRightOf="@+id/work_iv3">
+                <TextView
+                    android:id="@+id/work_tv4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="第二季度县信访领导小组会议"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#000000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:id="@+id/work_tv5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/work_tv4"
+                    android:layout_marginTop="21dp"
+                    android:layout_marginBottom="-32dp"
+                    android:text="小组测试"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#868080"/>
+
+                <TextView
+                    android:id="@+id/work_tv6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/work_tv4"
+                    android:layout_marginLeft="110dp"
+                    android:layout_marginTop="20dp"
+                    android:text="2019-12-20  10:32:35"
+                    android:textColor="#868080" />
+            </RelativeLayout>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

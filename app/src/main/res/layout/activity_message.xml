@@ -1,14 +1,84 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    >
-    <TextView
+    android:padding="15dp">
+
+    <Button
+        android:id="@+id/btn_1"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Hello"
+        android:layout_height="wrap_content"
+        android:text="流媒体直播"
         android:textSize="20sp"
+        android:background="@drawable/message2"
+        android:gravity=""
         />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <Button
+        android:id="@+id/btn_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_1"
+        android:layout_marginTop="10dp"
+        android:text="编辑节目单播出"
+        android:textSize="20sp"
+        android:background="@drawable/message2"
+        android:gravity=""
+        />
+
+    <Button
+        android:id="@+id/btn_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_2"
+        android:layout_marginTop="10dp"
+        android:text="短信转语言播出"
+        android:background="@drawable/message2"
+        android:textSize="20sp"
+        android:gravity=""
+        /> v
+    <Button
+        android:id="@+id/btn_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_3"
+        android:background="@drawable/message2"
+        android:layout_marginTop="10dp"
+        android:text="LED显示屏播出"
+        android:textSize="20sp"
+        android:gravity=""
+        />
+    <Button
+        android:id="@+id/btn_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_4"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/message2"
+        android:text="微信播出"
+        android:textSize="20sp"
+        android:gravity=""
+        />
+    <Button
+        android:id="@+id/btn_6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_5"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/message2"
+        android:text="短信通知"
+        android:textSize="20sp"
+        android:gravity=""
+        />
+    <Button
+        android:id="@+id/btn_7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_6"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/message2"
+        android:text="紧急播出单查询"
+        android:textSize="20sp"
+        android:gravity=""
+        />
+</RelativeLayout>

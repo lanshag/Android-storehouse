@@ -35,6 +35,13 @@
         <activity android:name=".projectmanger.FourBulid.FourBulidActivity" />
         <activity android:name=".projectmanger.FirstBulid.FirstBulidActivity" />
         <activity android:name=".projectmanger.MainBulid.MainBulidActivity" />
+        <activity android:name=".message.WxBulid.WxActivity"></activity>
+        <activity android:name=".message.LedBulid.LedActivity" />
+        <activity android:name=".message.DxTzBulid.DxTzActivity" />
+        <activity android:name=".message.DxBulid.DxActivity" />
+        <activity android:name=".message.BjBulid.BjActivity" />
+        <activity android:name=".message.JjBulid.JjActivity" />
+        <activity android:name=".message.ZbBulid.ZbActivity" />
         <activity android:name=".RegisterActivity" />
         <activity android:name=".message.MessageActivity" />
         <activity android:name=".link.LinkActivity" />

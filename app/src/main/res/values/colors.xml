@@ -5,5 +5,6 @@
     <color name="colorAccent">#D81B60</color>
     <color name="colorWrite">#FFFFFF</color>
     <color name="colorGrayDrak">#808080</color>
+    <color name="colorGray">#EEEEEE</color>
     <color name="color_minefragment_top">#20B2AA</color>
 </resources>
