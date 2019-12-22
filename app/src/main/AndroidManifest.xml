@@ -28,6 +28,10 @@
         <activity android:name=".iot.LED.LEDActivity" />
         <activity android:name=".iot.yingjiguangbo.EbActivity" />
         <activity android:name=".message.WxBulid.WxActivity" />
+        <activity android:name=".projectmanger.FourBulid.FourBulidActivity" />
+        <activity android:name=".projectmanger.FirstBulid.FirstBulidActivity" />
+        <activity android:name=".projectmanger.MainBulid.MainBulidActivity" />
+
         <activity android:name=".message.LedBulid.LedActivity" />
         <activity android:name=".message.DxTzBulid.DxTzActivity" />
         <activity android:name=".message.DxBulid.DxActivity" />
