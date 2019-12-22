@@ -23,10 +23,6 @@
         <activity android:name=".message.BjBulid.BjActivity" />
         <activity android:name=".message.JjBulid.JjActivity" />
         <activity android:name=".message.ZbBulid.ZbActivity" />
-        <activity
-            android:name=".message.zhiboActivity"
-            android:label="@string/title_activity_zhibo"
-            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".RegisterActivity" />
         <activity android:name=".message.MessageActivity" />
         <activity android:name=".link.LinkActivity" />

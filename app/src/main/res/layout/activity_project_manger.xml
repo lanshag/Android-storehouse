@@ -14,7 +14,7 @@
             android:id="@+id/Iv_main"
             android:layout_width="match_parent"
             android:layout_height="220dp"
-            android:background="@drawable/third"
+            android:background="@drawable/first"
             android:scaleType="fitXY"
             tools:ignore="MissingConstraints" />
         <RelativeLayout
@@ -98,7 +98,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/Tv_2"
-                    android:layout_marginTop="21dp"
+                    android:layout_marginTop="2dp"
                     android:layout_marginBottom="-32dp"
                     android:text="思信测试"
                     android:layout_marginLeft="10dp"
@@ -110,7 +110,7 @@
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/Tv_2"
                     android:layout_marginLeft="110dp"
-                    android:layout_marginTop="21dp"
+                    android:layout_marginTop="2dp"
                     android:text="2019-11-18  10:09:42"
                     android:textColor="#868080" />
             </RelativeLayout>
