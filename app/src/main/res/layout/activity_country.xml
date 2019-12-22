@@ -1,14 +1,121 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     >
-
-    <TextView
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Hello"
-        android:textSize="20sp"
-        />
+        android:layout_height="50dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="美丽乡村"
+            android:gravity="center"
+            android:textSize="25sp" />
+        <Button
+            android:id="@+id/c_1"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:drawableLeft="@drawable/left"/>
 
-</LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="70dp">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="资讯信息"
+            android:gravity="left"
+            android:id="@+id/c_2"
+            android:textSize="20sp"
+            android:drawableRight="@drawable/right"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="140dp">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="left"
+            android:text="美丽乡村规划"
+            android:id="@+id/c_3"
+            android:textSize="20sp"
+            android:drawableRight="@drawable/right"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="210dp">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="left"
+            android:text="我爱我村"
+            android:id="@+id/c_4"
+            android:textSize="20sp"
+            android:drawableRight="@drawable/right"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="280dp">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="left"
+            android:text="文化活动"
+            android:id="@+id/c_5"
+            android:textSize="20sp"
+            android:drawableRight="@drawable/right"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="350dp">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="left"
+            android:text="旅游.休闲.农家乐"
+            android:id="@+id/c_6"
+            android:textSize="20sp"
+            android:drawableRight="@drawable/right"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="420dp">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="left"
+            android:text="民宿管理"
+            android:id="@+id/c_7"
+            android:textSize="20sp"
+            android:drawableRight="@drawable/right"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="490dp">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="left"
+            android:text="宣传文案"
+            android:id="@+id/c_8"
+            android:textSize="20sp"
+            android:drawableRight="@drawable/right"/>
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+</RelativeLayout>
