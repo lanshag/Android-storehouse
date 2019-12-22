@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/xinxi_ID"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/Tv_system_1"
+            android:background="#E2E2E2"
+
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="  ID"
+                android:gravity="fill_vertical"
+                ></TextView>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="right"
+                >
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:text="144"
+                    android:gravity="center"
+                    ></TextView>
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+    //ID
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/xinxi_name"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/Tv_system_1"
+            android:background="#E2E2E2"
+
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="  姓名"
+                android:gravity="fill_vertical"
+                ></TextView>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="right"
+                >
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:text="test"
+                    android:gravity="center"
+                    ></TextView>
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+    //NAME
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/xinxi_sex"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/Tv_system_1"
+            android:background="#E2E2E2"
+
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="  性别"
+                android:gravity="fill_vertical"
+                ></TextView>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="right"
+                >
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="男"></TextView>
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    //性别
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/xinxi_dep"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/Tv_system_1"
+            android:background="#E2E2E2"
+
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="  部门"
+                android:gravity="fill_vertical"
+                ></TextView>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="right"
+                >
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:text="暮云新村"
+                    android:gravity="center"
+                    ></TextView>
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    //部门
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/xinxi_role"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/Tv_system_1"
+            android:background="#E2E2E2"
+
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="  角色"
+                android:gravity="fill_vertical"
+                ></TextView>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="right"
+                >
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="最高"></TextView>
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    //ROLE
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/xinxi_quyu"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/Tv_system_1"
+            android:background="#E2E2E2"
+
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="  区域"
+                android:gravity="fill_vertical"
+                ></TextView>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="right"
+                >
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:text="暮云新村"
+                    android:gravity="center"
+                    ></TextView>
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    //区域
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/xinxi_aid"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/Tv_system_1"
+            android:background="#E2E2E2"
+
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="  aid"
+                android:gravity="fill_vertical"
+                ></TextView>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="right"
+                >
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:text="430121101209"
+                    android:gravity="center"
+                    ></TextView>
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    //AID
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/xinxi_tel"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/Tv_system_1"
+            android:background="#E2E2E2"
+
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="  联系方式"
+                android:gravity="fill_vertical"
+                ></TextView>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="right"
+                >
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:text="**********"
+                    android:gravity="center"
+                    ></TextView>
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    //联系方式
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/xinxi_emil"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/Tv_system_1"
+            android:background="#E2E2E2"
+
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="  邮箱"
+                android:gravity="fill_vertical"
+                ></TextView>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="right"
+                >
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:text="*********@qq.com"
+                    android:gravity="center"
+                    ></TextView>
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    //邮箱
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/xinxi_dress"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/Tv_system_1"
+            android:background="#E2E2E2"
+
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="  地址"
+                android:gravity="fill_vertical"
+                ></TextView>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="right"
+                >
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:text="不告诉你"
+                    android:gravity="center"
+                    ></TextView>
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    //地址
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/xinxi_IP"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/Tv_system_1"
+            android:background="#E2E2E2"
+
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="  登录IP"
+                android:gravity="fill_vertical"
+                ></TextView>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="right"
+                >
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:text="192.168.1.1"
+                    android:gravity="center"
+                    ></TextView>
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    //登陆ip
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/xinxi_time"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/Tv_system_1"
+            android:background="#E2E2E2"
+
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="  登陆日期"
+                android:gravity="fill_vertical"
+                ></TextView>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="right"
+                >
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:text="暂时不会"
+                    android:gravity="center"
+                    ></TextView>
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    //登陆日期
+
+</LinearLayout>

@@ -21,7 +21,7 @@ public class WeatherActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_weather);
         mTv_1 = findViewById(R.id.Wv_1);
-        mTv_1.loadUrl("https://widget-page.heweather.net/h5/index.html?bg=1&md=0123456&lc=auto&key=66216c7af9f84f608042dfeb81e9a00e");
+        mTv_1.loadUrl("https://widget-page.heweather.net/h5/index.html?bg=1&md=0123456&lc=auto&key=376802ac478a49199683efe5fea5fcc6");
         mTv_1.getSettings().setJavaScriptEnabled(true);
         mTv_1.setWebViewClient(new MyWebVBiewCilent());
         mTv_1.setWebChromeClient(new MyWebChromeClient());}
