@@ -1,9 +1,118 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Work.MyAdviceActivity">
+    android:background="#F7F7F7"
+    >
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <RelativeLayout
+        android:id="@+id/my_advice_top"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/colorGrayDrak"
+        >
+        <ImageView
+            android:id="@+id/my_advice_left"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/ic_left_back"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:clickable="true"
+            android:onClick="onClick"
+            />
+
+        <TextView
+            android:id="@+id/advice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="105dp"
+            android:layout_toRightOf="@+id/my_advice_left"
+            android:paddingTop="5dp"
+            android:text="我的建议"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/my_advice_edit"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/advice"
+            android:background="@drawable/edit"
+            android:layout_centerVertical="true"
+            android:clickable="true"
+            android:onClick="onClick"
+            />
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_below="@+id/my_advice_top"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/advice_iv1"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:background="@drawable/third"
+            android:scaleType="fitXY"
+            />
+
+        <RelativeLayout
+            android:id="@+id/advice_body1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="5dp">
+
+            <ImageView
+                android:id="@+id/advice_iv2"
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:src="@drawable/first"
+                android:scaleType="fitXY"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_toRightOf="@+id/advice_iv2">
+                <TextView
+                    android:id="@+id/advice_tv1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="对2019年市政府的工作建议"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#000000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:id="@+id/advice_tv2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/advice_tv1"
+                    android:layout_marginTop="21dp"
+                    android:layout_marginBottom="-32dp"
+                    android:text="小组测试"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#868080"/>
+
+                <TextView
+                    android:id="@+id/advice_tv3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/advice_tv1"
+                    android:layout_marginLeft="110dp"
+                    android:layout_marginTop="20dp"
+                    android:text="2019-12-20  10:32:35"
+                    android:textColor="#868080" />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

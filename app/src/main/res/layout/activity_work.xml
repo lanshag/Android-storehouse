@@ -5,7 +5,7 @@
     android:background="#F7F7F7">
 
     <RelativeLayout
-        android:id="@+id/work_top"
+        android:id="@+id/top1"
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:background="@color/colorGrayDrak"
@@ -39,7 +39,7 @@
         android:layout_width="match_parent"
         android:layout_height="400dp"
         android:orientation="vertical"
-        android:layout_below="@+id/work_top"
+        android:layout_below="@+id/top1"
         android:layout_marginTop="20dp"
         android:paddingTop="10dp"
         >
