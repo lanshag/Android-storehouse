@@ -297,7 +297,7 @@
         android:orientation="vertical">
 
         <RelativeLayout
-            android:id="@+id/xinxi_name"
+            android:id="@+id/xinxi_emil"
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:layout_below="@+id/Tv_system_1"
@@ -402,7 +402,7 @@
         android:orientation="vertical">
 
         <RelativeLayout
-            android:id="@+id/xinxi_name"
+            android:id="@+id/xinxi_time"
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:layout_below="@+id/Tv_system_1"
