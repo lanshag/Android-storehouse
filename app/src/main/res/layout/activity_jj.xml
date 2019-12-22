@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  >
+    <Button
+        android:id="@+id/btn_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2019年11月02日紧急播出（应急办）"
+        android:textSize="20sp"
+
+        android:gravity=""
+
+        />
+    <Button
+        android:id="@+id/btn_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2019年10月19日紧急播出（村部）"
+        android:textSize="20sp"
+        android:gravity=""
+        android:layout_below="@id/btn_1"
+        />
+    <Button
+        android:id="@+id/btn_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2019年10月12日紧急播出（气象局）"
+        android:textSize="20sp"
+        android:layout_below="@id/btn_2"
+        android:gravity=""
+        />
+
+</RelativeLayout>
