@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/Iv_main"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:background="@drawable/ly_main"
+            android:scaleType="fitXY"
+            tools:ignore="MissingConstraints" />
+        <RelativeLayout
+            android:id="@+id/rea_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+            <ImageView
+                android:id="@+id/Iv_1"
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:src="@drawable/ly_1"
+                android:scaleType="fitXY"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_toRightOf="@+id/Iv_1">
+                <TextView
+                    android:id="@+id/Tv_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="金太阳休闲农庄"
+                    android:maxLines="1"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#000000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:id="@+id/Tv_1_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/Tv_1"
+                    android:layout_marginTop="21dp"
+                    android:layout_marginBottom="-32dp"
+                    android:text="思信测试"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#868080"/>
+
+                <TextView
+                    android:id="@+id/Tv_1_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/Tv_1"
+                    android:layout_marginLeft="110dp"
+                    android:layout_marginTop="20dp"
+                    android:text="2019-11-19  10:32:35"
+                    android:textColor="#868080" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

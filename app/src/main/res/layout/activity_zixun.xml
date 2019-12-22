@@ -14,7 +14,7 @@
             android:id="@+id/Iv_main"
             android:layout_width="match_parent"
             android:layout_height="220dp"
-            android:background="@drawable/main"
+            android:background="@drawable/zixun_main"
             android:scaleType="fitXY"
             tools:ignore="MissingConstraints" />
         <RelativeLayout
@@ -26,7 +26,7 @@
                 android:id="@+id/Iv_1"
                 android:layout_width="80dp"
                 android:layout_height="60dp"
-                android:src="@drawable/first"
+                android:src="@drawable/zixun2"
                 android:scaleType="fitXY"/>
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -36,7 +36,8 @@
                     android:id="@+id/Tv_1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="长沙市天心区暮云新村美丽乡村建设"
+                    android:text="朱铁东调研乡村振兴战略、美丽乡村建设和河长制作工厂"
+                    android:maxLines="1"
                     android:layout_marginLeft="10dp"
                     android:textColor="#000000"
                     android:textSize="15sp"/>
@@ -78,7 +79,7 @@
                 android:id="@+id/Iv_2"
                 android:layout_width="80dp"
                 android:layout_height="60dp"
-                android:src="@drawable/second"
+                android:src="@drawable/zixun3"
                 android:scaleType="fitXY"/>
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -88,7 +89,8 @@
                     android:id="@+id/Tv_2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="长沙市天心区暮云新村美丽乡村建设一期项目"
+                    android:text="杨中建实地调研长沙天心区暮云片区美丽乡村工作"
+                    android:maxLines="1"
                     android:layout_marginLeft="10dp"
                     android:textColor="#000000"
                     android:textSize="15sp"/>
@@ -130,7 +132,7 @@
                 android:id="@+id/Iv_3"
                 android:layout_width="80dp"
                 android:layout_height="60dp"
-                android:src="@drawable/third"
+                android:src="@drawable/zixun4"
                 android:scaleType="fitXY"/>
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -140,7 +142,8 @@
                     android:id="@+id/Tv_3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="云塘 丽发 怡海 许兴四个示范站建设"
+                    android:text="洪孟春一行人调研暮云街道美丽乡村建设"
+                    android:maxLines="1"
                     android:layout_marginLeft="10dp"
                     android:textColor="#000000"
                     android:textSize="15sp"/>
