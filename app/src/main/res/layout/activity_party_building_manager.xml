@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEEEEE"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    >
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="40dp"
+       android:orientation="horizontal"
+       >
+      <TextView
+          android:id="@+id/DJ_manage"
+          android:layout_width="match_parent"
+          android:layout_height="40dp"
+          android:background="#02DFFC"
+          android:gravity="center"
+          android:text="党建"
+          android:textColor="#000000"
+          android:textSize="20sp"
+          >
+      </TextView>
+
+      <Button
+          android:id="@+id/DJ_manage_back"
+          android:layout_width="40dp"
+          android:layout_height="40dp"
+          android:background="#3CFFE8"
+          android:drawableLeft="@drawable/ic_left_back"
+          ></Button>
+   </RelativeLayout>
+
+   <Button
+       android:id="@+id/btn_djmanage_1"
+       android:layout_width="match_parent"
+       android:layout_height="40dp"
+       android:layout_marginTop="20dp"
+       android:background="#E2E2E2"
+       android:drawableEnd="@drawable/right_back2"
+       android:gravity="fill_vertical"
+       android:text="  党建新闻"></Button>
+
+   <Button
+    android:id="@+id/btn_djmanage_2"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:layout_below="@+id/Tv_system_1"
+    android:layout_marginTop="10dp"
+    android:background="#E2E2E2"
+    android:gravity="fill_vertical"
+    android:text="  党员学习"
+    android:drawableEnd="@drawable/right_back2"
+
+    ></Button>
+
+   <Button
+       android:id="@+id/btn_djmanage_3"
+       android:layout_width="match_parent"
+       android:layout_height="40dp"
+       android:layout_below="@+id/Tv_system_1"
+       android:layout_marginTop="10dp"
+       android:background="#E2E2E2"
+       android:gravity="fill_vertical"
+       android:text="  党员活动"
+       android:drawableEnd="@drawable/right_back2"
+
+       ></Button>
+
+   <Button
+       android:id="@+id/btn_djmanage_4"
+       android:layout_width="match_parent"
+       android:layout_height="40dp"
+       android:layout_below="@+id/Tv_system_1"
+       android:layout_marginTop="10dp"
+       android:background="#E2E2E2"
+       android:gravity="fill_vertical"
+       android:text="  扶贫工作"
+       android:drawableEnd="@drawable/right_back2"
+
+       ></Button>
+
+   <Button
+       android:id="@+id/btn_djmanage_5"
+       android:layout_width="match_parent"
+       android:layout_height="40dp"
+       android:layout_below="@+id/Tv_system_1"
+       android:layout_marginTop="10dp"
+       android:background="#E2E2E2"
+       android:gravity="fill_vertical"
+       android:text="  党员信息"
+       android:drawableEnd="@drawable/right_back2"
+
+       ></Button>
+
+
+</LinearLayout>
