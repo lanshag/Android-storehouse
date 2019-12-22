@@ -14,7 +14,7 @@
             android:id="@+id/Iv_main"
             android:layout_width="match_parent"
             android:layout_height="220dp"
-            android:background="@drawable/main"
+            android:background="@drawable/third"
             android:scaleType="fitXY"
             tools:ignore="MissingConstraints" />
         <RelativeLayout
