@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1号路灯"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:background="@drawable/texiao"/>
+    <Button
+        android:id="@+id/btn_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2号路灯"
+        android:textSize="20sp"
+        android:layout_below="@id/btn_1"
+        android:layout_marginTop="10dp"
+        android:textColor="#000000"
+        android:background="@drawable/texiao"/>
+    <Button
+        android:id="@+id/btn_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3号路灯"
+        android:textSize="20sp"
+        android:layout_below="@id/btn_2"
+        android:layout_marginTop="10dp"
+        android:textColor="#000000"
+        android:background="@drawable/texiao"/>
+    <Button
+        android:id="@+id/btn_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4号路灯"
+        android:textSize="20sp"
+        android:layout_below="@id/btn_3"
+        android:layout_marginTop="10dp"
+        android:textColor="#000000"
+        android:background="@drawable/texiao"/>
+
+
+
+</RelativeLayout>

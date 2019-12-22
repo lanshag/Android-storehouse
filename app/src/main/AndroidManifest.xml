@@ -16,17 +16,25 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".message.WxBulid.WxActivity"></activity>
+        <activity android:name=".iot.Button2Activity"></activity>
+        <activity android:name=".iot.huozaibaojin.FaActivity" />
+        <activity android:name=".iot.jiankong.CCActivity" />
+        <activity android:name=".iot.zhongduannengyuan.TemActivity" />
+        <activity android:name=".iot.yingjibaojin.EaActivity" />
+        <activity android:name=".iot.shuibeng.WpActivity" />
+        <activity android:name=".iot.ludeng.RlActivity" />
+        <activity android:name=".iot.shapan.StActivity" />
+        <activity android:name=".iot.huanjingcanshu.EpActivity" />
+        <activity android:name=".iot.LED.LEDActivity" />
+        <activity android:name=".iot.yingjiguangbo.EbActivity" />
+        <activity android:name=".message.WxBulid.WxActivity" />
         <activity android:name=".message.LedBulid.LedActivity" />
         <activity android:name=".message.DxTzBulid.DxTzActivity" />
         <activity android:name=".message.DxBulid.DxActivity" />
         <activity android:name=".message.BjBulid.BjActivity" />
         <activity android:name=".message.JjBulid.JjActivity" />
         <activity android:name=".message.ZbBulid.ZbActivity" />
-        <activity
-            android:name=".message.zhiboActivity"
-            android:label="@string/title_activity_zhibo"
-            android:theme="@style/AppTheme.NoActionBar" />
+
         <activity android:name=".RegisterActivity" />
         <activity android:name=".message.MessageActivity" />
         <activity android:name=".link.LinkActivity" />
