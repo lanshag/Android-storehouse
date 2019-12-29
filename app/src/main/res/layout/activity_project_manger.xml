@@ -33,7 +33,6 @@
                 android:layout_height="60dp"
                 android:layout_toRightOf="@+id/Iv_1">
                 <TextView
-                    android:id="@+id/Tv_1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="长沙市天心区暮云新村美丽乡村建设"
@@ -41,26 +40,23 @@
                     android:textColor="#000000"
                     android:textSize="15sp"/>
 
-                <TextView
-                    android:id="@+id/Tv_1_1"
-                    android:layout_width="wrap_content"
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_below="@+id/Tv_1"
-                    android:layout_marginTop="21dp"
-                    android:layout_marginBottom="-32dp"
-                    android:text="思信测试"
-                    android:layout_marginLeft="10dp"
-                    android:textColor="#868080"/>
-
-                <TextView
-                    android:id="@+id/Tv_1_2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@+id/Tv_1"
-                    android:layout_marginLeft="110dp"
-                    android:layout_marginTop="20dp"
-                    android:text="2019-11-19  10:32:35"
-                    android:textColor="#868080" />
+                    android:layout_marginTop="40dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="思信测试"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="#868080"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:text="2019-11-19  10:32:35"
+                        android:textColor="#868080" />
+                </LinearLayout>
             </RelativeLayout>
         </RelativeLayout>
 
@@ -85,34 +81,29 @@
                 android:layout_height="60dp"
                 android:layout_toRightOf="@+id/Iv_2">
                 <TextView
-                    android:id="@+id/Tv_2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="长沙市天心区暮云新村美丽乡村建设一期项目"
                     android:layout_marginLeft="10dp"
                     android:textColor="#000000"
                     android:textSize="15sp"/>
-
-                <TextView
-                    android:id="@+id/Tv_2_1"
-                    android:layout_width="wrap_content"
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_below="@+id/Tv_2"
-                    android:layout_marginTop="21dp"
-                    android:layout_marginBottom="-32dp"
-                    android:text="思信测试"
-                    android:layout_marginLeft="10dp"
-                    android:textColor="#868080"/>
+                    android:layout_marginTop="40dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="思信测试"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="#868080"/>
 
-                <TextView
-                    android:id="@+id/Tv_2_2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@+id/Tv_2"
-                    android:layout_marginLeft="110dp"
-                    android:layout_marginTop="21dp"
-                    android:text="2019-11-18  10:09:42"
-                    android:textColor="#868080" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2019-11-18  10:09:42"
+                        android:layout_marginLeft="50dp"
+                        android:textColor="#868080" /></LinearLayout>
             </RelativeLayout>
         </RelativeLayout>
 
@@ -137,7 +128,6 @@
                 android:layout_height="60dp"
                 android:layout_toRightOf="@+id/Iv_3">
                 <TextView
-                    android:id="@+id/Tv_3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="云塘 丽发 怡海 许兴四个示范站建设"
@@ -145,26 +135,23 @@
                     android:textColor="#000000"
                     android:textSize="15sp"/>
 
-                <TextView
-                    android:id="@+id/Tv_3_1"
-                    android:layout_width="wrap_content"
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_below="@+id/Tv_3"
-                    android:layout_marginTop="21dp"
-                    android:layout_marginBottom="-32dp"
-                    android:text="思信测试"
-                    android:layout_marginLeft="10dp"
-                    android:textColor="#868080"/>
+                    android:layout_marginTop="40dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="思信测试"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="#868080"/>
 
-                <TextView
-                    android:id="@+id/Tv_3_2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@+id/Tv_3"
-                    android:layout_marginLeft="110dp"
-                    android:layout_marginTop="20dp"
-                    android:text="2019-11-11  10:13:29"
-                    android:textColor="#868080" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2019-11-11  10:13:29"
+                        android:layout_marginLeft="50dp"
+                        android:textColor="#868080" /></LinearLayout>
             </RelativeLayout>
         </RelativeLayout>
     </LinearLayout>

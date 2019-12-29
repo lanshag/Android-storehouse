@@ -1,14 +1,325 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".projectmanger.FirstBulid.FirstBulidActivity">
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello"
-        tools:ignore="MissingConstraints" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/Tv_prj_2"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:background="@drawable/second"
+            android:text="长沙市天心区暮云新村美丽乡村建设一期项目"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:gravity="bottom"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"/>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+            <TextView
+                android:id="@+id/sxcs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="思信测试"
+                android:layout_marginLeft="30dp"
+                android:textColor="#F85A86C9"/>
+            <TextView
+                android:id="@+id/fby"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="发表于"
+                android:layout_toRightOf="@+id/sxcs"
+                android:layout_marginLeft="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2018-11--18 10:09:42"
+                android:layout_toRightOf="@id/fby"
+                android:textColor="#7A2121"
+                android:layout_marginLeft="20dp"/>
+        </RelativeLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="下载项目文件"
+            android:textSize="13dp"
+            android:layout_marginLeft="3dp"/>
+        <ImageView
+            android:id="@+id/file2"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:padding="2dp"
+            android:layout_margin="2dp"
+            android:background="#19008AD4"/>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#19008AD4"
+            android:layout_marginTop="15dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:layout_margin="2dp"
+                >
+                <TextView
+                    android:id="@+id/prj2_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="项目名称"
+                    android:textColor="#000000"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="长沙市天心区暮云新村美丽乡村建设一期项目"
+                    android:layout_toEndOf="@id/prj2_name"
+                    android:gravity="right"
+                    android:textColor="#000000"/>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#520B0B"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:layout_margin="2dp">
+                <TextView
+                    android:id="@+id/prj2_kind"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="项目类别"
+                    android:textColor="#000000"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="新建项目"
+                    android:layout_toEndOf="@id/prj2_kind"
+                    android:gravity="right"
+                    android:textColor="#000000"/>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#520B0B"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:layout_margin="2dp">
+                <TextView
+                    android:id="@+id/prj2_adress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="项目地址"
+                    android:textColor="#000000"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:layout_toEndOf="@id/prj2_adress"
+                    android:gravity="right"
+                    android:textColor="#000000"/>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#520B0B"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:layout_margin="2dp">
+                <TextView
+                    android:id="@+id/prj2_statu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="项目状态"
+                    android:textColor="#000000"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="在建"
+                    android:layout_toEndOf="@id/prj2_statu"
+                    android:gravity="right"
+                    android:textColor="#000000"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#19008AD4"
+            android:layout_marginTop="30dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:layout_margin="2dp">
+                <TextView
+                    android:id="@+id/invest2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="投资金额"
+                    android:textColor="#000000"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:layout_toEndOf="@id/invest2"
+                    android:gravity="right"
+                    android:textColor="#000000"/>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#520B0B"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:layout_margin="2dp">
+                <TextView
+                    android:id="@+id/expense2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="开支明细"
+                    android:textColor="#000000"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:layout_toEndOf="@id/expense2"
+                    android:gravity="right"
+                    android:textColor="#000000"/>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#520B0B"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:layout_margin="2dp">
+                <TextView
+                    android:id="@+id/content2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="投资金额"
+                    android:textColor="#000000"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:layout_toEndOf="@id/content2"
+                    android:gravity="right"
+                    android:textColor="#000000"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#19008AD4"
+            android:layout_marginTop="30dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:layout_margin="2dp">
+                <TextView
+                    android:id="@+id/changer2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="项目主管"
+                    android:textColor="#000000"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="思信测试"
+                    android:layout_toEndOf="@id/changer2"
+                    android:gravity="right"
+                    android:textColor="#000000"/>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#520B0B"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:layout_margin="2dp">
+                <TextView
+                    android:id="@+id/tel2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="投资金额"
+                    android:textColor="#000000"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="15211003388"
+                    android:layout_toEndOf="@id/tel2"
+                    android:gravity="right"
+                    android:textColor="#000000"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="项目工作记录"
+            android:background="@drawable/bg_colorchange"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"/>
+
+    </LinearLayout>
+
+</ScrollView>
