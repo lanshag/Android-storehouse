@@ -2,13 +2,13 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F7F7F7">
+    android:background="#EEEEEE">
 
     <RelativeLayout
         android:id="@+id/top1"
         android:layout_width="match_parent"
         android:layout_height="40dp"
-        android:background="@color/colorGrayDrak"
+        android:background="#AFEDF5"
         >
         <ImageView
             android:id="@+id/work_left"
@@ -46,15 +46,15 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="40dp"
-            android:background="@color/colorWrite"
+            android:background="#E2E2E2"
             >
             <TextView
                 android:id="@+id/work_record"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:gravity="fill_vertical"
                 android:paddingTop="5dp"
-                android:layout_marginLeft="12dp"
-                android:text="工作记录"
+                android:text="  工作记录"
                 android:textSize="20sp"
                 android:textColor="#000"
                 />
@@ -77,16 +77,16 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="40dp"
-            android:layout_marginTop="20dp"
-            android:background="@color/colorWrite">
+            android:layout_marginTop="10dp"
+            android:background="#E2E2E2">
+
 
             <TextView
                 android:id="@+id/myadvice"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingTop="5dp"
-                android:layout_marginLeft="12dp"
-                android:text="我的建议"
+                android:text="  我的建议"
                 android:textSize="20sp"
                 android:textColor="#000"
                 />
@@ -108,16 +108,15 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="40dp"
-            android:layout_marginTop="20dp"
-            android:background="@color/colorWrite">
+            android:layout_marginTop="10dp"
+            android:background="#E2E2E2">
 
             <TextView
                 android:id="@+id/memorandum"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingTop="5dp"
-                android:layout_marginLeft="12dp"
-                android:text="备忘录"
+                android:text="  备忘录"
                 android:textSize="20sp"
                 android:textColor="#000"
                 />
@@ -138,16 +137,15 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="40dp"
-            android:layout_marginTop="20dp"
-            android:background="@color/colorWrite">
+            android:layout_marginTop="10dp"
+            android:background="#E2E2E2">
 
             <TextView
                 android:id="@+id/cunqing"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingTop="5dp"
-                android:layout_marginLeft="12dp"
-                android:text="村情咨询"
+                android:text="  村情咨询"
                 android:textSize="20sp"
                 android:textColor="#000"
                 />
@@ -169,16 +167,15 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="40dp"
-            android:layout_marginTop="20dp"
-            android:background="@color/colorWrite">
+            android:layout_marginTop="10dp"
+            android:background="#E2E2E2">
 
             <TextView
                 android:id="@+id/myfile"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingTop="5dp"
-                android:layout_marginLeft="12dp"
-                android:text="我的文件夹"
+                android:text="  我的文件夹"
                 android:textSize="20sp"
                 android:textColor="#000"
                 />

@@ -16,7 +16,7 @@
           android:id="@+id/DJ_manage"
           android:layout_width="match_parent"
           android:layout_height="40dp"
-          android:background="#02DFFC"
+          android:background="#AFEDF5"
           android:gravity="center"
           android:text="党建"
           android:textColor="#000000"
@@ -28,7 +28,7 @@
           android:id="@+id/DJ_manage_back"
           android:layout_width="40dp"
           android:layout_height="40dp"
-          android:background="#3CFFE8"
+          android:background="#AFEDF5"
           android:drawableLeft="@drawable/ic_left_back"
           ></Button>
    </RelativeLayout>

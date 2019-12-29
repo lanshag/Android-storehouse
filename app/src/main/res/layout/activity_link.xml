@@ -2,13 +2,13 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F7F7F7">
+    android:background="#EEEEEE">
 
     <RelativeLayout
         android:id="@+id/top1"
         android:layout_width="match_parent"
         android:layout_height="40dp"
-        android:background="@color/colorGrayDrak"
+        android:background="#AFEDF5"
         >
         <ImageView
             android:id="@+id/work_left"
@@ -43,34 +43,33 @@
         android:layout_marginTop="20dp"
         android:paddingTop="10dp"
         >
+
         <LinearLayout
             android:id="@+id/li_1"
             android:layout_width="match_parent"
             android:layout_height="40dp"
-            android:background="@color/colorWrite"
-            >
+            android:background="#E2E2E2">
+
             <TextView
                 android:id="@+id/work_record"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingTop="5dp"
-                android:layout_marginLeft="12dp"
-                android:text="湘雅医院预约挂号"
-                android:textSize="20sp"
+                android:text="  湘雅医院预约挂号"
                 android:textColor="#000"
+                android:textSize="18sp"
                 />
 
             <ImageView
                 android:id="@+id/iv_next1"
                 android:layout_width="30dp"
                 android:layout_height="30dp"
+                android:layout_centerVertical="true"
                 android:layout_marginLeft="180dp"
                 android:layout_marginTop="5dp"
                 android:background="@drawable/next"
-                android:layout_centerVertical="true"
                 android:clickable="true"
-                android:onClick="onClick"
-                />
+                android:onClick="onClick" />
 
 
         </LinearLayout>
@@ -79,17 +78,16 @@
             android:id="@+id/li_2"
             android:layout_width="match_parent"
             android:layout_height="40dp"
-            android:layout_marginTop="20dp"
-            android:background="@color/colorWrite">
+            android:layout_marginTop="10dp"
+            android:background="#E2E2E2">
 
             <TextView
                 android:id="@+id/myadvice"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingTop="5dp"
-                android:layout_marginLeft="12dp"
-                android:text="住房公基金"
-                android:textSize="20sp"
+                android:text="  住房公基金"
+                android:textSize="18sp"
                 android:textColor="#000"
                 />
             <ImageView
@@ -111,17 +109,17 @@
             android:id="@+id/li_3"
             android:layout_width="match_parent"
             android:layout_height="40dp"
-            android:layout_marginTop="20dp"
-            android:background="@color/colorWrite">
+            android:layout_marginTop="10dp"
+            android:background="#E2E2E2">
 
             <TextView
                 android:id="@+id/memorandum"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingTop="5dp"
-                android:layout_marginLeft="12dp"
-                android:text="社保"
-                android:textSize="20sp"
+
+                android:text="  社保"
+                android:textSize="18sp"
                 android:textColor="#000"
                 />
 
@@ -142,17 +140,16 @@
             android:id="@+id/li_4"
             android:layout_width="match_parent"
             android:layout_height="40dp"
-            android:layout_marginTop="20dp"
-            android:background="@color/colorWrite">
+            android:layout_marginTop="10dp"
+            android:background="#E2E2E2">
 
             <TextView
                 android:id="@+id/cunqing"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingTop="5dp"
-                android:layout_marginLeft="12dp"
-                android:text="天心区政府官网"
-                android:textSize="20sp"
+                android:text="  天心区政府官网"
+                android:textSize="18sp"
                 android:textColor="#000"
                 />
 
@@ -174,17 +171,17 @@
             android:id="@+id/li_5"
             android:layout_width="match_parent"
             android:layout_height="40dp"
-            android:layout_marginTop="20dp"
-            android:background="@color/colorWrite">
+            android:layout_marginTop="10dp"
+            android:background="#E2E2E2">
 
             <TextView
                 android:id="@+id/myfile"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingTop="5dp"
-                android:layout_marginLeft="12dp"
-                android:text="百度搜索"
-                android:textSize="20sp"
+
+                android:text="  百度搜索"
+                android:textSize="18sp"
                 android:textColor="#000"
                 />
 
@@ -205,17 +202,17 @@
             android:id="@+id/li_6"
             android:layout_width="match_parent"
             android:layout_height="40dp"
-            android:layout_marginTop="20dp"
-            android:background="@color/colorWrite">
+            android:layout_marginTop="10dp"
+            android:background="#E2E2E2">
 
             <TextView
 
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingTop="5dp"
-                android:layout_marginLeft="12dp"
-                android:text="长沙政府采购网"
-                android:textSize="20sp"
+
+                android:text="  长沙政府采购网"
+                android:textSize="18sp"
                 android:textColor="#000"
                 />
 

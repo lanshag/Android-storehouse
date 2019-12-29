@@ -1,106 +1,135 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
+    android:layout_height="match_parent"
+    android:background="#EEEEEE">
+    <TextView
+        android:id="@+id/Tv_iot_1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#AFEDF5"
+        android:gravity="center"
+        android:text="信息发布"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        >
+    </TextView>
+    <Button
+        android:id="@+id/btn_iot_back"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="#AFEDF5"
+        android:drawableLeft="@drawable/ic_left_back"
+        ></Button>
     <Button
         android:id="@+id/btn_1"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="应急广播"
-        android:textSize="20sp"
+        android:layout_height="40dp"
+        android:text="  应急广播"
+        android:layout_marginTop="60dp"
+        android:textSize="18sp"
         android:textColor="#000000"
-        android:background="@drawable/texiao"/>
+        android:background="#E2E2E2"
+        android:gravity="fill_vertical"/>
     <Button
         android:id="@+id/btn_2"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="LED显示器"
-        android:textSize="20sp"
+        android:layout_height="40dp"
+        android:text="  LED显示器"
+        android:gravity="fill_vertical"
+        android:textSize="18sp"
         android:layout_below="@id/btn_1"
         android:layout_marginTop="10dp"
         android:textColor="#000000"
-        android:background="@drawable/texiao"/>
+        android:background="#E2E2E2"/>
     <Button
         android:id="@+id/btn_3"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="环境参数采集"
-        android:textSize="20sp"
+        android:layout_height="40dp"
+        android:text="  环境参数采集"
+        android:gravity="fill_vertical"
+        android:textSize="18sp"
         android:layout_below="@id/btn_2"
         android:layout_marginTop="10dp"
         android:textColor="#000000"
-        android:background="@drawable/texiao"/>
+        android:background="#E2E2E2"/>
     <Button
         android:id="@+id/btn_4"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="智能沙盘"
-        android:textSize="20sp"
+        android:layout_height="40dp"
+        android:text="  智能沙盘"
+        android:gravity="fill_vertical"
+        android:textSize="18sp"
         android:layout_below="@id/btn_3"
         android:layout_marginTop="10dp"
         android:textColor="#000000"
-        android:background="@drawable/texiao"/>
+        android:background="#E2E2E2"/>
     <Button
         android:id="@+id/btn_5"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="智能路灯"
-        android:textSize="20sp"
+        android:layout_height="40dp"
+        android:text="  智能路灯"
+        android:gravity="fill_vertical"
+        android:textSize="18sp"
         android:layout_below="@id/btn_4"
         android:layout_marginTop="10dp"
         android:textColor="#000000"
-        android:background="@drawable/texiao"/>
+        android:background="#E2E2E2"/>
     <Button
         android:id="@+id/btn_6"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="智能水泵"
-        android:textSize="20sp"
+        android:layout_height="40dp"
+        android:text="  智能水泵"
+        android:gravity="fill_vertical"
+        android:textSize="18sp"
         android:layout_below="@id/btn_5"
         android:layout_marginTop="10dp"
         android:textColor="#000000"
-        android:background="@drawable/texiao"/>
+        android:background="#E2E2E2"/>
     <Button
         android:id="@+id/btn_7"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="应急报警"
-        android:textSize="20sp"
+        android:layout_height="40dp"
+        android:text="  应急报警"
+        android:gravity="fill_vertical"
+        android:textSize="18sp"
         android:layout_below="@id/btn_6"
         android:layout_marginTop="10dp"
         android:textColor="#000000"
-        android:background="@drawable/texiao"/>
+        android:background="#E2E2E2"/>
     <Button
         android:id="@+id/btn_8"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="终端能源检测"
-        android:textSize="20sp"
+        android:layout_height="40dp"
+        android:text="  终端能源检测"
+        android:gravity="fill_vertical"
+        android:textSize="18sp"
         android:layout_below="@id/btn_7"
         android:layout_marginTop="10dp"
         android:textColor="#000000"
-        android:background="@drawable/texiao"/>
+        android:background="#E2E2E2"/>
     <Button
         android:id="@+id/btn_9"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="视频监控"
-        android:textSize="20sp"
+        android:layout_height="40dp"
+        android:text="  视频监控"
+        android:textSize="18sp"
+        android:gravity="fill_vertical"
         android:layout_below="@id/btn_8"
         android:layout_marginTop="10dp"
         android:textColor="#000000"
-        android:background="@drawable/texiao"/>
+        android:background="#E2E2E2"/>
     <Button
         android:id="@+id/btn_10"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="火灾报警"
-        android:textSize="20sp"
+        android:layout_height="40dp"
+        android:text="  火灾报警"
+        android:gravity="fill_vertical"
+        android:textSize="18sp"
         android:layout_below="@id/btn_9"
         android:layout_marginTop="10dp"
         android:textColor="#000000"
-        android:background="@drawable/texiao"/>
+        android:background="#E2E2E2"/>
 
 
 

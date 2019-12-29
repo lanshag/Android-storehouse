@@ -2,16 +2,36 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="15dp">
-
+    android:background="#EEEEEE"
+    >
+    <TextView
+        android:id="@+id/Tv_message_1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#AFEDF5"
+        android:gravity="center"
+        android:text="信息发布"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        >
+    </TextView>
+    <Button
+        android:id="@+id/btn_message_back"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="#AFEDF5"
+        android:drawableLeft="@drawable/ic_left_back"
+        ></Button>
     <Button
         android:id="@+id/btn_1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="流媒体直播"
-        android:textSize="20sp"
-        android:background="@drawable/message2"
-        android:gravity=""
+        android:text="  流媒体直播"
+        android:layout_marginTop="60dp"
+        android:textSize="18sp"
+        android:background="#E2E2E2"
+        android:gravity="fill_vertical"
+        android:drawableEnd="@drawable/right_back2"
         />
 
     <Button
@@ -20,10 +40,11 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/btn_1"
         android:layout_marginTop="10dp"
-        android:text="编辑节目单播出"
-        android:textSize="20sp"
-        android:background="@drawable/message2"
-        android:gravity=""
+        android:text="  编辑节目单播出"
+        android:textSize="18sp"
+        android:background="#E2E2E2"
+        android:gravity="fill_vertical"
+        android:drawableEnd="@drawable/right_back2"
         />
 
     <Button
@@ -32,21 +53,23 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/btn_2"
         android:layout_marginTop="10dp"
-        android:text="短信转语言播出"
-        android:background="@drawable/message2"
-        android:textSize="20sp"
-        android:gravity=""
+        android:text="  短信转语言播出"
+        android:background="#E2E2E2"
+        android:textSize="18sp"
+        android:gravity="fill_vertical"
+        android:drawableEnd="@drawable/right_back2"
         /> v
     <Button
         android:id="@+id/btn_4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/btn_3"
-        android:background="@drawable/message2"
+        android:background="#E2E2E2"
         android:layout_marginTop="10dp"
-        android:text="LED显示屏播出"
-        android:textSize="20sp"
-        android:gravity=""
+        android:text="  LED显示屏播出"
+        android:textSize="18sp"
+        android:gravity="fill_vertical"
+        android:drawableEnd="@drawable/right_back2"
         />
     <Button
         android:id="@+id/btn_5"
@@ -54,10 +77,11 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/btn_4"
         android:layout_marginTop="10dp"
-        android:background="@drawable/message2"
-        android:text="微信播出"
-        android:textSize="20sp"
-        android:gravity=""
+        android:background="#E2E2E2"
+        android:text="  微信播出"
+        android:textSize="18sp"
+        android:gravity="fill_vertical"
+        android:drawableEnd="@drawable/right_back2"
         />
     <Button
         android:id="@+id/btn_6"
@@ -65,10 +89,11 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/btn_5"
         android:layout_marginTop="10dp"
-        android:background="@drawable/message2"
-        android:text="短信通知"
-        android:textSize="20sp"
-        android:gravity=""
+        android:background="#E2E2E2"
+        android:text="  短信通知"
+        android:textSize="18sp"
+        android:gravity="fill_vertical"
+        android:drawableEnd="@drawable/right_back2"
         />
     <Button
         android:id="@+id/btn_7"
@@ -76,9 +101,10 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/btn_6"
         android:layout_marginTop="10dp"
-        android:background="@drawable/message2"
-        android:text="紧急播出单查询"
-        android:textSize="20sp"
-        android:gravity=""
+        android:background="#E2E2E2"
+        android:text="  紧急播出单查询"
+        android:textSize="18sp"
+        android:gravity="fill_vertical"
+        android:drawableEnd="@drawable/right_back2"
         />
 </RelativeLayout>
