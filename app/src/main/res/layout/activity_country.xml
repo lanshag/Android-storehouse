@@ -2,113 +2,116 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#EEEEEE"
     >
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="50dp">
+        android:layout_height="40dp">
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="50dp"
+            android:layout_height="40dp"
             android:text="美丽乡村"
             android:gravity="center"
-            android:textSize="25sp" />
+            android:textSize="20sp"
+            android:background="#AFEDF5"/>
         <Button
             android:id="@+id/c_1"
-            android:layout_width="50dp"
+            android:layout_width="40dp"
             android:layout_height="match_parent"
-            android:drawableLeft="@drawable/left"/>
+            android:drawableLeft="@drawable/left"
+            android:background="#AFEDF5"/>
 
     </RelativeLayout>
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_marginTop="70dp">
+        android:layout_height="40dp"
+        android:layout_marginTop="60dp">
         <Button
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="资讯信息"
-            android:gravity="left"
+            android:text="  资讯信息"
+            android:gravity="fill_vertical"
             android:id="@+id/c_2"
-            android:textSize="20sp"
-            android:drawableRight="@drawable/right"/>
+            android:textSize="18sp"
+            android:background="#E2E2E2"/>
     </RelativeLayout>
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_marginTop="140dp">
+        android:layout_height="40dp"
+        android:layout_marginTop="110dp">
         <Button
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:gravity="left"
-            android:text="美丽乡村规划"
+            android:gravity="fill_vertical"
+            android:text="  美丽乡村规划"
             android:id="@+id/c_3"
-            android:textSize="20sp"
-            android:drawableRight="@drawable/right"/>
+            android:textSize="18sp"
+            android:background="#E2E2E2"/>
     </RelativeLayout>
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="160dp">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="fill_vertical"
+            android:text="  我爱我村"
+            android:id="@+id/c_4"
+            android:textSize="18sp"
+            android:background="#E2E2E2"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
         android:layout_marginTop="210dp">
         <Button
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:gravity="left"
-            android:text="我爱我村"
-            android:id="@+id/c_4"
-            android:textSize="20sp"
-            android:drawableRight="@drawable/right"/>
-    </RelativeLayout>
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_marginTop="280dp">
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:gravity="left"
-            android:text="文化活动"
+            android:gravity="fill_vertical"
+            android:text="  文化活动"
             android:id="@+id/c_5"
             android:textSize="20sp"
-            android:drawableRight="@drawable/right"/>
+            android:background="#E2E2E2"/>
     </RelativeLayout>
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_marginTop="350dp">
+        android:layout_height="40dp"
+        android:layout_marginTop="260dp">
         <Button
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:gravity="left"
-            android:text="旅游.休闲.农家乐"
+            android:gravity="fill_vertical"
+            android:text="  旅游•休闲•农家乐"
             android:id="@+id/c_6"
-            android:textSize="20sp"
-            android:drawableRight="@drawable/right"/>
+            android:textSize="18sp"
+            android:background="#E2E2E2"/>
     </RelativeLayout>
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_marginTop="420dp">
+        android:layout_height="40dp"
+        android:layout_marginTop="310dp">
         <Button
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:gravity="left"
-            android:text="民宿管理"
+            android:gravity="fill_vertical"
+            android:text="  民宿管理"
             android:id="@+id/c_7"
-            android:textSize="20sp"
-            android:drawableRight="@drawable/right"/>
+            android:textSize="18sp"
+            android:background="#E2E2E2"/>
     </RelativeLayout>
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_marginTop="490dp">
+        android:layout_height="40dp"
+        android:layout_marginTop="360dp">
         <Button
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:gravity="left"
-            android:text="宣传文案"
+            android:gravity="fill_vertical"
+            android:text="  宣传文案"
             android:id="@+id/c_8"
-            android:textSize="20sp"
-            android:drawableRight="@drawable/right"/>
+            android:textSize="18sp"
+            android:background="#E2E2E2"/>
     </RelativeLayout>
 
 
