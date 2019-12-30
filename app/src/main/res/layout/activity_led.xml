@@ -44,7 +44,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/tv_3"
         android:background="@drawable/message2"
-        android:text="2019-12-21"
+        android:text="2019-1-1"
         />
 
     <TextView
@@ -62,7 +62,7 @@
         android:layout_below="@id/tv_4"
         android:layout_marginTop="0dp"
         android:background="@drawable/message2"
-        android:text="2019-12-21" />
+        android:text="2019-1-1" />
 
     <TextView
         android:id="@+id/tv_5"

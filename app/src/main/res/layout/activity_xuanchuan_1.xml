@@ -1,9 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".country.Xuanchuan.Xuanchuan_1.Xuanchuan_1Activity">
+    tools:context=".country.Zixun.Zixun_1.Zixun_1Activity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/Iv_1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/xc_1"
+            android:scaleType="fitXY"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginTop="200dp"
+            android:textSize="20sp"
+            android:text="  思信测试  发表于  2019-10-23 11：34：34"/>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="225dp"
+            android:text="“绿心”事关一个城市气质，其保护和开发对于城市的生态安全、环境优化、提升竞争力与缔造特色空间结构等方面意义非凡。
+长沙最引以为傲的“绿心”在哪儿？随意采访一个熟悉长沙的人，他的答案里一定会有个富含诗意的名字，暮云。
+“自涓口发舟，便已遥见阴云接暖，百里所瞻，或题其阳为朝霞，阴为暮云。”暮云，这个位于长株潭三市融城核心，处于长株潭“绿心绿肺”保护区的小小街道，绿心保护区面积达30.8平方公里，占全街道总面积的89%，竭力保护着全国独有的生态绿心资源禀赋，发挥着生态屏障功能。
+山要绿，人要富。发展生态+旅游、生态+文化、生态+养老等高端服务业，地理信息、现代商贸、高端制造等两型产业，打造“长株潭融城核心区、城市群生态绿心样板区、全国两型发展示范区”，暮云的“绿心”地位，决定了它必须走绿色环保的发展之路。
+“加快建设生态优美、产业融合的暮云片区”，自2015年划入长沙市天心区以来，区委、区政府就为暮云高起点规划了与城市接轨的各类设施。暮云街道抢抓“承东接西、南城崛起”的重大机遇，紧紧围绕“北提南进、服务引领、民生造福”的战略部署和打造“五优天心”的奋斗目标，全力建设“融城核心，璀璨天心”。
+“绿心”之绿：生态美，人居环境优
+即便是到了隆冬时节，暮云深处依然是绿意盎然。沿着蜿蜒的公路来到长沙最南端的村落，暮云街道许兴村，透过路边的树枝可以看到远方山顶凝聚着一抹薄雾，一栋栋楼房散落在林间，柚子树、油茶树装点着屋前屋后，菜地里的蔬菜青翠欲滴。
+“再往前面走两步，你就到了湘潭了，你看那栋房子就是湘潭的。”许兴村许桥小学的守门人唐阿姨指着不远处一栋房子告诉记者，这里已经是长沙与湘潭的交界之地了。
+唐阿姨是村里的老居民了，退休后选择在村小学发挥余热，而不是跟着儿女去城里“享福”，她说，现在的许兴村，没有了工厂污染，环境卫生管理是“城市标准”，交通也越来越便利，住着小楼房，吃着自家种的小蔬菜，在这个天然氧吧里养老是最合适不过了。
+天心区和暮云街道对许兴村的建设是花了“大心思”的，铺排道路提质、水系修复、造绿复绿、立面改造等项目，以许桥路、施家坪路、易家坪路提质改造为轴心，以乡村公园建设为龙头，以10个景点布局为抓手，以绿色庭院改造为点缀，建成了辐射63户农户的示范片区。
+该示范片整合2014年农村环境整治示范片、道路建设、节点建设、文化墙绘、乡村公园和庭院改造等内容，基本形成了有景尚添花、三红紫薇园、超凡葡萄园等产业支撑，建设乡村公园和生态湿地、治理官桥湖水系等生态得以保护，有核心价值观墙绘等文化得以传承的示范片区。
+前段时间出炉的《长沙南部片区规划纲要》提出南部片区形成“一心、一核、三组团”的城乡空间布局。“一心”，即绿心。打造最美城市绿心，全面建成绿心美丽乡村。规划明确不搞大开发、共抓大保护，统筹生产、生活、生态三大空间，构建疏朗有致、功能有序、管控有效的空间格局。许兴村作为绿心美丽乡村，其建设之路颇具示范意义。"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

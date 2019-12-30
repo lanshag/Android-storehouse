@@ -1,9 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".country.Zixun.Zixun_1.Zixun_1Activity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/Iv_1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/zixun2"
+            android:scaleType="fitXY"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginTop="200dp"
+            android:textSize="20sp"
+            android:text="  思信测试  发表于  2019-10-23 11：34：34"/>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="225dp"
+            android:text="“实施乡村振兴战略的关键是要发展壮大新型村级集体经济，切实增加村民的获得感、幸福感、安全感。”2019年1月23日下午，天心区委书记朱东铁实地调研乡村振兴战略、美丽乡村建设和河长制工作时指出，实施乡村振兴战略是党的十九大作出的重大决策部署，是实现中华民族伟大复兴的重大历史任务，相关单位、各涉农街道要以高度政治责任感和使命感，谱写好新时代“三农”工作新篇章。
+　　天心区领导张界贻、侯向宇、洪孟春参加。
+　　朱东铁一行先后查看天心区农业创业创新中心、菜菜网络科技有限公司、航模基地、大托铺街道小微水体治理、新港湾田园综合体建设、沿江村图书馆、许兴村部、官桥湖河。详细了解了新型村级集体经济、村级公共设施配套、村部党群服务中心建设、河长制工作，以及农村人居环境整治、美丽乡村建设等情况。
+　　朱东铁强调，要坚持党建引领，加快推进村级党群服务中心建设，充分发挥基层党组织战斗堡垒和党员领头羊作用，结合地域实际情况，向“造血型”村级集体经济转变，不断发展壮大新型村级集体经济。要加大农村人居环境整治力度，按照预期完成农村“五治”目标任务，全面消除黑臭水体，基本实现农村人居环境“洁、净、美”和小微水体“五无”目标。"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

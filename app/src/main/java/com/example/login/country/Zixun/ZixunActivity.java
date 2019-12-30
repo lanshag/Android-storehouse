@@ -19,7 +19,7 @@ public class ZixunActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_country);
+        setContentView(R.layout.activity_zixun);
         mRL_1 = findViewById(R.id.rea_1);
         mRL_1.setOnClickListener(new View.OnClickListener() {
             @Override
