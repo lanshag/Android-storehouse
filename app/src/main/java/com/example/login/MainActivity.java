@@ -21,6 +21,7 @@ import com.example.login.System.SystemActivity;
 import com.example.login.Weather.WeatherActivity;
 import com.example.login.Work.WorkActivity;
 import com.example.login.country.CountryActivity;
+import com.example.login.iot.Button2Activity;
 import com.example.login.iot.IotActivity;
 import com.example.login.link.LinkActivity;
 import com.example.login.message.MessageActivity;
@@ -98,7 +99,7 @@ public class MainActivity extends AppCompatActivity {
                     break;
                 // 跳转到物联网管理演示页面
                 case R.id.btn_iot:
-                    intent = new Intent(MainActivity.this, IotActivity.class);
+                    intent = new Intent(MainActivity.this, Button2Activity.class);
                     break;
                 // 跳转到数据管理演示页面
                 case R.id.btn_data:

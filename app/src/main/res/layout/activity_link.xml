@@ -9,10 +9,10 @@
 
 
     <RelativeLayout
-        android:id="@+id/link_7"
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:background="#AFEDF5"
+
         >
         <ImageView
 
@@ -27,14 +27,14 @@
 
         <TextView
             android:id="@+id/worktext"
-            android:paddingTop="5dp"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="105dp"
+            android:gravity="center"
             android:layout_toRightOf="@+id/work_left"
+            android:paddingTop="5dp"
             android:text="我的链接"
             android:textColor="#000"
-            android:textSize="20sp"/>
+            android:textSize="20sp" />
 
     </RelativeLayout>
     <RelativeLayout
@@ -52,21 +52,29 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
             android:text="湘雅医院预约"
+
             android:textColor="#000"
             android:textSize="20sp"
-
-            android:gravity="center_vertical"
-            android:layout_marginLeft="10dp"
 
             />
 
         <ImageView
+
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:background="@drawable/right"
             android:layout_marginLeft="360dp"
              />
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/xiangyayiyuan"
+            android:layout_marginLeft="320dp"
+            />
 
 
     </RelativeLayout>
@@ -96,7 +104,13 @@
             android:background="@drawable/right"
             android:layout_marginLeft="360dp"
             />
-
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/gongjijin"
+            android:layout_marginLeft="320dp"
+            />
     </RelativeLayout>
     <RelativeLayout
         android:id="@+id/link_3"
@@ -123,6 +137,13 @@
             android:layout_height="match_parent"
             android:background="@drawable/right"
             android:layout_marginLeft="360dp"
+            />
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/shebao"
+            android:layout_marginLeft="320dp"
             />
     </RelativeLayout>
     <RelativeLayout
@@ -151,6 +172,13 @@
             android:background="@drawable/right"
             android:layout_marginLeft="360dp"
             />
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/tianxinqu"
+            android:layout_marginLeft="320dp"
+            />
     </RelativeLayout>
     <RelativeLayout
         android:id="@+id/link_5"
@@ -178,6 +206,14 @@
             android:background="@drawable/right"
             android:layout_marginLeft="360dp"
             />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/baidu"
+            android:layout_marginLeft="320dp"
+            />
     </RelativeLayout>
     <RelativeLayout
         android:id="@+id/link_6"
@@ -192,18 +228,25 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:paddingTop="5dp"
             android:text="长沙政府采购网"
             android:textColor="#000"
-            android:textSize="20sp"
-            android:paddingTop="5dp"
-            android:layout_marginLeft="10dp"
-            />
+            android:textSize="20sp" />
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:background="@drawable/right"
             android:layout_marginLeft="360dp"
+            />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/zhengfucaigou"
+            android:layout_marginLeft="320dp"
             />
     </RelativeLayout>
 

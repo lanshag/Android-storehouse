@@ -6,23 +6,9 @@
     android:layout_height="match_parent"
     tools:context=".link.baidu.BaiduActivity">
 
- <RelativeLayout
-
-
-     android:layout_width="match_parent"
-     android:layout_height="match_parent">
-
-
-     <TextView
-         android:layout_width="match_parent"
-         android:layout_height="match_parent"
-
-         android:text="Hello"
-        android:gravity="center"/>
-
-
- </RelativeLayout>
-
-
+    <WebView
+        android:id="@+id/link_wb_5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></WebView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

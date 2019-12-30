@@ -5,16 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".link.xiangyayiyuan.XiangyayiyuanActivity">
-    <LinearLayout
-
+    <WebView
+        android:id="@+id/link_wb_1"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:gravity="center"
-            android:text="Hello"/>
+        android:layout_height="match_parent"></WebView>
 
-    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

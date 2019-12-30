@@ -5,16 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".link.caigouwang.CaigoueangActivity">
-    <RelativeLayout
-
+    <WebView
+        android:id="@+id/link_wb_6"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:gravity="center"
-            android:text="Hello"/>
-
-    </RelativeLayout>
+        android:layout_height="match_parent"></WebView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
