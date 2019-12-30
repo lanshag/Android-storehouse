@@ -31,7 +31,10 @@ public class LinkActivity extends AppCompatActivity {
         mLL_1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(LinkActivity.this, XiangyayiyuanActivity.class);
+                Intent intent= new Intent();
+                intent.setAction("android.intent.action.VIEW");
+                Uri content_url = Uri.parse("https://www.xyeyy.com/");
+                intent.setData(content_url);
                 startActivity(intent);
             }
         });
@@ -40,7 +43,10 @@ public class LinkActivity extends AppCompatActivity {
         mLL_2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(LinkActivity.this, ZhufanggongjijinActivity.class);
+                Intent intent= new Intent();
+                intent.setAction("android.intent.action.VIEW");
+                Uri content_url = Uri.parse("http://gjjzx.changsha.gov.cn/");
+                intent.setData(content_url);
                 startActivity(intent);
             }
         });
@@ -49,7 +55,10 @@ public class LinkActivity extends AppCompatActivity {
         mLL_3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(LinkActivity.this, ShebaoActivity.class);
+                Intent intent= new Intent();
+                intent.setAction("android.intent.action.VIEW");
+                Uri content_url = Uri.parse("http://www.cs12333.com/revision/");
+                intent.setData(content_url);
                 startActivity(intent);
             }
         });
@@ -58,7 +67,10 @@ public class LinkActivity extends AppCompatActivity {
         mLL_4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(LinkActivity.this, TianxinzhengfuguanwangActivity.class);
+                Intent intent= new Intent();
+                intent.setAction("android.intent.action.VIEW");
+                Uri content_url = Uri.parse("http://www.tianxin.gov.cn/");
+                intent.setData(content_url);
                 startActivity(intent);
             }
         });
@@ -78,7 +90,10 @@ public class LinkActivity extends AppCompatActivity {
         mLL_6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(LinkActivity.this, CaigoueangActivity.class);
+                Intent intent= new Intent();
+                intent.setAction("android.intent.action.VIEW");
+                Uri content_url = Uri.parse("http://www.ccgp-hunan.gov.cn/");
+                intent.setData(content_url);
                 startActivity(intent);
             }
         });
