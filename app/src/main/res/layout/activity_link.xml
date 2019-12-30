@@ -7,13 +7,13 @@
 
 
     <RelativeLayout
-        android:id="@+id/top1"
+        android:id="@+id/link_7"
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:background="#AFEDF5"
         >
         <ImageView
-            android:id="@+id/work_left"
+
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:background="@drawable/ic_left_back"

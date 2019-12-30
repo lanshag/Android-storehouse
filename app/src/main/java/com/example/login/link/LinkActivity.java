@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.RelativeLayout;
 
+import com.example.login.MainActivity;
 import com.example.login.R;
 import com.example.login.link.baidu.BaiduActivity;
 import com.example.login.link.shebao.ShebaoActivity;
@@ -17,7 +18,8 @@ import com.example.login.link.zhufanggongjijin.ZhufanggongjijinActivity;
 import com.example.login.link.caigouwang.CaigoueangActivity;
 
 public class LinkActivity extends AppCompatActivity {
-    private RelativeLayout mLL_1,mLL_2,mLL_3,mLL_4,mLL_5,mLL_6;
+    private RelativeLayout mLL_1,mLL_2,mLL_3,mLL_4,mLL_5,mLL_6,mLL_7;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -73,6 +75,14 @@ public class LinkActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent=new Intent(LinkActivity.this, CaigoueangActivity.class);
+                startActivity(intent);
+            }
+        });
+        mLL_7=findViewById(R.id.link_7);
+        mLL_7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(LinkActivity.this, MainActivity.class);
                 startActivity(intent);
             }
         });
