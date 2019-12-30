@@ -7,6 +7,7 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 
 import com.example.login.MainActivity;
@@ -97,17 +98,16 @@ public class LinkActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        mLL_7=findViewById(R.id.link_7);
-        mLL_7.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent=new Intent(LinkActivity.this, MainActivity.class);
-                startActivity(intent);
-            }
-        });
+      
 
 
 
 
+    }
+
+    public void onClick(View view) {
+        Intent intent=new Intent();
+        intent.setClass(LinkActivity.this,MainActivity.class);
+        startActivity(intent);
     }
 }
