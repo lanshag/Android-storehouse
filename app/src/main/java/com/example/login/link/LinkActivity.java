@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.RelativeLayout;
@@ -66,7 +67,10 @@ public class LinkActivity extends AppCompatActivity {
         mLL_5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(LinkActivity.this, BaiduActivity.class);
+                Intent intent= new Intent();
+                intent.setAction("android.intent.action.VIEW");
+                Uri content_url = Uri.parse("https://www.baidu.com/");
+                intent.setData(content_url);
                 startActivity(intent);
             }
         });
@@ -86,6 +90,8 @@ public class LinkActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+
 
 
     }
