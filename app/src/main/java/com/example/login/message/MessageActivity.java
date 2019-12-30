@@ -9,6 +9,12 @@ import android.widget.Button;
 
 
 import com.example.login.R;
+import com.example.login.message.BjBulid.BjActivity;
+import com.example.login.message.DxBulid.DxActivity;
+import com.example.login.message.DxTzBulid.DxTzActivity;
+import com.example.login.message.JjBulid.JjActivity;
+import com.example.login.message.LedBulid.LedActivity;
+import com.example.login.message.WxBulid.WxActivity;
 import com.example.login.message.ZbBulid.ZbActivity;
 
 public class MessageActivity extends AppCompatActivity {
@@ -31,7 +37,7 @@ public class MessageActivity extends AppCompatActivity {
         mBtnButton2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(MessageActivity.this,ZbActivity.class);
+                Intent intent=new Intent(MessageActivity.this, BjActivity.class);
                 startActivity(intent);
             }
         });
@@ -39,7 +45,7 @@ public class MessageActivity extends AppCompatActivity {
         mBtnButton3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(MessageActivity.this,ZbActivity.class);
+                Intent intent=new Intent(MessageActivity.this, DxActivity.class);
                 startActivity(intent);
             }
         });
@@ -47,7 +53,7 @@ public class MessageActivity extends AppCompatActivity {
         mBtnButton4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(MessageActivity.this,ZbActivity.class);
+                Intent intent=new Intent(MessageActivity.this, LedActivity.class);
                 startActivity(intent);
             }
         });
@@ -55,7 +61,7 @@ public class MessageActivity extends AppCompatActivity {
         mBtnButton5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(MessageActivity.this,ZbActivity.class);
+                Intent intent=new Intent(MessageActivity.this, WxActivity.class);
                 startActivity(intent);
             }
         });
@@ -63,7 +69,7 @@ public class MessageActivity extends AppCompatActivity {
         mBtnButton6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(MessageActivity.this,ZbActivity.class);
+                Intent intent=new Intent(MessageActivity.this, DxTzActivity.class);
                 startActivity(intent);
             }
         });
@@ -71,9 +77,9 @@ public class MessageActivity extends AppCompatActivity {
         mBtnButton7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(MessageActivity.this,ZbActivity.class);
+                Intent intent=new Intent(MessageActivity.this, JjActivity.class);
                 startActivity(intent);
             }
         });
-        }
+    }
 }

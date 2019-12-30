@@ -1,9 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".country.Zixun.Zixun_2.Zixun_2Activity">
+    tools:context=".country.Zixun.Zixun_1.Zixun_1Activity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/Iv_1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/zixun3"
+            android:scaleType="fitXY"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginTop="200dp"
+            android:textSize="20sp"
+            android:text="  思信测试  发表于  2019-10-23 11：34：34"/>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="225dp"
+            android:text="红网天心站2月18日讯（通讯员 彭银燕）2月18日，天心区委常委、副区长杨中建实地查看暮云街道许兴村、南托街道沿江村乡容乡貌，并在现场听取了村支部书记对各村情况的介绍，区农林水利局、南托街道、暮云街道主要负责人以及相关工作人员参加了调研。
+　　
+　　随后，在南托街道三楼会议室召开了暮云片区美丽乡村工作调研会议。会上南托街道沿江村、暮云街道许兴村负责同志分别对本村美丽乡村建设提出了自己的设想和建议，南托街道、暮云街道的主要负责人也提出了建议及意见，区农林水利局肖仕军介绍了目前区相关工作的意见。
+　　
+　　杨中建从四个方面肯定了两个街道美丽乡村工作，认识有高度，创建有基础，落实有行动，思路有新意。同时对接下来两个街道的工作提出了四个先行的要求：一是规划先行，确保科学规划，合理建设；二是发动先行，积极做好群众工作，赢得群众支持；三是试点先行，选取有代表性的点积极开展工作；四是整治先行，管住违章搭建等问题，做好房前、屋后、沟渠等隐蔽性地域的清理。暮云片区作为长株潭生态绿心的核心地区，为积极推动暮云片区两型综合配套改革工作，应加大推进绿心地区美丽乡村建设，遵循科学规划、生态优先、严格保护的原则，依托丰富的自然资源与生态环境优势，先行启动美丽乡村建设，打造生态美景。 "
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

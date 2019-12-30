@@ -61,6 +61,12 @@
         <activity android:name=".RegisterActivity" />
         <activity android:name=".message.MessageActivity" />
         <activity android:name=".link.LinkActivity" />
+        <activity android:name=".link.xiangyayiyuan.XiangyayiyuanActivity" />
+        <activity android:name=".link.zhufanggongjijin.ZhufanggongjijinActivity" />
+        <activity android:name=".link.shebao.ShebaoActivity" />
+        <activity android:name=".link.tianxinzhengfuguanwang.TianxinzhengfuguanwangActivity" />
+        <activity android:name=".link.baidu.BaiduActivity" />
+        <activity android:name=".link.caigouwang.CaigoueangActivity" />
         <activity android:name=".country.CountryActivity" />
         <activity android:name=".projectmanger.ProjectMangerActivity" />
         <activity android:name=".Party.PartyActivity" />
