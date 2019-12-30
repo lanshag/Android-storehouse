@@ -16,7 +16,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".country.Lvyou.Lvyou_1.Lvyou_1Activity"></activity>
+        <activity android:name=".country.Lvyou.Lvyou_1.Lvyou_1Activity" />
         <activity android:name=".country.Meili.Meili_1.Meili_1Activity" />
         <activity android:name=".country.Minsu.Minsu_1.Minsu_1Activity" />
         <activity android:name=".country.Wenhua.Wenhua_1.Wenhua_1Activity" />
@@ -32,7 +32,7 @@
         <activity android:name=".country.Minsu.MinsuActivity" />
         <activity android:name=".country.Meili.MeiliActivity" />
         <activity android:name=".country.Lvyou.LvyouActivity" />
-        <activity android:name=".iot.Button2Activity"></activity>
+        <activity android:name=".iot.Button2Activity" />
         <activity android:name=".iot.huozaibaojin.FaActivity" />
         <activity android:name=".iot.jiankong.CCActivity" />
         <activity android:name=".iot.zhongduannengyuan.TemActivity" />
@@ -77,14 +77,14 @@
         <activity android:name=".Work.MyFileActivity" />
         <activity android:name=".Work.MyAdviceActivity" />
         <activity android:name=".Work.MemorandumActivity" />
-        <activity android:name=".LoginActivity">
+        <activity android:name=".LoginActivity"></activity>
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>
