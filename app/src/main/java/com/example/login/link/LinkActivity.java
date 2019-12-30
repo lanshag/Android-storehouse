@@ -14,11 +14,11 @@ import com.example.login.link.shebao.ShebaoActivity;
 import com.example.login.link.tianxinzhengfuguanwang.TianxinzhengfuguanwangActivity;
 import com.example.login.link.xiangyayiyuan.XiangyayiyuanActivity;
 import com.example.login.link.zhufanggongjijin.ZhufanggongjijinActivity;
-import com.example.login.link.采购网.CaigoueangActivity;
+import com.example.login.link.caigouwang.CaigoueangActivity;
 
 public class LinkActivity extends AppCompatActivity {
     private RelativeLayout mLL_1,mLL_2,mLL_3,mLL_4,mLL_5,mLL_6;
-    @SuppressLint("WrongViewCast")
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

@@ -71,7 +71,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="湘雅医院预约"
+            android:text="住房公积金"
             android:textColor="#000"
             android:textSize="20sp"
             android:paddingTop="5dp"
@@ -93,7 +93,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="湘雅医院预约"
+            android:text="社保"
             android:textColor="#000"
             android:textSize="20sp"
             android:paddingTop="5dp"
@@ -115,7 +115,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="湘雅医院预约"
+            android:text="天心区政府官网"
             android:textColor="#000"
             android:textSize="20sp"
             android:paddingTop="5dp"
@@ -137,7 +137,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="湘雅医院预约"
+            android:text="百度搜索"
             android:textColor="#000"
             android:textSize="20sp"
             android:paddingTop="5dp"
@@ -159,7 +159,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="湘雅医院预约"
+            android:text="长沙政府采购网"
             android:textColor="#000"
             android:textSize="20sp"
             android:paddingTop="5dp"

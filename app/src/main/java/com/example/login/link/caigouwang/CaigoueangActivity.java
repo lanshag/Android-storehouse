@@ -1,4 +1,4 @@
-package com.example.login.link.采购网;
+package com.example.login.link.caigouwang;
 
 import androidx.appcompat.app.AppCompatActivity;
 

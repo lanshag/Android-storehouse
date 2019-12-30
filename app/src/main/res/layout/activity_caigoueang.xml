@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".link.采购网.CaigoueangActivity">
+    tools:context=".link.caigouwang.CaigoueangActivity">
     <RelativeLayout
 
         android:layout_width="match_parent"
