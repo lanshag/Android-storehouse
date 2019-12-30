@@ -14,7 +14,7 @@
         android:label="村务宝典(复刻版)"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme"
+        android:theme="@style/NoTitle"
         android:usesCleartextTraffic="true">
         <activity android:name=".country.Lvyou.Lvyou_1.Lvyou_1Activity"></activity>
         <activity android:name=".country.Meili.Meili_1.Meili_1Activity" />
