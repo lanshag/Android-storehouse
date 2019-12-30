@@ -1,9 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".country.Minsu.Minsu_1.Minsu_1Activity">
+    tools:context=".country.Zixun.Zixun_1.Zixun_1Activity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/Iv_1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/ms_1"
+            android:scaleType="fitXY"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginTop="200dp"
+            android:textSize="20sp"
+            android:text="  思信测试  发表于  2019-10-23 11：34：34"/>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="225dp"
+            android:text="民宿是指利用自用住宅空闲房间，结合当地人文、自然景观、生态、环境资源及农林渔牧生产活动，为外出郊游或远行的旅客提供个性化住宿场所。除了一般常见的饭店以及旅社之外，其它可以提供旅客住宿的地方，例如民宅、休闲中心、农庄、农舍、牧场等，都可以归纳成民宿类。而民宿的产生是必然的，并不偶发于日本或台湾，世界各地都可看到类似性质的服务，民宿这个名字，在世界各国会因环境与文化生活不同而略有差异，欧陆方面多是采农庄式民宿(Accommodation in the Farm)经营，让一般民宿能够舒适地享受农庄式田园生活环境，体验农庄生活；加拿大则是采假日农庄(Vacation Farm)的模式，提供一般民宿假日可以享受农庄生活；美国都多见居家式民宿(Homestay)或青年旅舍(Hostel)，不刻意布置的居家住宿，价格相对饭店便宜的住宿选择；英国则惯称Bed and Breakfast(BNB)，按字面解释，意谓提供睡觉的地区以及简单早餐，索费大多每人每晚约二、三十英镑，视星级而定，当然价格会比一般旅馆便宜许多。"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

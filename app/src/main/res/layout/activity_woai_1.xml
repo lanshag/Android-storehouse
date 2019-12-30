@@ -1,9 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".country.Woai.Woai_1.Woai_1Activity">
+    tools:context=".country.Zixun.Zixun_1.Zixun_1Activity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/Iv_1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/wa_1"
+            android:scaleType="fitXY"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginTop="200dp"
+            android:textSize="20sp"
+            android:text="  思信测试  发表于  2019-10-23 11：34：34"/>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="225dp"
+            android:text="六月里的一天，我回到了阔别已久的山村故乡。上午，一场大雨把乡村的山川原野冲洗得一尘不染。傍晚，我独自沿着田间小路，来到小时候常跟堂姐一起去放牛的小山岗。我美美地呼吸着田野里清新的空气；我尽情地欣赏着乡村恬静美丽的晚景！
+       眺望远处。啊，视线尽头多像一幅画：柔和的夕阳，绚丽的晚霞，横卧在不远的天边的群山，倚山而建的一簇簇的村落，一家家房顶上升起的袅袅炊烟……奶奶在世时说过：一层山水一层人。我望着群山在遐想：大山背后又是一层怎样的山水？怎样的人？这里看不到城市的车水马龙，听不到城市的各种声响喧闹，但 却充满神秘。
+       近处，是一片金黄的稻田。一阵风吹来，稻苗一起一伏，使我仿佛置身于一个 金黄的海洋之中。稻田的边缘是一排排的丝瓜架，瓜蔓儿上开满了一朵朵金黄色的花。辛勤的小蜜蜂正“嗡嗡”地一边唱歌，一边采蜜。丝瓜棚旁边那块碧绿的西瓜地上，虽然没有蜜蜂的歌唱，却有着丰收的喜悦。瞧，一个个大西瓜，像一个个胖娃娃似的躺在瓜蔓母亲的肩膀里，夕阳的余晖轻轻地爱抚它们，催它们入睡？
+       在我身边的山坡上，则是另一番景象。三五只水牛在草地上悠闲地啃着草， 不时还抬起头来，面对充满诗情画意的乡村夜景，“哞哞”地长叫几声来抒发自己快乐的情怀和感受，那低沉的余音在宽阔的田野回旋，使人听了兴奋。
+       乡村的傍晚多么美啊！我如果有架照相机，一定要把那起伏的山峰，金黄的稻田，西瓜地里丰收的景象和那引吭(háng)高歌的大水牛一一拍摄下来，让他们永远留存在我的影集里。我多么喜欢乡村这迷人的傍晚，我多么喜欢这乡村恬静的生活！"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+
+</RelativeLayout>
