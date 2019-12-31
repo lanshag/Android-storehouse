@@ -8,6 +8,8 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.util.HashMap;
 
+import javax.xml.transform.sax.SAXResult;
+
 public class DBUtils {
 
     private static String driver = "com.mysql.jdbc.Driver";// MySql驱动
@@ -103,12 +105,12 @@ public class DBUtils {
         }
     }
 
-    public static void CreaseData(String vid,String aid,String vname) {
+    public static void CreaseData(String vid, String aid, String vname, String sex, String nativeplace, String nation, String edulevel, String idcard,String hhdidcard) {
         int result=-1;
         Connection connection = getConn("village");
         try {
-            // mysql简单的查询语句。这里是根据MD_CHARGER表的NAME字段来查询某条记录
-            String sql = "insert into villager_info(vid,aid,vname) values(?,?,?)";
+            // mysql简单的新增语句。这里是根据MD_CHARGER表的NAME字段来查询某条记录
+            String sql = "insert into villager_info(vid,aid,vname,sex,nativeplace,nation,edulevel,idcard,hhdidcard) values(?,?,?,?,?,?,?,?,?)";
             PreparedStatement ps = connection.prepareStatement(sql);
             boolean closed=connection.isClosed();
             if((connection!=null)&&(!closed)){
@@ -116,9 +118,42 @@ public class DBUtils {
                 ps.setString(1, vid);
                 ps.setString(2, aid);
                 ps.setString(3, vname);
+                ps.setString(4, sex);
+                ps.setString(5, nativeplace);
+                ps.setString(6, nation);
+                ps.setString(7, edulevel);
+                ps.setString(8, idcard);
+                ps.setString(9, hhdidcard);
                 result=ps.executeUpdate();//返回1 执行成功
             }
 //            String sql = "select * from MD_CHARGER";
+        } catch (Exception e) {
+            e.printStackTrace();
+            Log.e("DBUtils", "异常：" + e.getMessage());
+        }
+    }
+    public static void UpdData(String vid, String aid, String vname, String sex, String nativeplace, String nation, String edulevel, String idcard,String hhdidcard) {
+        int result=-1;
+        Connection connection = getConn("village");
+        try {
+            // mysql简单的更新语句。这里是根据MD_CHARGER表的NAME字段来查询某条记录
+            String sql = "update villager_info set aid=?,vname=?,sex=?,nativeplace=?,nation=?,edulevel=?,idcard=?,hhdidcard=? where vid=?";
+            PreparedStatement ps = connection.prepareStatement(sql);
+            boolean closed=connection.isClosed();
+            if((connection!=null)&&(!closed)){
+                ps= (PreparedStatement) connection.prepareStatement(sql);
+                ps.setString(1, aid);
+                ps.setString(2, vname);
+                ps.setString(3, sex);
+                ps.setString(4, nativeplace);
+                ps.setString(5, nation);
+                ps.setString(6, edulevel);
+                ps.setString(7, idcard);
+                ps.setString(8, hhdidcard);
+                ps.setString(9, vid);
+                result=ps.executeUpdate();//返回1 执行成功
+            }
+//
         } catch (Exception e) {
             e.printStackTrace();
             Log.e("DBUtils", "异常：" + e.getMessage());
