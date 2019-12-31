@@ -13,4 +13,12 @@
     <string name="menu_tools">Tools</string>
     <string name="menu_share">Share</string>
     <string name="menu_send">Send</string>
+    <string name="TV_1">应急广播一号</string>
+    <string name="TV_2">应急广播二号</string>
+    <string name="TV_3">应急广播三号</string>
+    <string name="TV_4">应急广播四号</string>
+    <string name="TV_5">应急广播五号</string>
+    <string name="TV_6">应急广播六号</string>
+    <string name="TV_7">应急广播七号</string>
+
 </resources>

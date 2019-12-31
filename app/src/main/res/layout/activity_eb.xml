@@ -4,12 +4,31 @@
     android:layout_height="match_parent">
 
 
-
+    <TextView
+        android:id="@+id/Tv_iot_2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#AFEDF5"
+        android:gravity="center"
+        android:text="应急广播"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        >
+    </TextView>
+    <Button
+        android:id="@+id/btn_iot_back"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="#AFEDF5"
+        android:drawableLeft="@drawable/ic_left_back"
+        ></Button>
     <Button
         android:id="@+id/btn_1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="1号广播"
+        android:text="@string/TV_1"
+        android:layout_below="@id/btn_iot_back"
+        android:layout_marginTop="10dp"
         android:textSize="20sp"
         android:textColor="#000000"
         android:background="@drawable/texiao"/>
@@ -17,7 +36,7 @@
         android:id="@+id/btn_2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="2号广播"
+        android:text="@string/TV_2"
         android:textSize="20sp"
         android:layout_below="@id/btn_1"
         android:layout_marginTop="10dp"
@@ -27,7 +46,7 @@
         android:id="@+id/btn_3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="3号广播"
+        android:text="@string/TV_3"
         android:textSize="20sp"
         android:layout_below="@id/btn_2"
         android:layout_marginTop="10dp"
@@ -37,9 +56,39 @@
         android:id="@+id/btn_4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="4号广播"
+        android:text="@string/TV_4"
         android:textSize="20sp"
         android:layout_below="@id/btn_3"
+        android:layout_marginTop="10dp"
+        android:textColor="#000000"
+        android:background="@drawable/texiao"/>
+    <Button
+        android:id="@+id/btn_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/TV_5"
+        android:textSize="20sp"
+        android:layout_below="@id/btn_4"
+        android:layout_marginTop="10dp"
+        android:textColor="#000000"
+        android:background="@drawable/texiao"/>
+    <Button
+        android:id="@+id/btn_6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/TV_6"
+        android:textSize="20sp"
+        android:layout_below="@id/btn_5"
+        android:layout_marginTop="10dp"
+        android:textColor="#000000"
+        android:background="@drawable/texiao"/>
+    <Button
+        android:id="@+id/btn_7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/TV_7"
+        android:textSize="20sp"
+        android:layout_below="@id/btn_6"
         android:layout_marginTop="10dp"
         android:textColor="#000000"
         android:background="@drawable/texiao"/>

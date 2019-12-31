@@ -2,11 +2,13 @@ package com.example.login.iot;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.example.login.MainActivity;
 import com.example.login.R;
 import com.example.login.iot.LED.LEDActivity;
 import com.example.login.iot.huanjingcanshu.EpActivity;
@@ -30,6 +32,7 @@ public class Button2Activity extends AppCompatActivity {
     private Button mBtnSt;
     private Button mBtnTem;
     private Button mBtnWp;
+    private Button mbtnButton2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -102,7 +105,7 @@ public class Button2Activity extends AppCompatActivity {
         mBtnTem.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //跳转到Button2演示界面
+                //跳转到Tem演示界面
                 Intent intent = new Intent(Button2Activity.this, TemActivity.class);
                 startActivity(intent);
             }
@@ -122,6 +125,15 @@ public class Button2Activity extends AppCompatActivity {
             public void onClick(View v) {
                 //跳转到Button2演示界面
                 Intent intent = new Intent(Button2Activity.this, FaActivity.class);
+                startActivity(intent);
+            }
+        });
+        mbtnButton2 = findViewById(R.id.btn_iot_back);
+        mbtnButton2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //跳转到Button2演示界面
+                Intent intent = new Intent(Button2Activity.this, MainActivity.class);
                 startActivity(intent);
             }
         });

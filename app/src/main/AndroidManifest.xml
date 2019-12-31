@@ -16,7 +16,11 @@
         android:supportsRtl="true"
         android:theme="@style/NoTitle"
         android:usesCleartextTraffic="true">
-        <activity android:name=".Party_building.DangyuanxinxiActivity"></activity>
+        <activity android:name=".ui.welcome.welcomeActivity"></activity>
+        <activity android:name=".ui.setting.settingActivity" />
+        <activity android:name=".ui.password.PasswordActivity" />
+        <activity android:name=".ui.home.HomeActivity" />
+        <activity android:name=".Party_building.DangyuanxinxiActivity" />
         <activity android:name=".Party_building.FupinggzActivity" />
         <activity android:name=".Party_building.DangjianhdActivity" />
         <activity android:name=".Party_building.DangyuanxxActivity" />
@@ -79,7 +83,6 @@
         <activity android:name=".Party.PartyActivity" />
         <activity android:name=".System.SystemActivity" />
         <activity android:name=".Data.DataActivity" />
-        <activity android:name=".iot.IotActivity" />
         <activity android:name=".System.huanyinActivity" />
         <activity android:name=".System.xinxiActivity" />
         <activity android:name=".System.xiugaiActivity" />

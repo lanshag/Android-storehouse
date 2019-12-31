@@ -2,11 +2,30 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-   >
+    >
+    <TextView
+        android:id="@+id/Tv_message_1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#AFEDF5"
+        android:gravity="center"
+        android:text="短信转语音播出"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        >
+    </TextView>
+    <Button
+        android:id="@+id/btn_message_back"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="#AFEDF5"
+        android:drawableLeft="@drawable/ic_left_back"
+        ></Button>
     <EditText
         android:id="@+id/et_1"
         android:layout_width="match_parent"
         android:layout_height="400dp"
+        android:layout_below="@id/Tv_message_1"
         android:hint="请填写播出内容..."
         android:layout_marginTop="10dp"
         android:gravity="left"
@@ -14,13 +33,13 @@
         android:paddingLeft="10dp"
         />
     <Button
-    android:id="@+id/Zbtn_1"
-    android:layout_width="match_parent"
-    android:layout_height="60dp"
-    android:layout_alignParentBottom="true"
+        android:id="@+id/Dxtn_1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
         android:text="发送"
-    android:background="@drawable/message2"
-    />
+        android:background="@drawable/message2"
+        />
 
 </RelativeLayout>
 
