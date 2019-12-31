@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-  >
+    >
     <Button
         android:id="@+id/btn_1"
         android:layout_width="match_parent"
@@ -32,5 +32,25 @@
         android:layout_below="@id/btn_2"
         android:gravity=""
         />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_1"
+        android:textColor="#ADFF2F"
+        android:textSize="24sp"
+        android:layout_marginTop="10dp"
+        android:text="出2019年11月02日紧急播（应急办）"
+        android:layout_below="@id/btn_3"
+        />
+    <TextView
+        android:layout_below="@id/tv_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_2"
+        android:textSize="24sp"
+        android:textColor="#BF3EFF"
+        android:text="2019年10月19日紧急播出（村部）"
+        />
+
 
 </RelativeLayout>

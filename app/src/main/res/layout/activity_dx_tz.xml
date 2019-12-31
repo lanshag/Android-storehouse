@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-   >
+    >
     <EditText
         android:id="@+id/et_1"
         android:layout_width="match_parent"
@@ -10,17 +10,17 @@
         android:hint="请填写播出内容..."
         android:layout_marginTop="10dp"
         android:gravity="left"
-    android:paddingLeft="10dp"
+        android:paddingLeft="10dp"
         android:background="@drawable/message2"
         />
 
     <Button
-    android:id="@+id/Zbtn_1"
-    android:layout_width="match_parent"
-    android:layout_height="60dp"
-    android:layout_alignParentBottom="true"
-    android:text="发送"
-    android:background="@drawable/message2"
-    />
+        android:id="@+id/DxTz_1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:text="发送"
+        android:background="@drawable/message2"
+        />
 
 </RelativeLayout>

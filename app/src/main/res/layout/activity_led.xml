@@ -1,74 +1,89 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
     <TextView
         android:id="@+id/tv_1"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:text="LED特效："
+
         />
+    <Spinner
+        android:id="@+id/Spin_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/weizhi"
+        android:layout_alignBottom="@id/tv_1"
+
+        >
+
+        <!--通过entries属性指定一个下拉列表项，是一个数组资源-->
+    </Spinner>
+    <TextView
+        android:id="@+id/tv_2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="颜色："
+        android:layout_below="@id/Spin_1"
+
+        />
+    <Spinner
+        android:id="@+id/Spin_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/LED"
+        android:layout_alignBottom="@id/tv_2"
+
+        >
+
+        <!--通过entries属性指定一个下拉列表项，是一个数组资源-->
+    </Spinner>
+
+    <TextView
+        android:id="@+id/tv_3"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_below="@id/Spin_2"
+        android:layout_marginTop="2dp"
+
+        android:text="播出时间：" />
+
     <Button
         android:id="@+id/btn_1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/tv_1"
-        android:background="@drawable/message2"
-        android:text="右移动"
-        />
-    <TextView
-        android:id="@+id/tv_2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="颜色："
-        android:layout_below="@id/btn_1"
-        />
-    <Button
-        android:id="@+id/btn_2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/tv_2"
-        android:background="@drawable/message2"
-        android:text="白色"
-        />
-    <TextView
-        android:id="@+id/tv_3"
-        android:layout_width="match_parent"
-        android:layout_below="@id/btn_2"
-        android:layout_height="wrap_content"
-        android:text="播出时间："
-        />
-    <Button
-        android:id="@+id/btn_3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:layout_below="@id/tv_3"
+        android:layout_marginTop="0dp"
         android:background="@drawable/message2"
-        android:text="2019-1-1"
-        />
+        android:text="2019-12-31"/>
+
 
     <TextView
         android:id="@+id/tv_4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/btn_3"
-        android:layout_marginTop="-1dp"
-        android:text="停播时间：" />
+        android:text="停播时间："
+        android:layout_below="@id/btn_1"
 
+        />
     <Button
-        android:id="@+id/btn_4"
+        android:id="@+id/btn_2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/tv_4"
         android:layout_marginTop="0dp"
         android:background="@drawable/message2"
-        android:text="2019-1-1" />
-
+        android:text="2019-12-31"/>
     <TextView
         android:id="@+id/tv_5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/btn_4"
+        android:layout_below="@id/btn_2"
         android:text="播出内容："
         />
 
@@ -79,6 +94,20 @@
         android:layout_below="@id/tv_5"
         android:layout_marginTop="1dp"
         android:background="@drawable/message2" />
+    <Button
+        android:id="@+id/Ledtn_1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="发送"
+        android:background="@drawable/message2"
+        android:layout_alignParentBottom="true"
 
-
+        />
 </RelativeLayout>
+
+
+
+
+
+
+
