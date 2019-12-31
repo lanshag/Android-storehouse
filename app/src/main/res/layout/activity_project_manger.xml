@@ -103,7 +103,8 @@
                         android:layout_height="wrap_content"
                         android:text="2019-11-18  10:09:42"
                         android:layout_marginLeft="50dp"
-                        android:textColor="#868080" /></LinearLayout>
+                        android:textColor="#868080" />
+                </LinearLayout>
             </RelativeLayout>
         </RelativeLayout>
 
