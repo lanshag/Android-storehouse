@@ -21,6 +21,7 @@
         <activity android:name=".Party_building.DangjianhdActivity" />
         <activity android:name=".Party_building.DangyuanxxActivity" />
         <activity android:name=".Party_building.DangjianxwActivity" />
+
         <activity android:name=".Party_building.DangjianMainActivity" />
 
         <service

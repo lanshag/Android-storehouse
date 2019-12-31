@@ -36,21 +36,21 @@ public class DBUtils {
         return connection;
     }
 
-    public static HashMap<String, Object> getInfoByName(String name) {
+    public static HashMap<String, Object> getInfoByName(String vid) {
 
         HashMap<String, Object> map = new HashMap<>();
         //        // 根据数据库名称，建立连接0o
-        Connection connection = getConn("mysql");
+        Connection connection = getConn("village");
 
         try {
             // mysql简单的查询语句。这里是根据MD_CHARGER表的NAME字段来查询某条记录
-            String sql = "select * from user where name = ?";
+            String sql = "select * from villager_info where vid = ?";
 //            String sql = "select * from MD_CHARGER";
             if (connection != null) {// connection不为null表示与数据库建立了连接
                 PreparedStatement ps = connection.prepareStatement(sql);
                 if (ps != null) {
                     // 设置上面的sql语句中的？的值为name
-                    ps.setString(1, name);
+                    ps.setString(1, vid);
                     // 执行sql查询语句并返回结果集
                     ResultSet rs = ps.executeQuery();
                     if (rs != null) {
@@ -82,5 +82,51 @@ public class DBUtils {
         }
 
     }
+
+    public static void delUserData(String vid) {
+        int result=-1;
+        Connection connection = getConn("village");
+        try {
+            // mysql简单的查询语句。这里是根据MD_CHARGER表的NAME字段来查询某条记录
+            String sql = "delete from villager_info where vid=?";
+            PreparedStatement ps = connection.prepareStatement(sql);
+            boolean closed=connection.isClosed();
+            if((connection!=null)&&(!closed)){
+                ps= (PreparedStatement) connection.prepareStatement(sql);
+                ps.setString(1, vid);
+                result=ps.executeUpdate();//返回1 执行成功
+            }
+//            String sql = "select * from MD_CHARGER";
+        } catch (Exception e) {
+            e.printStackTrace();
+            Log.e("DBUtils", "异常：" + e.getMessage());
+        }
+    }
+
+    public static void CreaseData(String vid,String aid,String vname) {
+        int result=-1;
+        Connection connection = getConn("village");
+        try {
+            // mysql简单的查询语句。这里是根据MD_CHARGER表的NAME字段来查询某条记录
+            String sql = "insert into villager_info(vid,aid,vname) values(?,?,?)";
+            PreparedStatement ps = connection.prepareStatement(sql);
+            boolean closed=connection.isClosed();
+            if((connection!=null)&&(!closed)){
+                ps= (PreparedStatement) connection.prepareStatement(sql);
+                ps.setString(1, vid);
+                ps.setString(2, aid);
+                ps.setString(3, vname);
+                result=ps.executeUpdate();//返回1 执行成功
+            }
+//            String sql = "select * from MD_CHARGER";
+        } catch (Exception e) {
+            e.printStackTrace();
+            Log.e("DBUtils", "异常：" + e.getMessage());
+        }
+    }
 }
+
+
+
+
 
