@@ -2,50 +2,31 @@ package com.example.login.System;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.app.Activity;
-import android.content.Intent;
 import android.os.Bundle;
-import android.view.Gravity;
-import android.view.ViewGroup;
-import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.ImageButton;
+import android.app.Activity;
+import android.content.Context;
+import android.graphics.Bitmap;
+import android.graphics.Canvas;
+import android.graphics.Paint;
+import android.graphics.PorterDuff;
+import android.graphics.PorterDuffXfermode;
+import android.graphics.RectF;
+import android.util.Log;
+import android.view.Gravity;
+import android.view.View;
+import android.view.ViewGroup;
+import android.view.ViewTreeObserver;
+import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
-import android.widget.Toast;
 
-import com.example.login.MainActivity;
+import java.util.List;
 import com.example.login.R;
 
-import java.util.Timer;
-import java.util.TimerTask;
-
-public class huanyinActivity extends Activity {
-
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_huanyin);
-        getWindow().addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
-        startMainActivity();
-    }
-
-    private void startMainActivity(){
-
-        TimerTask delayTask = new TimerTask() {
-            @Override
-            public void run() {
-                Intent mainIntent = new Intent(huanyinActivity.this, MainActivity.class);
-                startActivity(mainIntent);
-                huanyinActivity.this.finish();
-            }
-        };
-        Timer timer = new Timer();
-        timer.schedule(delayTask,2000);//延时两秒执行 run 里面的操作
-    }
-}
-/*public class huanyinActivity extends AppCompatActivity {
+public class yindaoActivity extends AppCompatActivity {
     private ImageButton menu;
     private Button btnTest;
     private Button btnTest2;
@@ -56,7 +37,7 @@ public class huanyinActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_huanyin);
+        setContentView(R.layout.activity_yindao);
 
         menu = (ImageButton) findViewById(R.id.ib_menu);
         btnTest = (Button) findViewById(R.id.btn_test);
@@ -109,7 +90,7 @@ public class huanyinActivity extends Activity {
                 .setTargetView(btnTest)
                 .setCustomGuideView(tv)
                 .setDirction(GuideView.Direction.LEFT_BOTTOM)
-                .setShape(GuideView.MyShape.ELLIPSE)   // 设置椭圆形显示区域，
+                .setShape(GuideView.MyShape.RECTANGULAR)   // 设置椭圆形显示区域，
                 .setBgColor(getResources().getColor(R.color.shadow))
                 .setOnclickListener(new GuideView.OnClickCallback() {
                     @Override
@@ -141,10 +122,10 @@ public class huanyinActivity extends Activity {
         guideView.show();
     }
 
+    @Override
     protected void onResume() {
         super.onResume();
         setGuideView();
     }
+}
 
-
-}*/
