@@ -17,6 +17,7 @@ import android.widget.Button;
 
 import com.example.login.Data.DataActivity;
 import com.example.login.Party.PartyActivity;
+import com.example.login.Party_building.DangjianMainActivity;
 import com.example.login.System.SystemActivity;
 import com.example.login.Weather.WeatherActivity;
 import com.example.login.Work.WorkActivity;
@@ -111,7 +112,7 @@ public class MainActivity extends AppCompatActivity {
                     break;
                 // 跳转到党建管理演示页面
                 case R.id.btn_party:
-                    intent = new Intent(MainActivity.this, PartyActivity.class);
+                    intent = new Intent(MainActivity.this, DangjianMainActivity.class);
                     break;
                 // 跳转到项目管理演示页面
                 case R.id.btn_project:

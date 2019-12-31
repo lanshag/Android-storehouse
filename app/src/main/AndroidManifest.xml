@@ -16,7 +16,18 @@
         android:supportsRtl="true"
         android:theme="@style/NoTitle"
         android:usesCleartextTraffic="true">
-        <activity android:name=".country.Lvyou.Lvyou_1.Lvyou_1Activity"></activity>
+        <activity android:name=".Party_building.DangyuanxinxiActivity"></activity>
+        <activity android:name=".Party_building.FupinggzActivity" />
+        <activity android:name=".Party_building.DangjianhdActivity" />
+        <activity android:name=".Party_building.DangyuanxxActivity" />
+        <activity android:name=".Party_building.DangjianxwActivity" />
+        <activity android:name=".Party_building.DangjianMainActivity" />
+
+        <service
+            android:name=".iot.yingjiguangbo.MyIntentService"
+            android:exported="false" />
+
+        <activity android:name=".country.Lvyou.Lvyou_1.Lvyou_1Activity" />
         <activity android:name=".country.Meili.Meili_1.Meili_1Activity" />
         <activity android:name=".country.Minsu.Minsu_1.Minsu_1Activity" />
         <activity android:name=".country.Wenhua.Wenhua_1.Wenhua_1Activity" />
@@ -32,7 +43,7 @@
         <activity android:name=".country.Minsu.MinsuActivity" />
         <activity android:name=".country.Meili.MeiliActivity" />
         <activity android:name=".country.Lvyou.LvyouActivity" />
-        <activity android:name=".iot.Button2Activity"></activity>
+        <activity android:name=".iot.Button2Activity" />
         <activity android:name=".iot.huozaibaojin.FaActivity" />
         <activity android:name=".iot.jiankong.CCActivity" />
         <activity android:name=".iot.zhongduannengyuan.TemActivity" />
@@ -47,10 +58,6 @@
         <activity android:name=".projectmanger.FourBulid.FourBulidActivity" />
         <activity android:name=".projectmanger.FirstBulid.FirstBulidActivity" />
         <activity android:name=".projectmanger.MainBulid.MainBulidActivity" />
-        <activity android:name=".Party_building.DangyuanxinxiActivity" />
-        <activity android:name=".Party_building.FupinggzActivity" />
-        <activity android:name=".Party_building.DangjianxwActivity" />
-        <activity android:name=".Party_building.DangjianhdActivity" />
         <activity android:name=".Party_building.DangjianxxActivity" />
         <activity android:name=".message.LedBulid.LedActivity" />
         <activity android:name=".message.DxTzBulid.DxTzActivity" />
@@ -89,7 +96,6 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
         <activity android:name=".MainActivity" />
     </application>
