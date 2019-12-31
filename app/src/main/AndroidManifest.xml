@@ -58,7 +58,6 @@
         <activity android:name=".projectmanger.FourBulid.FourBulidActivity" />
         <activity android:name=".projectmanger.FirstBulid.FirstBulidActivity" />
         <activity android:name=".projectmanger.MainBulid.MainBulidActivity" />
-        <activity android:name=".Party_building.DangjianxxActivity" />
         <activity android:name=".message.LedBulid.LedActivity" />
         <activity android:name=".message.DxTzBulid.DxTzActivity" />
         <activity android:name=".message.DxBulid.DxActivity" />
