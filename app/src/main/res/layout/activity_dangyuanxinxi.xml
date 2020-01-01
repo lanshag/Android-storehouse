@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
 
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -8,147 +8,154 @@
     android:orientation="vertical"
     >
 
-    <TextView
-        android:id="@+id/DJ_manage"
-        android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:background="#AFEDF5"
-        android:gravity="center"
-        android:text="党建信息"
-        android:textColor="#000000"
-        android:textSize="20sp"
-        >
-    </TextView>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:background="#EEEEEE"
+       android:gravity="center_horizontal"
+       android:orientation="vertical">
+       <TextView
+           android:id="@+id/DJ_manage"
+           android:layout_width="match_parent"
+           android:layout_height="40dp"
+           android:background="#AFEDF5"
+           android:gravity="center"
+           android:text="党建信息"
+           android:textColor="#000000"
+           android:textSize="20sp"
+           >
+       </TextView>
 
 
 
-    <EditText
-        android:id="@+id/ets_01"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:hint="vid"
-        android:ems="10"
-        android:inputType="textPersonName"
-        />
-    <EditText
-        android:id="@+id/ets_02"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="aid"
-        android:inputType="textPersonName"
-        />
-    <EditText
-        android:id="@+id/ets_03"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="vname"
-        android:inputType="textPersonName"
-        />
-    <EditText
-        android:id="@+id/ets_04"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="sex"
-        android:inputType="textPersonName"
-        />
+       <EditText
+           android:id="@+id/ets_01"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:hint="vid"
+           android:ems="10"
+           android:inputType="textPersonName"
+           />
+       <EditText
+           android:id="@+id/ets_02"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:ems="10"
+           android:hint="aid"
+           android:inputType="textPersonName"
+           />
+       <EditText
+           android:id="@+id/ets_03"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:ems="10"
+           android:hint="vname"
+           android:inputType="textPersonName"
+           />
+       <EditText
+           android:id="@+id/ets_04"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:ems="10"
+           android:hint="sex"
+           android:inputType="textPersonName"
+           />
 
-    <EditText
-        android:id="@+id/ets_05"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:hint="nativaplace"
-        android:ems="10"
-        android:inputType="textPersonName"
-        />
-    <EditText
-        android:id="@+id/ets_06"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="nation"
-        android:inputType="textPersonName"
-        />
-    <EditText
-        android:id="@+id/ets_07"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="edulevel"
-        android:inputType="textPersonName"
-        />
-    <EditText
-        android:id="@+id/ets_08"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:hint="idcard"
-        android:ems="10"
-        android:inputType="textPersonName"
-        />
-    <EditText
-        android:id="@+id/ets_09"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="hhdidcard"
-        android:inputType="textPersonName"
-        />
+       <EditText
+           android:id="@+id/ets_05"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:hint="nativaplace"
+           android:ems="10"
+           android:inputType="textPersonName"
+           />
+       <EditText
+           android:id="@+id/ets_06"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:ems="10"
+           android:hint="nation"
+           android:inputType="textPersonName"
+           />
+       <EditText
+           android:id="@+id/ets_07"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:ems="10"
+           android:hint="edulevel"
+           android:inputType="textPersonName"
+           />
+       <EditText
+           android:id="@+id/ets_08"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:hint="idcard"
+           android:ems="10"
+           android:inputType="textPersonName"
+           />
+       <EditText
+           android:id="@+id/ets_09"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:ems="10"
+           android:hint="hhdidcard"
+           android:inputType="textPersonName"
+           />
 
-    <Button
-    android:id="@+id/btn_001"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:onClick="connectSql"
-    android:text="插入数据" />
-    <Button
-        android:id="@+id/btn_002"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="connectSql"
-        android:text="更新数据" />
+       <Button
+           android:id="@+id/btn_001"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:onClick="connectSql"
+           android:text="插入数据" />
+       <Button
+           android:id="@+id/btn_002"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:onClick="connectSql"
+           android:text="更新数据" />
 
-    <EditText
-        android:id="@+id/cx_01"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:hint="vid"
-        android:ems="10"
-        android:inputType="textPersonName"
-        />
-    <Button
-        android:id="@+id/btn_get_data"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="查询"
-        android:onClick="connectSql"/>
-
-
-    <EditText
-        android:id="@+id/et_01"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:hint="vid"
-        android:ems="10"
-        android:inputType="textPersonName"
-        />
-
-    <Button
-        android:id="@+id/btn_01"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="删除"
-        android:onClick="connectSql"/>
-
-    <TextView
-        android:id="@+id/tv_data"
-        android:layout_width="match_parent"
-        android:layout_height="273dp"
-        android:gravity="center"
-        android:padding="10dp"
-        android:text=""
-        android:textSize="16dp" />
+       <EditText
+           android:id="@+id/cx_01"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:hint="vid"
+           android:ems="10"
+           android:inputType="textPersonName"
+           />
+       <Button
+           android:id="@+id/btn_get_data"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="查询"
+           android:onClick="connectSql"/>
 
 
-</LinearLayout>
+       <EditText
+           android:id="@+id/et_01"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:hint="vid"
+           android:ems="10"
+           android:inputType="textPersonName"
+           />
+
+       <Button
+           android:id="@+id/btn_01"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="删除"
+           android:onClick="connectSql"/>
+
+       <TextView
+           android:id="@+id/tv_data"
+           android:layout_width="match_parent"
+           android:layout_height="273dp"
+           android:gravity="center"
+           android:padding="10dp"
+           android:text=""
+           android:textSize="16dp" />
+   </LinearLayout>
+
+
+</ScrollView>
