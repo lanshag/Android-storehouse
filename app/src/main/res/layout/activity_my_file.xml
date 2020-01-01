@@ -5,13 +5,13 @@
     >
 
     <RelativeLayout
-        android:id="@+id/memorandum_top"
+        android:id="@+id/my_file_top"
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:background="@color/colorGrayDrak"
         >
         <ImageView
-            android:id="@+id/memorandum_left"
+            android:id="@+id/my_file_left"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:background="@drawable/ic_left_back"
@@ -46,5 +46,13 @@
             />
 
     </RelativeLayout>
+
+    <ListView
+        android:id="@+id/list1"
+        android:layout_below="@+id/my_file_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:dividerHeight="10dp">
+    </ListView>
 
 </RelativeLayout>
