@@ -38,7 +38,7 @@
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:layout_marginTop="20dp"
-            android:text="  个人信息"
+            android:text="  个人信息 "
             android:gravity="fill_vertical"
             android:background="#E2E2E2"
             android:drawableEnd="@drawable/right_back2"
