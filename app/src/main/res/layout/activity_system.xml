@@ -147,23 +147,4 @@
     </RelativeLayout>
     </RelativeLayout>
     </LinearLayout>
-
-    <Button
-        android:id="@+id/btn_system_7"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:layout_below="@+id/btn_system_6"
-        android:background="@drawable/jiahao"
-        android:gravity="fill_vertical"
-        ></Button>
-
-<Button
-android:id="@+id/btn_system_8"
-android:layout_width="match_parent"
-android:layout_height="40dp"
-android:layout_below="@+id/btn_system_6"
-android:background="#E2E2E2"
-    android:text="  menu"
-android:gravity="fill_vertical"
-    ></Button>
     </LinearLayout>
