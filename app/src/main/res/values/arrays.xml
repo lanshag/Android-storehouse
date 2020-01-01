@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="weizhi">
+        <item>左移动</item>
+        <item>右移动</item>
+        <item>上移动</item>
+        <item>下移动</item>
+        <item>静止</item>
+    </string-array>
+</resources>

@@ -5,8 +5,11 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.RelativeLayout;
+import android.widget.TextView;
 
+import com.bumptech.glide.Glide;
 import com.example.login.R;
 import com.example.login.country.Zixun.Zixun_1.Zixun_1Activity;
 import com.example.login.country.Zixun.Zixun_2.Zixun_2Activity;
@@ -15,6 +18,8 @@ import com.example.login.country.Zixun.Zixun_3.Zixun_3Activity;
 public class ZixunActivity extends AppCompatActivity {
 
     private RelativeLayout mRL_1, mRl_2, mRl_3;
+    private TextView mTv_1,mTv_2,mTv_3;
+    private ImageView mIv_1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,7 +43,8 @@ public class ZixunActivity extends AppCompatActivity {
             }
         });
 
-        mRl_3 = findViewById(R.id.rea_3);
+        mRl_3 = findViewById(R.id.
+                rea_3);
         mRl_3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -46,5 +52,13 @@ public class ZixunActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        mTv_1 = findViewById(R.id.Tv_1);
+        mTv_1.setSelected(true);
+        mTv_2 = findViewById(R.id.Tv_2);
+        mTv_2.setSelected(true);
+        mTv_3 = findViewById(R.id.Tv_3);
+        mTv_3.setSelected(true);
+        mIv_1 = (ImageView) findViewById(R.id.Iv_1);
+        Glide.with(this).load("http://www.tianxin.gov.cn/tianxin/zwgk8/xxgkml9/qjxxgkml24/yaowendongtai/zwdt/1544581/2019012414173447270.png").into(mIv_1);
     }
 }

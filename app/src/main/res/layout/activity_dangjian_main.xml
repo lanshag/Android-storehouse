@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEEEEE"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="党建"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:background="#AFEDF5"/>
+        <Button
+            android:id="@+id/c_1"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:drawableLeft="@drawable/left"
+            android:background="#AFEDF5"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="60dp">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="  党建新闻"
+            android:gravity="fill_vertical"
+            android:id="@+id/c_2"
+            android:textSize="18sp"
+            android:background="#E2E2E2"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="110dp">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="fill_vertical"
+            android:text="  党员学习"
+            android:id="@+id/c_3"
+            android:textSize="18sp"
+            android:background="#E2E2E2"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="160dp">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="fill_vertical"
+            android:text="  党员活动"
+            android:id="@+id/c_4"
+            android:textSize="18sp"
+            android:background="#E2E2E2"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="210dp">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="fill_vertical"
+            android:text="  扶贫工作"
+            android:id="@+id/c_5"
+            android:textSize="20sp"
+            android:background="#E2E2E2"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="260dp">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="fill_vertical"
+            android:text="  党员信息"
+            android:id="@+id/c_6"
+            android:textSize="18sp"
+            android:background="#E2E2E2"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
+
