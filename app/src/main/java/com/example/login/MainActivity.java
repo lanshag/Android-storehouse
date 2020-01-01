@@ -2,6 +2,7 @@ package com.example.login;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
@@ -14,19 +15,24 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
 import android.widget.Button;
+import android.widget.RelativeLayout;
+import android.widget.TextView;
 
 import com.example.login.Data.DataActivity;
 import com.example.login.Party.PartyActivity;
+import com.example.login.Party_building.DangjianMainActivity;
 import com.example.login.System.SystemActivity;
 import com.example.login.Weather.WeatherActivity;
 import com.example.login.Work.WorkActivity;
 import com.example.login.country.CountryActivity;
 import com.example.login.iot.Button2Activity;
-import com.example.login.iot.IotActivity;
 import com.example.login.link.LinkActivity;
 import com.example.login.message.MessageActivity;
 import com.example.login.projectmanger.ProjectMangerActivity;
-import com.google.android.material.navigation.NavigationView;
+import com.example.login.ui.home.HomeActivity;
+import com.example.login.ui.password.PasswordActivity;
+import com.example.login.ui.setting.settingActivity;
+import com.example.login.ui.welcome.welcomeActivity;
 
 public class MainActivity extends AppCompatActivity {
     private Button mbtn_weather_1;
@@ -41,7 +47,8 @@ public class MainActivity extends AppCompatActivity {
     private Button mbtn_link;
     private Button mbtn_message;
 
-    private AppBarConfiguration mAppBarConfiguration;
+    private TextView self,setting,welcome,password;
+    private RelativeLayout relativeLayout;
 
     @SuppressLint("WrongViewCast")
     @Override
@@ -60,7 +67,23 @@ public class MainActivity extends AppCompatActivity {
         mbtn_country = findViewById(R.id.btn_country);
         mbtn_link = findViewById(R.id.btn_link);
         mbtn_message = findViewById(R.id.btn_message);
+        self = findViewById(R.id.self);
+        password = findViewById(R.id.passwordC);
+        welcome = findViewById(R.id.welcome);
+        setting = findViewById(R.id.setting);
+        relativeLayout = findViewById(R.id.L_rea_head);
         setListeners();
+
+
+    }
+    @Override
+    public void onBackPressed() {
+        DrawerLayout drawer = findViewById(R.id.drawer_layout);
+        if (drawer.isDrawerOpen(GravityCompat.START)) {
+            drawer.closeDrawer(GravityCompat.START);
+        } else {
+            super.onBackPressed();
+        }
     }
 
     // 监听器方法
@@ -77,6 +100,11 @@ public class MainActivity extends AppCompatActivity {
         mbtn_country.setOnClickListener(onClick);
         mbtn_link.setOnClickListener(onClick);
         mbtn_message.setOnClickListener(onClick);
+        setting.setOnClickListener(onClick);
+        self.setOnClickListener(onClick);
+        password.setOnClickListener(onClick);
+        welcome.setOnClickListener(onClick);
+        relativeLayout.setOnClickListener(onClick);
     }
 
     // 实现监听器接口
@@ -111,7 +139,7 @@ public class MainActivity extends AppCompatActivity {
                     break;
                 // 跳转到党建管理演示页面
                 case R.id.btn_party:
-                    intent = new Intent(MainActivity.this, PartyActivity.class);
+                    intent = new Intent(MainActivity.this, DangjianMainActivity.class);
                     break;
                 // 跳转到项目管理演示页面
                 case R.id.btn_project:
@@ -129,36 +157,24 @@ public class MainActivity extends AppCompatActivity {
                 case R.id.btn_message:
                     intent = new Intent(MainActivity.this, MessageActivity.class);
                     break;
+                case R.id.self:
+                    intent = new Intent(MainActivity.this, HomeActivity.class);
+                    break;
+                case R.id.L_rea_head:
+                    intent = new Intent(MainActivity.this, HomeActivity.class);
+                    break;
+                case R.id.setting:
+                    intent = new Intent(MainActivity.this, settingActivity.class);
+                    break;
+                case R.id.welcome:
+                    intent = new Intent(MainActivity.this, welcomeActivity.class);
+                    break;
+                case R.id.passwordC:
+                    intent = new Intent(MainActivity.this, PasswordActivity.class);
+                    break;
             }
             startActivity(intent);
-            Toolbar toolbar = findViewById(R.id.toolbar);
-            setSupportActionBar(toolbar);
-            DrawerLayout drawer = findViewById(R.id.drawer_layout);
-            NavigationView navigationView = findViewById(R.id.nav_view);
-            mAppBarConfiguration = new AppBarConfiguration.Builder(
-                    R.id.nav_home,
-                    R.id.nav_tools)
-                    .setDrawerLayout(drawer)
-                    .build();
-            NavController navController = Navigation.findNavController(MainActivity.this, R.id.nav_host_fragment);
-            NavigationUI.setupActionBarWithNavController(MainActivity.this, navController, mAppBarConfiguration);
-            NavigationUI.setupWithNavController(navigationView, navController);
-        }
-
-    }
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.main, menu);
-        return true;
-    }
-
-    @Override
-    public boolean onSupportNavigateUp() {
-        NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
-        return NavigationUI.navigateUp(navController, mAppBarConfiguration)
-                || super.onSupportNavigateUp();
-    }
+}}
 }
 
 

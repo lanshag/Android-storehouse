@@ -20,6 +20,23 @@
         <activity android:name=".System.huxingActivity" />
         <activity android:name=".System.NoteActivity" />
         <activity android:name=".country.Lvyou.Lvyou_1.Lvyou_1Activity" />
+        <activity android:name=".ui.welcome.welcomeActivity"></activity>
+        <activity android:name=".ui.setting.settingActivity" />
+        <activity android:name=".ui.password.PasswordActivity" />
+        <activity android:name=".ui.home.HomeActivity" />
+        <activity android:name=".Party_building.DangyuanxinxiActivity" />
+        <activity android:name=".Party_building.FupinggzActivity" />
+        <activity android:name=".Party_building.DangjianhdActivity" />
+        <activity android:name=".Party_building.DangyuanxxActivity" />
+        <activity android:name=".Party_building.DangjianxwActivity" />
+
+        <activity android:name=".Party_building.DangjianMainActivity" />
+
+        <service
+            android:name=".iot.yingjiguangbo.MyIntentService"
+            android:exported="false" />
+
+
         <activity android:name=".country.Meili.Meili_1.Meili_1Activity" />
         <activity android:name=".country.Minsu.Minsu_1.Minsu_1Activity" />
         <activity android:name=".country.Wenhua.Wenhua_1.Wenhua_1Activity" />
@@ -50,11 +67,6 @@
         <activity android:name=".projectmanger.FourBulid.FourBulidActivity" />
         <activity android:name=".projectmanger.FirstBulid.FirstBulidActivity" />
         <activity android:name=".projectmanger.MainBulid.MainBulidActivity" />
-        <activity android:name=".Party_building.DangyuanxinxiActivity" />
-        <activity android:name=".Party_building.FupinggzActivity" />
-        <activity android:name=".Party_building.DangjianxwActivity" />
-        <activity android:name=".Party_building.DangjianhdActivity" />
-        <activity android:name=".Party_building.DangjianxxActivity" />
         <activity android:name=".message.LedBulid.LedActivity" />
         <activity android:name=".message.DxTzBulid.DxTzActivity" />
         <activity android:name=".message.DxBulid.DxActivity" />
@@ -75,7 +87,6 @@
         <activity android:name=".Party.PartyActivity" />
         <activity android:name=".System.SystemActivity" />
         <activity android:name=".Data.DataActivity" />
-        <activity android:name=".iot.IotActivity" />
         <activity android:name=".System.huanyinActivity" />
         <activity android:name=".System.xinxiActivity" />
         <activity android:name=".System.xiugaiActivity" />

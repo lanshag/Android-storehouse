@@ -4,6 +4,25 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <TextView
+        android:id="@+id/Tv_message_1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#AFEDF5"
+        android:gravity="center"
+        android:text="流媒体直播"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        >
+    </TextView>
+    <Button
+        android:id="@+id/btn_message_back"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="#AFEDF5"
+        android:drawableLeft="@drawable/ic_left_back"
+        ></Button>
+
     <Button
         android:id="@+id/Zbtn_1"
         android:layout_width="match_parent"

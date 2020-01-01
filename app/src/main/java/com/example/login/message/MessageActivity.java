@@ -2,12 +2,14 @@ package com.example.login.message;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
 
+import com.example.login.MainActivity;
 import com.example.login.R;
 import com.example.login.message.BjBulid.BjActivity;
 import com.example.login.message.DxBulid.DxActivity;
@@ -19,7 +21,7 @@ import com.example.login.message.ZbBulid.ZbActivity;
 
 public class MessageActivity extends AppCompatActivity {
 
-    private Button mBtnButton1,mBtnButton2,mBtnButton3,mBtnButton4,mBtnButton5,mBtnButton6,mBtnButton7;
+    private Button mBtnButton1,mBtnButton2,mBtnButton3,mBtnButton4,mBtnButton5,mBtnButton6,mBtnButton7,mBtnButton8;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -78,6 +80,14 @@ public class MessageActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent=new Intent(MessageActivity.this, JjActivity.class);
+                startActivity(intent);
+            }
+        });
+        mBtnButton8= findViewById(R.id.btn_message_back);
+        mBtnButton8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(MessageActivity.this, MainActivity.class);
                 startActivity(intent);
             }
         });

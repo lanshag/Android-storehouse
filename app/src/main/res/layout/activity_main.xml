@@ -6,232 +6,349 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/drawer_layout"
     tools:openDrawer="start">
-    <include
-        layout="@layout/app_bar_main"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
-
-    <com.google.android.material.navigation.NavigationView
-        android:id="@+id/nav_view"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:layout_gravity="start"
-        android:fitsSystemWindows="true"
-        app:headerLayout="@layout/nav_header_main"
-        app:menu="@menu/activity_main_drawer"/>
-
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-        <LinearLayout
+        <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
+            android:layout_height="match_parent">
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="175dp"
-                android:layout_weight="1"
-                android:background="#66ccff"
-                android:paddingTop="5dp"
-                android:paddingBottom="5dp">
-
-                <Button
-                    android:id="@+id/btn_weather_1"
-                    android:layout_width="20dp"
-                    android:layout_height="match_parent"
-                    android:background="#66ccff"
-                    android:text="暮云新村"
-                    android:textSize="18sp"/>
-                <Button
-                    android:id="@+id/btn_weather_2"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:drawableLeft="@drawable/i1"
-                    android:background="#66ccff"
-                    android:layout_toRightOf="@+id/btn_weather_1"/>
-
-
-            </LinearLayout>//天气
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="175dp"
-                android:layout_weight="1"
-                android:background="#ffffff"
-                android:paddingTop="5dp"
-                android:paddingBottom="5dp"
-                >
+                android:layout_height="match_parent"
+                android:orientation="vertical">
 
                 <LinearLayout
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:background="#ccccff"
+                    android:layout_width="match_parent"
+                    android:layout_height="175dp"
                     android:layout_weight="1"
-                    >
+                    android:background="#66ccff"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp">
 
                     <Button
-                        android:id="@+id/btn_work"
+                        android:id="@+id/btn_weather_1"
+                        android:layout_width="20dp"
+                        android:layout_height="match_parent"
+                        android:background="#66ccff"
+                        android:text="暮云新村"
+                        android:textSize="18sp"/>
+                    <Button
+                        android:id="@+id/btn_weather_2"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:background="#CCCCFF"
-                        android:drawableBottom="@drawable/i3"
-                        android:text="我的工作"
-                        />
-                </LinearLayout>
+                        android:drawableLeft="@drawable/i1"
+                        android:background="#66ccff"
+                        android:layout_toRightOf="@+id/btn_weather_1"/>
 
+
+                </LinearLayout>//天气
+                
                 <LinearLayout
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:background="#E6E6FA"
+                    android:layout_width="match_parent"
+                    android:layout_height="175dp"
                     android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
                     >
 
-                    <Button
-                        android:id="@+id/btn_iot"
-                        android:layout_width="match_parent"
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:background="#ccccff"
+                        android:layout_weight="1"
+                        >
+
+                        <Button
+                            android:id="@+id/btn_work"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#CCCCFF"
+                            android:drawableBottom="@drawable/i3"
+                            android:text="我的工作"
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:background="#E6E6FA"
-                        android:drawableBottom="@drawable/i4"
-                        android:text="物联网管理"
                         android:layout_weight="1"
-                        />
-                </LinearLayout>
+                        >
 
+                        <Button
+                            android:id="@+id/btn_iot"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#E6E6FA"
+                            android:drawableBottom="@drawable/i4"
+                            android:text="物联网管理"
+                            android:layout_weight="1"
+                            />
+                    </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:background="#cc99ff"
+                        android:layout_weight="1"
+                        >
+
+                        <Button
+                            android:id="@+id/btn_data"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#CC99FF"
+                            android:drawableBottom="@drawable/i5"
+                            android:text="数据管理"
+                            android:layout_weight="1"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>//三
 
 
                 <LinearLayout
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:background="#cc99ff"
-                    android:layout_weight="1"
-                    >
+                    android:layout_width="match_parent"
+                    android:layout_height="175dp"
+                    android:background="#ffffff"
+                    android:paddingBottom="5dp">
 
-                    <Button
-                        android:id="@+id/btn_data"
-                        android:layout_width="match_parent"
+                    <LinearLayout
+                        android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:background="#CC99FF"
-                        android:drawableBottom="@drawable/i5"
-                        android:text="数据管理"
-                        android:layout_weight="1"/>
+                        android:background="#cc99ff"
+                        android:layout_weight="1"
+                        >
+                        <Button
+                            android:id="@+id/btn_system"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#E0FFFF"
+                            android:drawableBottom="@drawable/i6"
+                            android:text="系统设置"
+                            android:layout_weight="1"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:background="#cc99ff"
+                        android:layout_weight="1"
+                        >
+                        <Button
+                            android:id="@+id/btn_party"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#D1EEEE"
+                            android:drawableBottom="@drawable/i7"
+                            android:text="党建管理"
+                            android:layout_weight="1"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:background="#cc99ff"
+                        android:layout_weight="1"
+                        >
+                        <Button
+                            android:id="@+id/btn_project"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#E0EEEE"
+                            android:drawableBottom="@drawable/i8"
+                            android:text="项目管理"
+                            android:layout_weight="1"/>
+                    </LinearLayout>
 
                 </LinearLayout>
 
-            </LinearLayout>//三
+                //三
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="175dp"
+                    android:background="#ffffff"
+                    android:paddingBottom="5dp">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:background="#cc99ff"
+                        android:layout_weight="1"
+                        >
+                        <Button
+                            android:id="@+id/btn_country"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#CF8D9C"
+                            android:drawableBottom="@drawable/i9"
+                            android:text="美丽乡村" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:background="#cc99ff"
+                        android:layout_weight="1"
+                        >
+                        <Button
+                            android:id="@+id/btn_link"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#F6EBBC"
+                            android:drawableBottom="@drawable/i2"
+                            android:text="链接管理" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:background="#cc99ff"
+                        android:layout_weight="1"
+                        >
+                        <Button
+                            android:id="@+id/btn_message"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#EED5D2"
+                            android:drawableBottom="@drawable/i10"
+                            android:text="信息发布" />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+        <RelativeLayout
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:background="@drawable/dr_bg_change"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/L_rea_head">
+                <ImageView
+                    android:id="@+id/left_I"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/aaa"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/left_I"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="45dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="思信测试"
+                        android:layout_margin="10dp"
+                        android:textSize="16sp"
+                        android:textColor="#F1EDED"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="账号：test"
+                        android:layout_margin="10dp"
+                        android:textColor="#DBB3B3"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="暮云新村"
+                        android:textColor="#DBB3B3"
+                        android:layout_margin="10dp"/>
+                </LinearLayout>
+            </RelativeLayout>
 
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="175dp"
-                android:background="#ffffff"
-                android:paddingBottom="5dp">
-
-                <LinearLayout
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:background="#cc99ff"
-                    android:layout_weight="1"
-                    >
-                    <Button
-                        android:id="@+id/btn_system"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:background="#E0FFFF"
-                        android:drawableBottom="@drawable/i6"
-                        android:text="系统设置"
-                        android:layout_weight="1"/>
-                </LinearLayout>
-                <LinearLayout
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:background="#cc99ff"
-                    android:layout_weight="1"
-                    >
-                    <Button
-                        android:id="@+id/btn_party"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:background="#D1EEEE"
-                        android:drawableBottom="@drawable/i7"
-                        android:text="党建管理"
-                        android:layout_weight="1"/>
-                </LinearLayout>
-                <LinearLayout
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:background="#cc99ff"
-                    android:layout_weight="1"
-                    >
-                    <Button
-                        android:id="@+id/btn_project"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:background="#E0EEEE"
-                        android:drawableBottom="@drawable/i8"
-                        android:text="项目管理"
-                        android:layout_weight="1"/>
-                </LinearLayout>
-
+                android:layout_height="wrap_content"
+                android:layout_below="@id/L_rea_head"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_marginTop="40dp"
+                    android:id="@+id/self"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="个人信息"
+                    android:textColor="#F1EDED"
+                    android:padding="15dp"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#520B0B"
+                    android:paddingLeft="120dp"
+                    android:paddingRight="30dp"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="8dp"/>
+                <TextView
+                    android:padding="15dp"
+                    android:id="@+id/passwordC"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="修改密码"
+                    android:textColor="#F1EDED"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#520B0B"
+                    android:paddingLeft="120dp"
+                    android:paddingRight="30dp"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="8dp"/>
+                <TextView
+                    android:padding="15dp"
+                    android:id="@+id/welcome"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="欢迎"
+                    android:textColor="#F1EDED"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#520B0B"
+                    android:paddingLeft="120dp"
+                    android:paddingRight="30dp"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="8dp"/>
+                <TextView
+                    android:padding="15dp"
+                    android:id="@+id/setting"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="设置"
+                    android:textColor="#F1EDED"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#520B0B"
+                    android:paddingLeft="120dp"
+                    android:paddingRight="30dp"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="8dp"/>
+                <TextView
+                    android:padding="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="版本：1.2.1"
+                    android:textColor="#F1EDED"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#520B0B"
+                    android:paddingLeft="120dp"
+                    android:paddingRight="30dp"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="8dp"/>
             </LinearLayout>
-
-            //三
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="175dp"
-                android:background="#ffffff"
-                android:paddingBottom="5dp">
-
-                <LinearLayout
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:background="#cc99ff"
-                    android:layout_weight="1"
-                    >
-                    <Button
-                        android:id="@+id/btn_country"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:background="#CF8D9C"
-                        android:drawableBottom="@drawable/i9"
-                        android:text="美丽乡村" />
-                </LinearLayout>
-
-
-                <LinearLayout
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:background="#cc99ff"
-                    android:layout_weight="1"
-                    >
-                    <Button
-                        android:id="@+id/btn_link"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:background="#F6EBBC"
-                        android:drawableBottom="@drawable/i2"
-                        android:text="链接管理" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:background="#cc99ff"
-                    android:layout_weight="1"
-                    >
-                    <Button
-                        android:id="@+id/btn_message"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:background="#EED5D2"
-                        android:drawableBottom="@drawable/i10"
-                        android:text="信息发布" />
-                </LinearLayout>
-            </LinearLayout>
-
-        </LinearLayout>
-    </ScrollView>
-
+        </RelativeLayout>
 </androidx.drawerlayout.widget.DrawerLayout>
+
