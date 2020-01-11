@@ -30,6 +30,7 @@
         android:layout_marginTop="10dp"
         android:gravity="left"
         android:background="@drawable/message2"
+        android:inputType=""
         android:paddingLeft="10dp"
         />
     <Button
