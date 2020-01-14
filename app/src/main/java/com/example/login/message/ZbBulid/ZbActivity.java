@@ -21,7 +21,7 @@ public class ZbActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_zb);
-        mBtnZb=findViewById(R.id.Zbtn_1);
+        mBtnZb=findViewById(R.id.rb_1);
         mBtnZb.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

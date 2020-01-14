@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 import com.example.login.MainActivity;
 import com.example.login.R;
@@ -14,6 +15,9 @@ public class SystemActivity extends AppCompatActivity {
     private Button mBtn_1;
     private Button mBtn_2;
     private Button mBtn_3;
+    private Button mBtn_6;
+    private Button mBtn_8;
+
     private Button mBtn_back;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -52,5 +56,26 @@ public class SystemActivity extends AppCompatActivity {
             }
         });
 
+        mBtn_6 = findViewById(R.id.btn_system_6);
+        mBtn_6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(SystemActivity.this,NoteActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        mBtn_8 = findViewById(R.id.btn_system_8);
+        mBtn_8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(SystemActivity.this,yindaoActivity.class);
+                startActivity(intent);
+            }
+        });
+    }
+    public void showToast(View view) {
+        Toast.makeText(this, "已是最新版本", Toast.LENGTH_LONG).show();
     }
 }
+

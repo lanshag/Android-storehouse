@@ -23,12 +23,15 @@
         android:drawableLeft="@drawable/ic_left_back"
         ></Button>
 
-    <Button
-        android:id="@+id/Zbtn_1"
+    <RadioButton
+        android:id="@+id/rb_1"
         android:layout_width="match_parent"
-        android:layout_height="60dp"
+        android:layout_height="50dp"
+        android:button="@null"
         android:layout_alignParentBottom="true"
-        android:text="直播"
-        android:background="@drawable/message2"
+        android:checked="true"
+        android:text="开始直播"
+        android:background="@drawable/bj2"
+        android:gravity="center"
         />
 </RelativeLayout>

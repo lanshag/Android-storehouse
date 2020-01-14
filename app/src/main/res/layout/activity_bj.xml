@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
 
-    xmlns:tools="http://schemas.android.com/tools"
+
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     >
@@ -23,47 +23,52 @@
         android:background="#AFEDF5"
         android:drawableLeft="@drawable/ic_left_back"
         ></Button>
-    <LinearLayout
+
+
+    <RadioGroup
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:id="@+id/rg_1"
+        android:orientation="horizontal"
         android:layout_alignParentBottom="true">
-
-
-
         <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="1"
             android:id="@+id/rb_1"
-            android:layout_weight="1"
-            android:layout_width="0dp"
-            android:layout_height="50dp"
-            android:button="@null"
-            android:checked="true"
-            android:text="调频节目"
-            android:background="@drawable/bj2"
+            android:text="调平节目"
+            android:textSize="18sp"
+            android:textColor="#FF6600"
             android:gravity="center"
+            android:background="@drawable/selector_1"
+
             />
         <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="1"
             android:id="@+id/rb_2"
-            android:layout_weight="1"
-            android:layout_width="0dp"
-            android:layout_height="50dp"
-            android:button="@null"
-            android:checked="true"
             android:text="后台节目库"
-            android:background="@drawable/bj2"
+            android:textSize="18sp"
+            android:background="@drawable/selector_1"
+            android:textColor="#FF6600"
             android:gravity="center"
             />
         <RadioButton
-            android:id="@+id/rb_3"
-            android:layout_weight="1"
-            android:layout_width="0dp"
+            android:layout_width="wrap_content"
             android:layout_height="50dp"
-            android:button="@null"
-            android:gravity="center"
-            android:checked="true"
+            android:layout_weight="1"
+            android:id="@+id/rb_3"
             android:text="音频节目"
-            android:background="@drawable/bj2"
+            android:background="@drawable/selector_1"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textColor="#FF6600"
             />
 
 
-    </LinearLayout>
+
+    </RadioGroup>
+
+
 </RelativeLayout>

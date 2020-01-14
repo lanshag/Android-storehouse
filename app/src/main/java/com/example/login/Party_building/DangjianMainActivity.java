@@ -2,20 +2,34 @@ package com.example.login.Party_building;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Message;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
+import android.widget.TextView;
 
+import com.example.login.DBUtils;
 import com.example.login.MainActivity;
 import com.example.login.R;
 
+import java.util.HashMap;
+
 public class DangjianMainActivity extends AppCompatActivity {
 
-    private Button back;
+    private Button back,btn_01;
     private Button next1,next2,next3,next4,next5;
-
+    private EditText edText01;
+    private EditText edText02;
+    private EditText edText03;
     private Button mBtnWork;
+    private Button btn_get_data;
+    private TextView tv_data;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -70,5 +84,7 @@ public class DangjianMainActivity extends AppCompatActivity {
             }
         });
 
+
     }
+
 }

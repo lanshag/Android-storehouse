@@ -69,40 +69,35 @@
         android:layout_height="20dp"
         android:layout_below="@id/Spin_2"
         android:layout_marginTop="2dp"
-
         android:text="播出时间：" />
-
-    <Button
-        android:id="@+id/btn_1"
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:id="@+id/tv_time1"
         android:layout_below="@id/tv_3"
-        android:layout_marginTop="0dp"
-        android:background="@drawable/message2"
-        android:text="2019-12-31"/>
+        android:textSize="20sp"/>
 
 
     <TextView
         android:id="@+id/tv_4"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="20dp"
         android:text="停播时间："
-        android:layout_below="@id/btn_1"
-
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/tv_time1"
         />
-    <Button
-        android:id="@+id/btn_2"
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/tv_4"
-        android:layout_marginTop="0dp"
-        android:background="@drawable/message2"
-        android:text="2019-12-31"/>
+        android:id="@+id/tv_time2"
+        android:textSize="20sp"
+        android:layout_below="@id/tv_4"/>
+
     <TextView
         android:id="@+id/tv_5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/btn_2"
+        android:layout_below="@id/tv_time2"
         android:text="播出内容："
         />
 
@@ -113,6 +108,12 @@
         android:layout_below="@id/tv_5"
         android:layout_marginTop="1dp"
         android:background="@drawable/message2" />
+
+
+
+
+
+
     <Button
         android:id="@+id/Ledtn_1"
         android:layout_width="match_parent"
@@ -120,7 +121,6 @@
         android:text="发送"
         android:background="@drawable/message2"
         android:layout_alignParentBottom="true"
-
         />
 </RelativeLayout>
 

@@ -5,10 +5,16 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     >
+    <View
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="right"
+        android:background="@drawable/gengduo"
+        ></View>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="40dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="0dp"
         android:orientation="vertical">
 
         <RelativeLayout
@@ -30,12 +36,12 @@
                 android:layout_height="match_parent"
                 android:gravity="right"
                 >
-                <TextView
+                <EditText
                     android:layout_width="100dp"
                     android:layout_height="match_parent"
                     android:text="144"
                     android:gravity="center"
-                    ></TextView>
+                    ></EditText>
             </RelativeLayout>
         </RelativeLayout>
     </LinearLayout>

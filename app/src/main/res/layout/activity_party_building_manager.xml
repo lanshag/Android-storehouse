@@ -95,5 +95,37 @@
 
        ></Button>
 
+   <EditText
+       android:id="@+id/et_01"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:hint="学号"
+       android:ems="10"
+       android:inputType="textPersonName"
+       />
+   <EditText
+       android:id="@+id/et_02"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:ems="10"
+       android:hint="学生名字"
+       android:inputType="textPersonName"
+       />
+   <EditText
+       android:id="@+id/et_03"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:ems="10"
+       android:hint="密码"
+       android:inputType="textPersonName"
+       />
+   <Button
+       android:id="@+id/btn_01"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="连接数据库"
+       android:onClick="connectSql"
+       />
+
 
 </LinearLayout>

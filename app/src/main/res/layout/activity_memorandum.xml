@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    >
+    android:orientation="vertical"
+    tools:context=".Work.MemorandumActivity">
 
     <RelativeLayout
         android:id="@+id/memorandum_top"
@@ -20,7 +21,7 @@
             android:layout_marginLeft="10dp"
             android:clickable="true"
             android:onClick="onClick"
-            />
+            tools:ignore="OnClick" />
 
         <TextView
             android:id="@+id/memorandum_text"
@@ -44,8 +45,25 @@
             android:layout_centerVertical="true"
             android:clickable="true"
             android:onClick="onClick"
-            />
+            tools:ignore="OnClick" />
 
     </RelativeLayout>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <!-- 使用自定义布局 -->
+        <com.example.login.Work.view.ReflashListView
+            android:id="@+id/reflash_listview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorWrite"
+            android:cacheColorHint="#000"
+            android:dividerHeight="5dp" />
+        <com.example.login.Work.view.LoadListView
+            android:id="@+id/load_listview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:cacheColorHint="#000"
+            android:dividerHeight="5dp" />
+
+
+
+</LinearLayout>
