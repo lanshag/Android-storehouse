@@ -16,7 +16,7 @@
         android:supportsRtl="true"
         android:theme="@style/NoTitle"
         android:usesCleartextTraffic="true">
-        <activity android:name=".ui.welcome.welcomeActivity"></activity>
+        <activity android:name=".ui.welcome.welcomeActivity" />
         <activity android:name=".ui.setting.settingActivity" />
         <activity android:name=".ui.password.PasswordActivity" />
         <activity android:name=".ui.home.HomeActivity" />

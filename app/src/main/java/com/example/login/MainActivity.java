@@ -1,6 +1,7 @@
 package com.example.login;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatDelegate;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
@@ -10,13 +11,17 @@ import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
 import android.annotation.SuppressLint;
+import android.app.UiModeManager;
+import android.content.Context;
 import android.content.Intent;
+import android.content.res.Configuration;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
 import android.widget.Button;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+import android.widget.ToggleButton;
 
 import com.example.login.Data.DataActivity;
 import com.example.login.Party.PartyActivity;
@@ -46,11 +51,12 @@ public class MainActivity extends AppCompatActivity {
     private Button mbtn_country;
     private Button mbtn_link;
     private Button mbtn_message;
+    private ToggleButton mode;
 
     private TextView self,setting,welcome,password;
     private RelativeLayout relativeLayout;
+    private UiModeManager UserInfoTools=null;
 
-    @SuppressLint("WrongViewCast")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -73,6 +79,27 @@ public class MainActivity extends AppCompatActivity {
         setting = findViewById(R.id.setting);
         relativeLayout = findViewById(R.id.L_rea_head);
         setListeners();
+
+        UserInfoTools = (UiModeManager) getSystemService(Context.UI_MODE_SERVICE);
+
+        mode = findViewById(R.id.mode);
+        mode.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                setNightMode();
+            }
+            private void setNightMode() {
+                //  获取当前模式
+                int currentNightMode = getResources().getConfiguration().uiMode & Configuration.UI_MODE_NIGHT_MASK;
+                //  将是否为夜间模式保存到SharedPreferences
+                UserInfoTools.setNightMode(UiModeManager.MODE_NIGHT_NO);
+                //  切换模式
+                getDelegate().setDefaultNightMode(currentNightMode == Configuration.UI_MODE_NIGHT_NO ?
+                        AppCompatDelegate.MODE_NIGHT_YES : AppCompatDelegate.MODE_NIGHT_NO);
+                //  重启Activity
+                recreate();
+            }
+        });
 
 
     }

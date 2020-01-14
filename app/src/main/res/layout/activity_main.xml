@@ -234,8 +234,8 @@
                 android:id="@+id/L_rea_head">
                 <ImageView
                     android:id="@+id/left_I"
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
+                    android:layout_width="150dp"
+                    android:layout_height="110dp"
                     android:src="@drawable/aaa"
                     android:layout_marginTop="20dp"
                     android:layout_marginLeft="20dp"/>
@@ -244,7 +244,8 @@
                     android:layout_height="wrap_content"
                     android:layout_toRightOf="@id/left_I"
                     android:orientation="vertical"
-                    android:layout_marginLeft="45dp">
+                    android:layout_marginLeft="30dp"
+                    android:paddingTop="15dp">
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -267,14 +268,46 @@
                 </LinearLayout>
             </RelativeLayout>
 
+            <HorizontalScrollView
+                android:id="@+id/L_Hsc"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_below="@id/L_rea_head"
+                android:padding="10dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="15dp">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/first"/>
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/second"/>
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/third"/>
+                    <ImageView
+                        android:src="@drawable/xing"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+            </HorizontalScrollView>
+
 
             <LinearLayout
+                android:id="@+id/ll_body"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/L_rea_head"
+                android:layout_below="@id/L_Hsc"
                 android:orientation="vertical">
                 <TextView
-                    android:layout_marginTop="40dp"
+                    android:layout_marginTop="20dp"
                     android:id="@+id/self"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -349,6 +382,13 @@
                     android:paddingTop="8dp"
                     android:paddingBottom="8dp"/>
             </LinearLayout>
+            <ToggleButton
+                android:id="@+id/mode"
+                android:layout_below="@id/ll_body"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="200dp"
+                android:layout_marginRight="20dp" />
         </RelativeLayout>
 </androidx.drawerlayout.widget.DrawerLayout>
 

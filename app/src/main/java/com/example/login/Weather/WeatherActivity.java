@@ -1,7 +1,9 @@
 package com.example.login.Weather;
 
+import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.os.Build;
 import android.os.Bundle;
 import android.view.KeyEvent;
 import android.webkit.WebChromeClient;
@@ -27,6 +29,7 @@ public class WeatherActivity extends AppCompatActivity {
         mTv_1.setWebChromeClient(new MyWebChromeClient());}
 
     class MyWebVBiewCilent extends WebViewClient {
+        @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
         @Override
         public boolean shouldOverrideUrlLoading(WebView view, WebResourceRequest request) {
             view.loadUrl(request.getUrl().toString());
