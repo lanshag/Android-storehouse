@@ -29,7 +29,7 @@ public class TianxinzhengfuguanwangActivity extends AppCompatActivity {
     private void init() {
         mTXQ = (WebView) findViewById(R.id.link_wb_4);
         //WebView加载web资源
-        mTXQ.loadUrl("http://www.ccgp-hunan.gov.cn/");
+        mTXQ.loadUrl("http://www.tianxin.gov.cn/");
         //覆盖WebView默认使用第三方或系统默认浏览器打开网页的行为，使网页用WebView打开
         mTXQ.setWebViewClient(new WebViewClient() {
             @Override

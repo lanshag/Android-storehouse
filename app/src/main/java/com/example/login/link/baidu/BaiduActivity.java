@@ -34,7 +34,7 @@ public class BaiduActivity extends AppCompatActivity {
     private void init() {
         mBaidu = (WebView) findViewById(R.id.link_wb_5);
         //WebView加载web资源
-        mBaidu.loadUrl("http://www.ccgp-hunan.gov.cn/");
+        mBaidu.loadUrl("https://www.baidu.com/");
         //覆盖WebView默认使用第三方或系统默认浏览器打开网页的行为，使网页用WebView打开
         mBaidu.setWebViewClient(new WebViewClient() {
             @Override

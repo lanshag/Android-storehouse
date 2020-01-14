@@ -29,7 +29,7 @@ public class ZhufanggongjijinActivity extends AppCompatActivity {
     private void init() {
         mZFGJJ = (WebView) findViewById(R.id.link_wb_2);
         //WebView加载web资源
-        mZFGJJ.loadUrl("http://www.ccgp-hunan.gov.cn/");
+        mZFGJJ.loadUrl("http://gjjzx.changsha.gov.cn/");
         //覆盖WebView默认使用第三方或系统默认浏览器打开网页的行为，使网页用WebView打开
         mZFGJJ.setWebViewClient(new WebViewClient() {
             @Override
