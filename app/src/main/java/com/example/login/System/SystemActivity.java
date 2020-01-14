@@ -19,6 +19,7 @@ public class SystemActivity extends AppCompatActivity {
     private Button mBtn_8;
 
     private Button mBtn_back;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,7 +28,7 @@ public class SystemActivity extends AppCompatActivity {
         mBtn_1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(SystemActivity.this,xinxiActivity.class);
+                Intent intent = new Intent(SystemActivity.this, xinxiActivity.class);
                 startActivity(intent);
             }
         });
@@ -35,7 +36,7 @@ public class SystemActivity extends AppCompatActivity {
         mBtn_2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(SystemActivity.this,xiugaiActivity.class);
+                Intent intent = new Intent(SystemActivity.this, xiugaiActivity.class);
                 startActivity(intent);
             }
         });
@@ -43,7 +44,7 @@ public class SystemActivity extends AppCompatActivity {
         mBtn_3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(SystemActivity.this,huanyinActivity.class);
+                Intent intent = new Intent(SystemActivity.this, huanyinActivity.class);
                 startActivity(intent);
             }
         });
@@ -60,22 +61,9 @@ public class SystemActivity extends AppCompatActivity {
         mBtn_6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(SystemActivity.this,NoteActivity.class);
+                Intent intent = new Intent(SystemActivity.this, NoteActivity.class);
                 startActivity(intent);
             }
         });
-
-        mBtn_8 = findViewById(R.id.btn_system_8);
-        mBtn_8.setOnClickListener(new View.OnClickListener() {
-        @Override
-        public void onClick(View v) {
-            Intent intent = new Intent(SystemActivity.this,yindaoActivity.class);
-            startActivity(intent);
-        }
-    });
-}
-    public void showToast(View view) {
-        Toast.makeText(this, "已是最新版本", Toast.LENGTH_LONG).show();
     }
 }
-
