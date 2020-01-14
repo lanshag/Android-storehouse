@@ -67,13 +67,13 @@ public class SystemActivity extends AppCompatActivity {
 
         mBtn_8 = findViewById(R.id.btn_system_8);
         mBtn_8.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(SystemActivity.this,yindaoActivity.class);
-                startActivity(intent);
-            }
-        });
-    }
+        @Override
+        public void onClick(View v) {
+            Intent intent = new Intent(SystemActivity.this,yindaoActivity.class);
+            startActivity(intent);
+        }
+    });
+}
     public void showToast(View view) {
         Toast.makeText(this, "已是最新版本", Toast.LENGTH_LONG).show();
     }

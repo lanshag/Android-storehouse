@@ -62,4 +62,16 @@
         android:textColor="#000000"
         android:background="@drawable/texiao"/>
 
+    <TextView
+        android:id="@+id/bj_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_4"
+        android:layout_marginTop="433dp"
+        android:text="110报警"
+        android:textColor="#FF0000"
+        android:textSize="20sp"
+        android:gravity="center"
+        />
+
 </RelativeLayout>

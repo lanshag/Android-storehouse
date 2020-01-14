@@ -12,7 +12,7 @@
         android:id="@+id/ib_logo"
         android:layout_width="48dp"
         android:layout_height="48dp"
-        android:background="@color/transparent"
+        android:background="@color/colorAccent"
         android:src="@mipmap/ic_launcher"/>
 
     <TextView
@@ -22,14 +22,14 @@
         android:gravity="center"
         android:layout_toRightOf="@+id/ib_logo"
         android:layout_toLeftOf="@+id/ib_menu"
-        android:textColor="@color/white"
+        android:textColor="#F7F7F7"
         android:text="GuideView Demo"/>
 
     <ImageButton
         android:id="@+id/ib_menu"
         android:layout_width="48dp"
         android:layout_height="48dp"
-        android:background="@color/transparent"
+        android:background="@color/colorGray"
         android:layout_alignParentRight="true"
         android:src="@drawable/gengduo"/>
 

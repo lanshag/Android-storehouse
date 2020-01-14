@@ -16,6 +16,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
+        <activity android:name=".iot.yingjibaojin.baojingActivity"></activity>
         <activity android:name=".country.Lvyou.Lvyou_1.Lvyou_1Activity" />
         <activity android:name=".country.Meili.Meili_1.Meili_1Activity" />
         <activity android:name=".country.Minsu.Minsu_1.Minsu_1Activity" />
@@ -84,9 +85,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity">
-
-        </activity>
+        <activity android:name=".MainActivity"></activity>
     </application>
 
 </manifest>

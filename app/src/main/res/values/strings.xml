@@ -39,6 +39,14 @@
     <string name="s_activity_main_register_input_code_wrong">验证码错误，请重新输入！</string>
     <string name="s_activity_main_register_success">注册成功</string>
     <string name="s_activity_main_register_failure">注册失败</string>
+    <string name="TV_1">应急广播一号</string>
+    <string name="TV_2">应急广播二号</string>
+    <string name="TV_3">应急广播三号</string>
+    <string name="TV_4">应急广播四号</string>
+    <string name="TV_5">应急广播五号</string>
+    <string name="TV_6">应急广播六号</string>
+    <string name="TV_7">应急广播七号</string>
+
 
     <string name="s_url_login">http://10.0.2.2:8080/LoginTest/LogLet</string>
     <string name="s_url_register">http://10.0.2.2:8080/LoginTest/RegLet</string>
