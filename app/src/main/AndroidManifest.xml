@@ -16,7 +16,14 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".iot.yingjibaojin.baojingActivity"></activity>
+        <activity android:name=".Welcome.WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".iot.yingjibaojin.baojingActivity" />
         <activity android:name=".country.Lvyou.Lvyou_1.Lvyou_1Activity" />
         <activity android:name=".country.Meili.Meili_1.Meili_1Activity" />
         <activity android:name=".country.Minsu.Minsu_1.Minsu_1Activity" />
@@ -53,7 +60,7 @@
         <activity android:name=".Party_building.DangjianxwActivity" />
         <activity android:name=".Party_building.DangjianhdActivity" />
         <activity android:name=".Party_building.DangyuanxxActivity" />
-        <activity android:name=".Party_building.DangjianMainActivity"/>
+        <activity android:name=".Party_building.DangjianMainActivity" />
         <activity android:name=".message.LedBulid.LedActivity" />
         <activity android:name=".message.DxTzBulid.DxTzActivity" />
         <activity android:name=".message.DxBulid.DxActivity" />
@@ -63,12 +70,12 @@
         <activity android:name=".RegisterActivity" />
         <activity android:name=".message.MessageActivity" />
         <activity android:name=".link.LinkActivity" />
-        <activity android:name=".link.baidu.BaiduActivity"/>
-        <activity android:name=".link.caigouwang.CaigoueangActivity"/>
-        <activity android:name=".link.shebao.ShebaoActivity"/>
-        <activity android:name=".link.tianxinzhengfuguanwang.TianxinzhengfuguanwangActivity"/>
-        <activity android:name=".link.xiangyayiyuan.XiangyayiyuanActivity"/>
-        <activity android:name=".link.zhufanggongjijin.ZhufanggongjijinActivity"/>
+        <activity android:name=".link.baidu.BaiduActivity" />
+        <activity android:name=".link.caigouwang.CaigoueangActivity" />
+        <activity android:name=".link.shebao.ShebaoActivity" />
+        <activity android:name=".link.tianxinzhengfuguanwang.TianxinzhengfuguanwangActivity" />
+        <activity android:name=".link.xiangyayiyuan.XiangyayiyuanActivity" />
+        <activity android:name=".link.zhufanggongjijin.ZhufanggongjijinActivity" />
         <activity android:name=".country.CountryActivity" />
         <activity android:name=".projectmanger.ProjectMangerActivity" />
         <activity android:name=".Party.PartyActivity" />
@@ -84,18 +91,14 @@
         <activity android:name=".Work.MyFileActivity" />
         <activity android:name=".Work.MyAdviceActivity" />
         <activity android:name=".Work.MemorandumActivity" />
-        <activity android:name=".ui.home.HomeActivity"/>
-        <activity android:name=".ui.password.PasswordActivity"/>
-        <activity android:name=".ui.setting.settingActivity"/>
-        <activity android:name=".ui.welcome.welcomeActivity"/>
+        <activity android:name=".ui.home.HomeActivity" />
+        <activity android:name=".ui.password.PasswordActivity" />
+        <activity android:name=".ui.setting.settingActivity" />
+        <activity android:name=".ui.welcome.welcomeActivity" />
         <activity android:name=".LoginActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>
