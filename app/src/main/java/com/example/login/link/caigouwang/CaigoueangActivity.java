@@ -74,9 +74,6 @@ public class CaigoueangActivity extends AppCompatActivity {
 
 
     }
-
-
-
     //在不做任何处理前提下 ，浏览网页时点击系统的“Back”键,整个 Browser 会调用 finish()而结束自身
     //目标：点击返回后，是网页回退而不是推出浏览器
     public boolean onKeyDown(int keyCode, KeyEvent event) {
@@ -86,6 +83,9 @@ public class CaigoueangActivity extends AppCompatActivity {
         }
         return super.onKeyDown(keyCode, event);
     }
+
+
+
 
 
 
