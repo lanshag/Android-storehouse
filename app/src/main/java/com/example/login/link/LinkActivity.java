@@ -23,8 +23,6 @@ import com.example.login.link.caigouwang.CaigoueangActivity;
 public class LinkActivity extends AppCompatActivity {
     private RelativeLayout mLL_1,mLL_2,mLL_3,mLL_4,mLL_5,mLL_6;
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
