@@ -29,12 +29,12 @@ public class WelcomeActivity extends AppCompatActivity {
         TimerTask delayTask = new TimerTask() {
             @Override
             public void run() {
-                Intent mainIntent = new Intent(WelcomeActivity.this, LoginActivity.class);
+                Intent mainIntent = new Intent(WelcomeActivity.this, MainActivity.class);
                 startActivity(mainIntent);
                 WelcomeActivity.this.finish();
             }
         };
         Timer timer = new Timer();
-        timer.schedule(delayTask,2000);//延时两秒执行 run 里面的操作
+        timer.schedule(delayTask,2500);//延时两秒执行 run 里面的操作
     }
 }
