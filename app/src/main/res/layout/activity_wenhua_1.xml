@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".country.Zixun.Zixun_1.Zixun_1Activity">
+    tools:context=".country.Consultation.Zixun_1.Zixun_1Activity">
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">

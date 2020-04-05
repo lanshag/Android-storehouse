@@ -9,13 +9,13 @@ import android.widget.Button;
 
 import com.example.login.MainActivity;
 import com.example.login.R;
-import com.example.login.country.Lvyou.LvyouActivity;
-import com.example.login.country.Meili.MeiliActivity;
-import com.example.login.country.Minsu.MinsuActivity;
-import com.example.login.country.Wenhua.WenhuaActivity;
-import com.example.login.country.Woai.WoaiActivity;
-import com.example.login.country.Xuanchuan.XuanchuanActivity;
-import com.example.login.country.Zixun.ZixunActivity;
+import com.example.login.country.trap.LvyouActivity;
+import com.example.login.country.Beauty_construction.MeiliActivity;
+import com.example.login.country.Homestay.MinsuActivity;
+import com.example.login.country.Culture.WenhuaActivity;
+import com.example.login.country.my_countryside.WoaiActivity;
+import com.example.login.country.Propaganda.XuanchuanActivity;
+import com.example.login.country.Consultation.ZixunActivity;
 
 public class CountryActivity extends AppCompatActivity {
     private Button c1,c2,c3,c4,c5,c6,c7,c8;

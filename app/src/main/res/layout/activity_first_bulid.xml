@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".projectmanger.FirstBulid.FirstBulidActivity">
+    tools:context=".projectmanger.prj_1.FirstBulidActivity">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"

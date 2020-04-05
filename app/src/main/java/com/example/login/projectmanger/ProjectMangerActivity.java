@@ -8,9 +8,9 @@ import android.view.View;
 import android.widget.RelativeLayout;
 
 import com.example.login.R;
-import com.example.login.projectmanger.FirstBulid.FirstBulidActivity;
-import com.example.login.projectmanger.FourBulid.FourBulidActivity;
-import com.example.login.projectmanger.MainBulid.MainBulidActivity;
+import com.example.login.projectmanger.prj_1.FirstBulidActivity;
+import com.example.login.projectmanger.prj_4.FourBulidActivity;
+import com.example.login.projectmanger.prj_Main.MainBulidActivity;
 
 public class ProjectMangerActivity extends AppCompatActivity {
 

@@ -23,23 +23,26 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <service
+            android:name=".iot.yingjiguangbo.MyIntentService"
+            android:exported="false" />
         <activity android:name=".iot.yingjibaojin.baojingActivity" />
-        <activity android:name=".country.Lvyou.Lvyou_1.Lvyou_1Activity" />
-        <activity android:name=".country.Meili.Meili_1.Meili_1Activity" />
-        <activity android:name=".country.Minsu.Minsu_1.Minsu_1Activity" />
-        <activity android:name=".country.Wenhua.Wenhua_1.Wenhua_1Activity" />
-        <activity android:name=".country.Woai.Woai_1.Woai_1Activity" />
-        <activity android:name=".country.Xuanchuan.Xuanchuan_1.Xuanchuan_1Activity" />
-        <activity android:name=".country.Zixun.Zixun_3.Zixun_3Activity" />
-        <activity android:name=".country.Zixun.Zixun_2.Zixun_2Activity" />
-        <activity android:name=".country.Zixun.Zixun_1.Zixun_1Activity" />
-        <activity android:name=".country.Zixun.ZixunActivity" />
-        <activity android:name=".country.Xuanchuan.XuanchuanActivity" />
-        <activity android:name=".country.Woai.WoaiActivity" />
-        <activity android:name=".country.Wenhua.WenhuaActivity" />
-        <activity android:name=".country.Minsu.MinsuActivity" />
-        <activity android:name=".country.Meili.MeiliActivity" />
-        <activity android:name=".country.Lvyou.LvyouActivity" />
+        <activity android:name=".country.trap.Lvyou_1.Lvyou_1Activity" />
+        <activity android:name=".country.Beauty_construction.Meili_1.Meili_1Activity" />
+        <activity android:name=".country.Homestay.Minsu_1.Minsu_1Activity" />
+        <activity android:name=".country.Culture.Wenhua_1.Wenhua_1Activity" />
+        <activity android:name=".country.my_countryside.Woai_1.Woai_1Activity" />
+        <activity android:name=".country.Propaganda.Xuanchuan_1.Xuanchuan_1Activity" />
+        <activity android:name=".country.Consultation.Zixun_3.Zixun_3Activity" />
+        <activity android:name=".country.Consultation.Zixun_2.Zixun_2Activity" />
+        <activity android:name=".country.Consultation.Zixun_1.Zixun_1Activity" />
+        <activity android:name=".country.Consultation.ZixunActivity" />
+        <activity android:name=".country.Propaganda.XuanchuanActivity" />
+        <activity android:name=".country.my_countryside.WoaiActivity" />
+        <activity android:name=".country.Culture.WenhuaActivity" />
+        <activity android:name=".country.Homestay.MinsuActivity" />
+        <activity android:name=".country.Beauty_construction.MeiliActivity" />
+        <activity android:name=".country.trap.LvyouActivity" />
         <activity android:name=".iot.Button2Activity" />
         <activity android:name=".iot.huozaibaojin.FaActivity" />
         <activity android:name=".iot.jiankong.CCActivity" />
@@ -52,9 +55,9 @@
         <activity android:name=".iot.LED.LEDActivity" />
         <activity android:name=".iot.yingjiguangbo.EbActivity" />
         <activity android:name=".message.WxBulid.WxActivity" />
-        <activity android:name=".projectmanger.FourBulid.FourBulidActivity" />
-        <activity android:name=".projectmanger.FirstBulid.FirstBulidActivity" />
-        <activity android:name=".projectmanger.MainBulid.MainBulidActivity" />
+        <activity android:name=".projectmanger.prj_4.FourBulidActivity" />
+        <activity android:name=".projectmanger.prj_1.FirstBulidActivity" />
+        <activity android:name=".projectmanger.prj_Main.MainBulidActivity" />
         <activity android:name=".Party_building.DangyuanxinxiActivity" />
         <activity android:name=".Party_building.FupinggzActivity" />
         <activity android:name=".Party_building.DangjianxwActivity" />

@@ -18,14 +18,14 @@ public class DBUtils {
 
     private static String user = "root";// 用户名
 
-    private static String password = "liang609";// 密码
+    private static String password = "sx123456Aa";// 密码
 
     private static Connection getConn(String dbName) {
 
         Connection connection = null;
         try {
             Class.forName(driver);// 动态加载类
-            String ip = "10.0.2.2";// 写成本机地址，不能写成localhost，同时手机和电脑连接的网络必须是同一个
+            String ip = "116.178.69.201";// 写成本机地址，不能写成localhost，同时手机和电脑连接的网络必须是同一个
 
             // 尝试建立到给定数据库URL的连接
             connection = DriverManager.getConnection("jdbc:mysql://" + ip + ":3306/" + dbName,
