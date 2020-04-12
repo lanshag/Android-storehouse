@@ -341,6 +341,7 @@
                 android:paddingTop="8dp"
                 android:paddingBottom="8dp"/>
             <TextView
+                android:id="@+id/System"
                 android:padding="15dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

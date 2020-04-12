@@ -4,6 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.welcome.welcomeActivity">
+    tools:context=".ui.welcome.welcomeActivity"
+    android:background="@drawable/huanying111">
 
+    <Button
+        android:id="@+id/back11"
+        android:layout_width="123dp"
+        android:layout_height="54dp"
+        android:background="#0000"
+        android:text="返回主页"
+        android:textSize="26sp"
+        tools:ignore="InvalidId,MissingConstraints"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="30dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

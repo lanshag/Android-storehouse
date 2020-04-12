@@ -21,6 +21,7 @@ import android.widget.TextView;
 import com.example.login.Data.DataActivity;
 import com.example.login.Party.PartyActivity;
 import com.example.login.Party_building.DangjianMainActivity;
+import com.example.login.System.GuideView;
 import com.example.login.System.SystemActivity;
 import com.example.login.Weather.WeatherActivity;
 import com.example.login.Work.WorkActivity;
@@ -48,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
     private Button mbtn_message;
     private Button mbtnqd;
 
-    private TextView self,setting,welcome,password;
+    private TextView self,setting,welcome,password,System1;
     private RelativeLayout relativeLayout;
 
     @SuppressLint("WrongViewCast")
@@ -80,6 +81,7 @@ public class MainActivity extends AppCompatActivity {
         welcome = findViewById(R.id.welcome);
         setting = findViewById(R.id.setting);
         relativeLayout = findViewById(R.id.L_rea_head);
+        System1 = findViewById(R.id.System);
         setListeners();
 
 
@@ -113,6 +115,7 @@ public class MainActivity extends AppCompatActivity {
         password.setOnClickListener(onClick);
         welcome.setOnClickListener(onClick);
         relativeLayout.setOnClickListener(onClick);
+        System1.setOnClickListener(onClick);
     }
 
     // 实现监听器接口
@@ -172,13 +175,16 @@ public class MainActivity extends AppCompatActivity {
                     intent = new Intent(MainActivity.this, HomeActivity.class);
                     break;
                 case R.id.setting:
-                    intent = new Intent(MainActivity.this, settingActivity.class);
+                    intent = new Intent(MainActivity.this, SystemActivity.class);
                     break;
                 case R.id.welcome:
                     intent = new Intent(MainActivity.this, welcomeActivity.class);
                     break;
                 case R.id.passwordC:
                     intent = new Intent(MainActivity.this, PasswordActivity.class);
+                    break;
+                case R.id.System:
+                    intent = new Intent(MainActivity.this,  SystemActivity.class);
                     break;
             }
             startActivity(intent);
