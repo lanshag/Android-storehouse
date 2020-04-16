@@ -16,6 +16,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
+        <activity android:name=".iot.yingjiguangbo.VidoActivity"></activity>
         <activity android:name=".Welcome.WelcomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -95,9 +96,7 @@
         <activity android:name=".ui.password.PasswordActivity" />
         <activity android:name=".ui.setting.settingActivity" />
         <activity android:name=".ui.welcome.welcomeActivity" />
-        <activity android:name=".LoginActivity">
-
-        </activity>
+        <activity android:name=".LoginActivity"></activity>
         <activity android:name=".MainActivity" />
     </application>
 

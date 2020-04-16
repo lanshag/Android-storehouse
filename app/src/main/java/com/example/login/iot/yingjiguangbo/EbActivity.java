@@ -16,7 +16,7 @@ import com.example.login.iot.huanjingcanshu.EpActivity;
 
 public class EbActivity extends AppCompatActivity {
     private Intent intent;
-    private Button mbtnButton2,mbtnplay,mbtnpause,mbtnstop;
+    private Button mbtnButton2,mbtnplay,mbtnpause,mbtnstop,vido;
     private MediaPlayer mediaPlayer;
 
     @Override
@@ -29,6 +29,15 @@ public class EbActivity extends AppCompatActivity {
             public void onClick(View v) {
                 //跳转到Button2演示界面
                 Intent intent = new Intent(EbActivity.this, Button2Activity.class);
+                startActivity(intent);
+            }
+        });
+        vido = findViewById(R.id.vido);
+        vido.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //跳转到Button2演示界面
+                Intent intent = new Intent(EbActivity.this, VidoActivity.class);
                 startActivity(intent);
             }
         });

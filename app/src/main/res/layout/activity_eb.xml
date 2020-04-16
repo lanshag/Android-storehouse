@@ -112,4 +112,14 @@
         android:layout_marginTop="10dp"
         android:textColor="#000000"
         android:background="@drawable/texiao"/>
+    <Button
+        android:id="@+id/vido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="视频播放"
+        android:textSize="20sp"
+        android:layout_below="@id/btn_pause"
+        android:layout_marginTop="10dp"
+        android:textColor="#000000"
+        android:background="@drawable/texiao"/>
 </RelativeLayout>
