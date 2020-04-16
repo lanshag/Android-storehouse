@@ -23,9 +23,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <service
-            android:name=".iot.yingjiguangbo.MyIntentService"
-            android:exported="false" />
         <activity android:name=".iot.yingjibaojin.baojingActivity" />
         <activity android:name=".country.trap.Lvyou_1.Lvyou_1Activity" />
         <activity android:name=".country.Beauty_construction.Meili_1.Meili_1Activity" />

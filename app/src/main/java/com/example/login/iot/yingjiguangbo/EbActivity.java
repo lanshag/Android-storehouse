@@ -16,7 +16,7 @@ import com.example.login.iot.huanjingcanshu.EpActivity;
 
 public class EbActivity extends AppCompatActivity {
     private Intent intent;
-    private Button mbtnButton2;
+    private Button mbtnButton2,mbtnplay,mbtnpause,mbtnstop;
     private MediaPlayer mediaPlayer;
 
     @Override
@@ -32,18 +32,22 @@ public class EbActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        // 启动服务播放背景音乐
-        intent = new Intent(EbActivity.this, MyIntentService.class);
-        String action = MyIntentService.ACTION_MUSIC;
-        // 设置action
-        intent.setAction(action);
-        startService(intent);
+        final MediaPlayer mediaPlayer=MediaPlayer.create(this,R.raw.test_520);
+        mbtnplay =findViewById(R.id.btn_play);
+        mbtnpause =findViewById(R.id.btn_pause);
+        mbtnplay.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mediaPlayer.start();
+            }
+        });
+        mbtnpause.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mediaPlayer.pause();
+            }
+        });
+
     }
 
-    @Override
-    public void onDestroy() {
-        // TODO Auto-generated method stub
-        super.onDestroy();
-        mediaPlayer.stop();
-    }
 }
