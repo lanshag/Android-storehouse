@@ -10,13 +10,11 @@
         android:layout_height="wrap_content"
         tools:ignore="MissingConstraints"
         android:orientation="vertical">
-        <ImageView
-            android:id="@+id/Iv_main"
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/view_pager"
+            android:overScrollMode="never"
             android:layout_width="match_parent"
-            android:layout_height="220dp"
-            android:background="@drawable/ml_main"
-            android:scaleType="fitXY"
-            tools:ignore="MissingConstraints" />
+            android:layout_height="220dp" />
         <RelativeLayout
             android:id="@+id/rea_1"
             android:layout_width="match_parent"
